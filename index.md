@@ -15,4 +15,4 @@ See our [Events page](events.md) for the next events we organize, and the past o
 
 * Filippo Maria Bianchi <[filippo.m.bianchi@uit.no](mailto:filippo.m.bianchi@uit.no)>, room [B490 in Forskeningsparken](https://use.mazemap.com/#v=1&zlevel=4&center=18.987371,69.680943&zoom=18&campusid=5&sharepoitype=poi&sharepoi=825410) on the Tromsø campus of UiT. 
 
-![Graph of a part of a social network, from Gephi](blogcatalog.png){:width="25%"}
+![Graph of a part of a social network, from Gephi](blogcatalog.png){:width="50%"}

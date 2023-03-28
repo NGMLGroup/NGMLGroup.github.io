@@ -1,4 +1,3 @@
-## About
 
 Graph Machine Learning with a pure and refreshing breeze from the North pole.
 

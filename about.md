@@ -2,7 +2,7 @@
 title: About
 ---
 
-Graph Machine Learning with a pure and refreshing breeze from the North pole.
+_Graph Machine Learning with a pure and refreshing breeze from the North pole._
 
 
 The core team is at the [University of Tromsø](https://en.uit.no/), the Arctic University of Norway, but we have members from all around the world.

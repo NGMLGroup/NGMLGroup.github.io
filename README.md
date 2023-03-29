@@ -1,5 +1,5 @@
 # NGMLGroup.github.io
 
-Web site of the Northern GraphML group.
-
+Repository of the website of the Northernmost GraphML group.
+The website is here:
 [https://ngmlgroup.github.io](https://ngmlgroup.github.io)

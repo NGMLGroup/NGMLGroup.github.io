@@ -1,3 +1,6 @@
+---
+layout: default
+---
 
 _Graph Machine Learning with a pure and refreshing breeze from the North pole._
 
@@ -9,5 +12,5 @@ If you want to join and be informed about our activities, contact us.
 
 See our [Events page](events.md) for the next events we organize, and the past ones.
 
-![Graph of a part of a social network, from Gephi](blogcatalog.png "a small social network"){: .align-center style="width: 10%;"}
+![Graph of a part of a social network, from Gephi](blogcatalog.png "a small social network"){: .align-center style="width: 50%;"}
 

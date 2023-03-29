@@ -1,7 +1,7 @@
 ---
 title: "Graph coffee"
 layout: post
-date: 2023-04-03 13:00:00 +0000
+date: 2023-04-03 13:00
 place: Forskeningsparken
 ---
 

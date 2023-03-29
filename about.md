@@ -1,5 +1,6 @@
 ---
 title: About
+layout: default
 ---
 
 _Graph Machine Learning with a pure and refreshing breeze from the North pole._

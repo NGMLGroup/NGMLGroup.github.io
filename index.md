@@ -12,5 +12,7 @@ If you want to join and be informed about our activities, contact us.
 
 See our [Events page](events.md) for the next events we organize, and the past ones.
 
+If you are looking for a master project or a student summer job, have a look at our [student projects](studentprojects.md) page.
+
 ![Graph of a part of a social network, from Gephi](blogcatalog.png "a small social network"){: .align-center style="width: 50%;"}
 

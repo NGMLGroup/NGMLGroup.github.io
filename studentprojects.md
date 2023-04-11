@@ -2,12 +2,12 @@
 title: Student projects
 ---
 
-This is the page where we list some interesting master projects and student summer jobs on graphs and machine learning. We are looking for highly motivated students. The projects are high-impact and generally lead to scientific publications or open source software. We are looking for candidates with strong skills in, or any combinations of: machine learning, network science, data mining, Python programming, deep learning.
+We are looking for highly motivated students willing to work on graphs and machine learning.
+The background and the skills sought for these projects include: machine learning, network science, data mining, Python programming, deep learning.
+This page lists some of the available master projects and student summer jobs. The projects are high-impact and generally lead to scientific publications or open source software. 
 
-## Projects
 
-
-### Polar weather prediction with Graph neural networks {#polar-weather}
+## Polar weather prediction with Graph neural networks {#polar-weather}
 
 - [x] Master project
 - [x] Summer job 2023
@@ -23,7 +23,7 @@ Weather prediction with deep learning: [https://sites.google.com/view/meshgraphn
 Some open data for Norway: [https://seklima.met.no/observations/](https://seklima.met.no/observations/)
 * Contact: Benjamin Ricaud
 
-### Dynamic graph and text data, understanding online activity
+## Dynamic graph and text data, understanding online activity
 
 - [x] Master project
 
@@ -34,7 +34,7 @@ The analysis of the text of a single post is often not enough to understand full
 * Data: Reddit (via API), open databases form the Norwegian public services, Wikipedia data
 * Contact: Benjamin Ricaud
 
-### Graph neural networks, geometry and oversmoothing
+## Graph neural networks, geometry and oversmoothing
 
 - [x] Master project
 
@@ -44,3 +44,19 @@ This is a project focused on the theoretical aspects, involving some maths with 
 The oversmoothing / oversquashing phenomenon in graphs neural networks is limiting the power of these models. See [here](https://towardsdatascience.com/over-smoothing-issue-in-graph-neural-network-bddc8fbc2472), and [here](https://towardsdatascience.com/over-squashing-bottlenecks-and-graph-ricci-curvature-c238b7169e16) for a simple explanation. Using the properties of the graph Laplacian can help to identify problems in a graph and propose solutions. We will explore the graph structure as well as the data distribution over it. Potential impact: breaking the limitations of graph machine learning.
 
 * Contact: Benjamin Ricaud
+
+## Clustering and graph coarsening with Graph Neural Networks
+
+- [x] Master project
+
+* Goal: Explore and improve GNN-based approaches to cluster the vertices of a graph. The result of clustering can be used to generate a smaller coarsened graph.
+
+This is a more theoretical project, which focuses on general methodologies for clustering the vertices of an *attributed graph*, i.e., a graph with information associated with its vertices and edges. Based on the clustering results, a smaller graph can be built to summarize as good as possible the information of the original graph. Such an approach can be seen as an equivalent of standard pooling in Convolutional Neural Networks, where the spatial information is gradually coarsened to gradually distill more high-level information from an image.
+
+![Mincut pool](https://github.com/FilippoMB/Spectral-Clustering-with-Graph-Neural-Networks-for-Graph-Pooling/blob/master/figs/mincutpool.png "Mincut pool")
+
+The project will focus on extending general approaches for clustering into a Graph Neural Network framework. The methodologies will be tested on two tasks: i) *clustering* the vertices of large graphs and ii) implementing graph pooling in GNNs for graph *classification*. 
+
+* References: [Pooling in Graph Neural Networks](https://github.com/danielegrattarola/SRC), [Spectral clustering with Graph Neural Networks](https://github.com/FilippoMB/Spectral-Clustering-with-Graph-Neural-Networks-for-Graph-Pooling)
+
+* Contact: Filippo M. Bianchi

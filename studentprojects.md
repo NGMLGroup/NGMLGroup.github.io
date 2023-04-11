@@ -88,3 +88,13 @@ The project will aim at improving and extending with new functionalities a recen
 
 **Contact:** Filippo M. Bianchi
 
+## Graph representation of time-series
+
+- [x] Master project
+
+**Goal:** Analyze the properties of a time series and its underlying dynamical system with graph-theoretical tools.
+
+**Description:** This is a theoretical project that aims at representing a real-valued time series with a graph, using tools such as the [horizontal visibility graph](https://arxiv.org/abs/1002.4526).
+By studying the properties of such a graph it is possible to gain new insights about the properties of the dynamical system, from where the original time series comes from.
+
+**Contact:** Filippo M. Bianchi

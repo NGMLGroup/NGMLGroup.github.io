@@ -49,8 +49,9 @@ The oversmoothing / oversquashing phenomenon in graphs neural networks is limiti
 
 - [x] Master project
 
-* Goal: Explore and improve GNN-based approaches to cluster the vertices of a graph. The result of clustering can be used to generate a smaller coarsened graph.
+**Goal:** Explore and improve GNN-based approaches to cluster the vertices of a graph. The result of clustering can be used to generate a smaller coarsened graph.
 
+**Description:**
 This is a more theoretical project, which focuses on general methodologies for clustering the vertices of an *attributed graph*, i.e., a graph with information associated with its vertices and edges. Based on the clustering results, a smaller graph can be built to summarize as good as possible the information of the original graph. Such an approach can be seen as an equivalent of standard pooling in Convolutional Neural Networks, where the spatial information is gradually coarsened to gradually distill more high-level information from an image.
 As convolutional layers are interleaved with pooling layers in CNNs, message-passing layers are iterleaved with graph pooling operations in GNNs.
 
@@ -58,23 +59,24 @@ As convolutional layers are interleaved with pooling layers in CNNs, message-pas
 
 The project will focus on extending general approaches for clustering into a Graph Neural Network framework. The methodologies will be tested on two tasks: i) *clustering* the vertices of large graphs and ii) implementing graph pooling in GNNs for graph *classification*. 
 
-* References: [Pooling in Graph Neural Networks](https://github.com/danielegrattarola/SRC), [Spectral clustering with Graph Neural Networks](https://github.com/FilippoMB/Spectral-Clustering-with-Graph-Neural-Networks-for-Graph-Pooling)
+**References:** [Pooling in Graph Neural Networks](https://github.com/danielegrattarola/SRC), [Spectral clustering with Graph Neural Networks](https://github.com/FilippoMB/Spectral-Clustering-with-Graph-Neural-Networks-for-Graph-Pooling)
 
-* Contact: Filippo M. Bianchi
+**Contact:** Filippo M. Bianchi
 
 ## Power flow optimization with Graph Neural Networks
 
 - [x] Master project
 
-* Goal: Optimize the energy production and the energy flows on a power grid using a GNN.
+**Goal:** Optimize the energy production and the energy flows on a power grid using a GNN.
 
-Power flows are usually optimized with numerical solver that are slow and are not robust to perturbations in the grid topology. GNNs can be used to determine how much power each generator should inject on the grid, based on the grid topology, the physical properties of its components, and the load demand.
+**Description:** Power flows are usually optimized with numerical solver that are slow and are not robust to perturbations in the grid topology. GNNs can be used to determine how much power each generator should inject on the grid, based on the grid topology, the physical properties of its components, and the load demand.
 
 The project will aim at improving and extending with new functionalities a recently-proposed [GNN-based power solver](https://github.com/JonasBergHansen/Power-Flow-Balancing-with-Decentralized-Graph-Neural-Networks) by:
-i) Considering the Optimal Power Flow rather than just Power Flow (e.g., minimize additional objectives such as CO2 emission when computing the solution to the power flow);
-ii) Include time, i.e., make a prediction of the production over time given historical consumption on the electrical nodes;
-iii) Make the prediction probabilistic, i.e., generate confidence intervals for the power production of each electrical node;
-iv) Smart generation of training data with a power grid simulator.
 
-* Contact: Filippo M. Bianchi
+- Considering the Optimal Power Flow rather than just Power Flow (e.g., minimize additional objectives such as CO2 emission when computing the solution to the power flow);
+- Include time, i.e., make a prediction of the production over time given historical consumption on the electrical nodes;
+- Make the prediction probabilistic, i.e., generate confidence intervals for the power production of each electrical node;
+- Smart generation of training data with a power grid simulator.
+
+**Contact:** Filippo M. Bianchi
 

@@ -60,7 +60,7 @@ The oversmoothing / oversquashing phenomenon in graphs neural networks is limiti
 This is a more theoretical project, which focuses on developing and implementing general methodologies for clustering the vertices of an *attributed graph*, i.e., a graph with information associated with its vertices and edges. Based on the clustering results, a smaller graph can be built to summarize as good as possible the information of the original graph. Such an approach can be seen as an equivalent of standard pooling in Convolutional Neural Networks, where the spatial information is gradually coarsened to gradually distill more high-level information from an image.
 As convolutional layers are interleaved with pooling layers in CNNs, message-passing layers are iterleaved with graph pooling operations in GNNs.
 
-![Mincut pool](figs\mincutpool.png "a small social network"){: .align-center style="width: 50%;"}
+![Mincut pool](figs\mincutpool.png "mincutpool"){: .align-center style="width: 50%;"}
 
 The project will focus on extending general approaches for clustering into a Graph Neural Network framework. The methodologies will be tested on two tasks:
 

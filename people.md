@@ -12,7 +12,7 @@ title: People
 
 **Research interests:** Graph Neural Networks, graph pooling, clustering, Reservoir Computing, time-series analysis. Applications in energy analytics and remote sensing.
 
-**Contacts:** [Home](https://sites.google.com/view/filippombianchi/home), [Github](https://github.com/FilippoMB)
+**Contacts:** [Homepage](https://sites.google.com/view/filippombianchi/home), [Github](https://github.com/FilippoMB), [Office](https://use.mazemap.com/#v=1&zlevel=4&center=18.987371,69.680943&zoom=18&campusid=5&sharepoitype=poi&sharepoi=825410).
 
 ## PhD students
 

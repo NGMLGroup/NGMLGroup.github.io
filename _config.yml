@@ -47,7 +47,6 @@ minima:
 # order as they should show up.
 #
 header_pages:
-  - about.md
   - events.md
   - studentprojects.md
   - people.md

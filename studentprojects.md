@@ -61,3 +61,16 @@ The project will focus on extending general approaches for clustering into a Gra
 * References: [Pooling in Graph Neural Networks](https://github.com/danielegrattarola/SRC), [Spectral clustering with Graph Neural Networks](https://github.com/FilippoMB/Spectral-Clustering-with-Graph-Neural-Networks-for-Graph-Pooling)
 
 * Contact: Filippo M. Bianchi
+
+## Power flow optimization with Graph Neural Networks
+
+- [x] Master project
+
+* Goal: Optimize the energy production and the energy flows on a power grid using a GNN.
+
+Power flows are usually optimized with numerical solver that are slow and are not robust to perturbations in the grid topology. GNNs can be used to determine how much power each generator should inject on the grid, based on the grid topology, the physical properties of its components, and the load demand.
+
+* References: 
+
+* Contact: Filippo M. Bianchi
+

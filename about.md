@@ -3,12 +3,12 @@ title: About
 layout: default
 ---
 
-_Graph Machine Learning with a pure and refreshing breeze from the North pole._
+_Welcome to the northernmost Graph Machine Learning community_
 
 
-The core team is at the [University of Tromsø](https://en.uit.no/), the Arctic University of Norway, but we have members from all around the world.
+The core team is at the [University of Tromsø](https://en.uit.no/), the Arctic University of Norway, but we have members and collaborators from other groups and universities.
 
-If you want to join and be informed about our activities, contact us.
+If you want to participate in our research and educational activities, contact us.
 
 ## Contact information
 

@@ -2,7 +2,7 @@
 layout: default
 ---
 
-_Graph Machine Learning with a pure and refreshing breeze from the North pole._
+_Welcome to the northernmost Graph Machine Learning community!_
 
 We gather regularly to discuss the latest trends in graph machine learning, brainstorm new methods for graph data analysis and organize workshops or lectures around graphs and machine learning. Topics we are interested in: Graph machine learning, Graph data analysis, graph signal processing, network science, graph theory, graph visualization and other graph-related themes.
 
@@ -14,5 +14,5 @@ See our [Events page](events.md) for the next events we organize, and the past o
 
 If you are looking for a master project or a student summer job, have a look at our [student projects](studentprojects.md) page.
 
-![Graph of a part of a social network, from Gephi](blogcatalog.png "a small social network"){: .align-center style="width: 50%;"}
+![Graph of a part of a social network, from Gephi](figs\blogcatalog.png "a small social network"){: .align-center style="width: 50%;"}
 

@@ -2,6 +2,7 @@
 title: Events
 ---
 
+## Seminars
 
 <ul>
   {% for post in site.posts %}

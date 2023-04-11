@@ -2,18 +2,25 @@
 title: People
 ---
 
-### Filippo Maria Bianchi
+## Faculty members
+
+#### Filippo Maria Bianchi
 
 ![Filippo Maria Bianchi](figs\filippo_bianchi.jpg "filippo maria bianchi"){: .align-center style="width: 30%;"}
 
-**Position:** Associate professor at the Dept. of Mathematics and Statistics, UiT the Arctic University of Norway
+**Position:** Associate professor at the Dept. of Mathematics and Statistics, UiT the Arctic University of Norway.
 
 **Research interests:** Graph Neural Networks, graph pooling, clustering, Reservoir Computing, time-series analysis. Applications in energy analytics and remote sensing.
 
 **Contacts:** [Home](https://sites.google.com/view/filippombianchi/home), [Github](https://github.com/FilippoMB)
 
+## PhD students
 
-### Person 2
+- Jonas Berg Hansen
+- Michele Guerra
 
 
-### Person 3
+### Visitors
+
+- Indro Spinelli
+- Veronica Lachi

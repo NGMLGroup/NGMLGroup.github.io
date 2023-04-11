@@ -4,7 +4,7 @@ title: People
 
 ### Filippo Maria Bianchi
 
-![Filippo Maria Bianchi](figs\filippo_bianchi.jpg "filippo maria bianchi"){: .align-center style="width: 50%;"}
+![Filippo Maria Bianchi](figs\filippo_bianchi.jpg "filippo maria bianchi"){: .align-center style="width: 30%;"}
 
 **Position:** Associate professor at the Dept. of Mathematics and Statistics, UiT the Arctic University of Norway
 

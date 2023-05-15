@@ -18,5 +18,5 @@ If you are a student looking for a master project or a summer job, have a look a
 
 **Contacts**
 
-- Benjamin Ricaud 
+- Benjamin Ricaud - [Homepage](https://bricaud.github.io/), [Github](https://github.com/bricaud), [Office](https://use.mazemap.com/#v=1&config=uit&zlevel=2&center=18.987598,69.680524&zoom=18&sharepoitype=poi&sharepoi=825022&campusid=5)
 - Filippo Maria Bianchi - [Homepage](https://sites.google.com/view/filippombianchi/home), [Github](https://github.com/FilippoMB), [Office](https://use.mazemap.com/#v=1&zlevel=4&center=18.987371,69.680943&zoom=18&campusid=5&sharepoitype=poi&sharepoi=825410).

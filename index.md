@@ -15,3 +15,8 @@ If you are a student looking for a master project or a summer job, have a look a
 
 ![Graph of a part of a social network, from Gephi](figs\blogcatalog.png "a small social network"){: .align-center style="width: 50%;"}
 
+
+**Contacts**
+
+- Benjamin Ricaud 
+- Filippo Maria Bianchi - [Homepage](https://sites.google.com/view/filippombianchi/home), [Github](https://github.com/FilippoMB), [Office](https://use.mazemap.com/#v=1&zlevel=4&center=18.987371,69.680943&zoom=18&campusid=5&sharepoitype=poi&sharepoi=825410).

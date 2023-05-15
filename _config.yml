@@ -50,8 +50,6 @@ header_pages:
   - events.md
   - studentprojects.md
 
-#  - people.md
-
 # Set to `true` to show excerpts on the homepage.
 #
 # show_excerpts: false

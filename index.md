@@ -7,7 +7,7 @@ _Welcome to the homepage of the Northernmost Graph Machine Learning group_
 Our research activities focus on Graph Neural Networks and other machine learning methodologies to process and analyze data represented as graph. We are also interested in graph signal processing, network science, graph theory, graph visualization, and other graph-related themes.
 We gather regularly to discuss the latest trends in graph machine learning, organize tutorials, workshops, and lectures about our research topics. 
 
-We are located at the [UiT the Arctic University of Norway](https://en.uit.no/).
+We are located at the [UiT the Arctic University of Norway](https://en.uit.no/) and we are affiliated with the IEEE Task Force [Learning for Graphs](https://www.learning4graphs.org/home-page).
 
 See our [Events page](events.md) for the local events and activities that we organize.
 

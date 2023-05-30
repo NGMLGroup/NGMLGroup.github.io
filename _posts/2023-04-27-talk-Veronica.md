@@ -4,10 +4,11 @@ layout: post
 date: 2023-04-27 14:30
 place: "Forskningsparken B417"
 presenter: "Veronica Lachi"
+affiliation: "University of Siena, Italy"
 published: true
 ---
 
-By {{ page.presenter }}, University of Siena, Italy. [google Scholar](https://scholar.google.com/citations?user=uly8D-sAAAAJ&hl=it&oi=ao)
+By {{ page.presenter }}, {{ page.affiliation }}. [google Scholar](https://scholar.google.com/citations?user=uly8D-sAAAAJ&hl=it&oi=ao)
 
 **Time and place:** {{ page.date }}, {{ page.place }}.
 

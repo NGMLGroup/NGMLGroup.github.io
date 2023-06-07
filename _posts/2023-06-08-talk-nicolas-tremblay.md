@@ -1,7 +1,7 @@
 ---
 title: "What can we compute with Kirchhoff forests?"
 layout: post
-date: 2023-06-08 14:00
+date: 2023-06-08 14:15
 place: "Forskningsparken B284"
 presenter: "Nicolas Tremblay"
 affiliation: "CNRS Grenoble, France"

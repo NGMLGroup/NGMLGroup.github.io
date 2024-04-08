@@ -52,6 +52,14 @@ header_pages:
   - studentprojects.md
 
 
+collections:
+  events:
+    output: true
+    permalink: /events/:path/
+  news:
+    output: true
+    permalink: /news/:path/
+
 # Set to `true` to show excerpts on the homepage.
 #
 # show_excerpts: false

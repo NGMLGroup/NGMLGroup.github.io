@@ -2,8 +2,6 @@
 title: News
 ---
 
-## News
-
 <ul>
   {% for post in site.news %}
     <li>

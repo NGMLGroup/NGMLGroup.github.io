@@ -2,6 +2,9 @@
 layout: default
 ---
 
+
+![Northernmost Graph ML group logo](figs\NGMLGlogo.png "The Northernmost Graph ML Group logo"){: .align-center style="width: 50%;"}
+
 _Welcome to the homepage of the Northernmost Graph Machine Learning group_
 
 Our research activities focus on Graph Neural Networks and other machine learning methodologies to process and analyze data represented as graph. We are also interested in graph signal processing, network science, graph theory, graph visualization, and other graph-related themes.

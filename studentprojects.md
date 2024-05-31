@@ -40,14 +40,13 @@ In this project we will make use of simple and advanced tools from network analy
 
 **Contact:** Benjamin Ricaud
 
-## Graph neural networks, geometry and oversmoothing
+## Graph neural networks and Physics
 
 - [x] Master project
 
-**Goal:** Design methods for identifying problematic areas in graphs (bottleneck, hubs) and propose solutions to reduce oversmoothing / oversquashing on graphs.
+**Goal:** Get inspiration from Physics to design new neural network achitectures. The Laplacian is an operator that is present in Partial Differential Equations and also in graphs. Through this connection we can build new graph neural network achitectures inspired by Physics and inheriting some properties of partial differential equations.
 
-This is a project focused on the theoretical aspects, involving some maths with graph theory and spectral graph theory and some Python programming.
-The oversmoothing / oversquashing phenomenon in graphs neural networks is limiting the power of these models. See [here](https://towardsdatascience.com/over-smoothing-issue-in-graph-neural-network-bddc8fbc2472), and [here](https://towardsdatascience.com/over-squashing-bottlenecks-and-graph-ricci-curvature-c238b7169e16) for a simple explanation. Using the properties of the graph Laplacian can help to identify problems in a graph and propose solutions. We will explore the graph structure as well as the data distribution over it. Potential impact: breaking the limitations of graph machine learning.
+This is a project focused on the theoretical aspects, involving some maths with graph theory and machine learning and some Python programming.
 
 **Contact:** Benjamin Ricaud
 

@@ -1,0 +1,35 @@
+faculty:
+  - name: "Assoc. Prof. Filippo Maria Bianchi"
+    image: "/figs/people/fmb.jpg"
+    bio: "Alice is a professor of graph machine learning with over 20 years of experience."
+    webpage: "https://alicejohnson.com"
+    email: "alice@northernmost.com"
+    scholar: "https://scholar.google.com/alice"
+    twitter: "https://twitter.com/alicejohnson"
+    linkedin: "https://linkedin.com/in/alicejohnson"
+
+postdocs:
+  - name: "Dr. Bob Smith"
+    image: "/images/bob.jpg"
+    bio: "Bob is a postdoctoral researcher focusing on graph neural networks."
+    webpage: "https://bobsmith.com"
+    email: "bob@northernmost.com"
+    scholar: "https://scholar.google.com/bob"
+    twitter: "https://twitter.com/bobsmith"
+    linkedin: "https://linkedin.com/in/bobsmith"
+
+phd:
+  - name: "Charlie Adams"
+    image: "/images/charlie.jpg"
+    bio: "Charlie is a PhD student researching graph embeddings."
+    email: "charlie@northernmost.com"
+
+visitors:
+  - name: "Dr. Eve Clark"
+    image: "/images/eve.jpg"
+    bio: "Eve is a visiting researcher from the University of Somewhere."
+    webpage: "https://eveclark.com"
+    email: "eve@northernmost.com"
+    scholar: "https://scholar.google.com/eve"
+    twitter: "https://twitter.com/eveclark"
+    linkedin: "https://linkedin.com/in/eveclark"

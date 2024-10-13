@@ -13,16 +13,17 @@ faculty:
     webpage: "https://bricaud.github.io/"
     scholar: "https://scholar.google.fr/citations?user=muGuSyoAAAAJ"
     twitter: "https://x.com/GBR_data"
-    
+
 
 phd:
   - name: "Michele Guerra"
     image: "/images/mg.jpg"
     bio: "Michele is a PhD student researching randomized and trainable models for time series and graphs. The focus of is research is on uncertainty quantification and interpretability."
 
-  
-    
+  - name: "Jonas Berg Hansen"
+    bio: "Jonas is a PhD student researching pooling in graph neural networks."
 
+  
 collaborator:
   - name: "Indro Spinelli"
     homepage: "https://spindro.github.io/"

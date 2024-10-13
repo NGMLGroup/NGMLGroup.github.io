@@ -51,7 +51,7 @@ header_pages:
   - news.md
   - events.md
   - studentprojects.md
-  - people.yml
+  - people.html
 
 
 collections:

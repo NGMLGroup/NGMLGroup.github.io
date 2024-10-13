@@ -13,7 +13,8 @@ title: "People"
             <img src="{{ person.image }}" alt="{{ person.name }}'s profile picture" class="profile-pic" />
             <div class="info">
                 <h3>{{ person.name }}</h3>
-                <p>{{ person.bio }}</p>
+                {% if person.bio %}
+                    <p>{{ person.bio }}</p>
                 <div class="links">
                     {% if person.webpage %}
                     <a href="{{ person.webpage }}" target="_blank" title="Personal Webpage">
@@ -32,7 +33,7 @@ title: "People"
                     {% endif %}
                     {% if person.twitter %}
                     <a href="{{ person.twitter }}" target="_blank" title="Twitter">
-                        <i class="fab fa-twitter"></i>
+                        <i class="fab fa-x-twitter"></i>
                     </a>
                     {% endif %}
                     {% if person.linkedin %}

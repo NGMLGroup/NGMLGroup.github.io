@@ -7,28 +7,16 @@ faculty:
     twitter: "https://x.com/FilippoMariaBi1"
     linkedin: "https://www.linkedin.com/in/filippo-maria-bianchi/"
 
-postdocs:
-  - name: "Dr. Bob Smith"
-    image: "/images/bob.jpg"
-    bio: "Bob is a postdoctoral researcher focusing on graph neural networks."
-    webpage: "https://bobsmith.com"
-    email: "bob@northernmost.com"
-    scholar: "https://scholar.google.com/bob"
-    twitter: "https://twitter.com/bobsmith"
-    linkedin: "https://linkedin.com/in/bobsmith"
+  - name: "Benjamin Ricaud"
+    webpage: "https://bricaud.github.io/"
+
 
 phd:
-  - name: "Charlie Adams"
-    image: "/images/charlie.jpg"
-    bio: "Charlie is a PhD student researching graph embeddings."
-    email: "charlie@northernmost.com"
+  - name: "Michele Guerra"
+    image: "/images/mg.jpg"
+    bio: "Michele is a PhD student researching randomized and trainable models for time series and graphs. The focus of is research is on uncertainty quantification and interpretability."
+    
 
 visitors:
-  - name: "Dr. Eve Clark"
-    image: "/images/eve.jpg"
-    bio: "Eve is a visiting researcher from the University of Somewhere."
-    webpage: "https://eveclark.com"
-    email: "eve@northernmost.com"
-    scholar: "https://scholar.google.com/eve"
-    twitter: "https://twitter.com/eveclark"
-    linkedin: "https://linkedin.com/in/eveclark"
+  - name: "Indro Spinelli"
+    homepage: "https://spindro.github.io/"

@@ -8,6 +8,7 @@ faculty:
     linkedin: "https://www.linkedin.com/in/filippo-maria-bianchi/"
 
   - name: "Benjamin Ricaud"
+    image: "/figs/people/br.png"
     bio: Benjamin is an associate professor at the physics department in the Machine Learning group. His main research topics are Graph signal processing, Methods for exploring large graphs (web and social networks), Graphs in biology, Machine learning in audio and explainable AI, Sparsity in data and models.
     webpage: "https://bricaud.github.io/"
 
@@ -15,8 +16,10 @@ phd:
   - name: "Michele Guerra"
     image: "/images/mg.jpg"
     bio: "Michele is a PhD student researching randomized and trainable models for time series and graphs. The focus of is research is on uncertainty quantification and interpretability."
+
+  
     
 
-visitors:
+collaborator:
   - name: "Indro Spinelli"
     homepage: "https://spindro.github.io/"

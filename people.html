@@ -11,6 +11,7 @@ title: "People"
         {% for person in site.data.people.faculty %}
         <div class="person">
             <img src="{{ person.image }}" alt="{{ person.name }}'s profile picture" class="profile-pic" />
+            <img src="{% if person.image %}{{ person.image }}{% else %}{{ '/img/figs/default.png' | relative_url }}{% endif %}" alt="{{ person.name }}'s profile picture" class="profile-pic" />
             <div class="info">
                 <h3>{{ person.name }}</h3>
                 <p>{{ person.bio }}</p>
@@ -87,9 +88,9 @@ title: "People"
         {% endfor %}
     </section>
 
-    <section class="visitors"></section>
-        <h2>Visitors</h2>
-        {% for person in site.data.people.visitors %}
+    <section class="collaborators"></section>
+        <h2>Collaborators and visitors</h2>
+        {% for person in site.data.people.collaborator %}
         <div class="person">
             <img src="{{ person.image }}" alt="{{ person.name }}'s profile picture" class="profile-pic" />
             <div class="info">

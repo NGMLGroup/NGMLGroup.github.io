@@ -10,7 +10,7 @@ title: "People"
         <h2>Faculty Members</h2>
         {% for person in site.data.people.faculty %}
         <div class="person">
-            <img src="{% if person.image %}{{ person.image }}{% else %}{{ '/figs/default.png' | relative_url }}{% endif %}" alt="{{ person.name }}'s profile picture" class="profile-pic" />
+            <img src="{% if person.image %}{{ person.image }}{% else %}{{ '/figs/people/default.png' | relative_url }}{% endif %}" alt="{{ person.name }}'s profile picture" class="profile-pic" />
             <div class="info">
                 <h3>{{ person.name }}</h3>
                 <p>{{ person.bio }}</p>

@@ -49,11 +49,11 @@ minima:
 #
 header_pages:
   - news.md
-  - events.md
-  - studentprojects.md
   - people.html
-
-
+  - publications
+  - studentprojects.md
+  
+  
 collections:
   events:
     output: true

@@ -11,6 +11,9 @@ faculty:
     image: "/figs/people/br.png"
     bio: Benjamin is an associate professor at the physics department in the Machine Learning group. His main research topics are Graph signal processing, Methods for exploring large graphs (web and social networks), Graphs in biology, Machine learning in audio and explainable AI, Sparsity in data and models.
     webpage: "https://bricaud.github.io/"
+    scholar: "https://scholar.google.fr/citations?user=muGuSyoAAAAJ"
+    twitter: "https://x.com/GBR_data"
+    
 
 phd:
   - name: "Michele Guerra"

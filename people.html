@@ -10,8 +10,7 @@ title: "People"
         <h2>Faculty Members</h2>
         {% for person in site.data.people.faculty %}
         <div class="person">
-            <img src="{{ person.image }}" alt="{{ person.name }}'s profile picture" class="profile-pic" />
-            <img src="{% if person.image %}{{ person.image }}{% else %}{{ '/img/figs/default.png' | relative_url }}{% endif %}" alt="{{ person.name }}'s profile picture" class="profile-pic" />
+            <img src="{% if person.image %}{{ person.image }}{% else %}{{ '/figs/default.png' | relative_url }}{% endif %}" alt="{{ person.name }}'s profile picture" class="profile-pic" />
             <div class="info">
                 <h3>{{ person.name }}</h3>
                 <p>{{ person.bio }}</p>
@@ -33,7 +32,7 @@ title: "People"
                     {% endif %}
                     {% if person.twitter %}
                     <a href="{{ person.twitter }}" target="_blank" title="Twitter">
-                        <i class="fab fa-x-twitter"></i>
+                        <i class="fa-brands fa-x-twitter"></i>
                     </a>
                     {% endif %}
                     {% if person.linkedin %}

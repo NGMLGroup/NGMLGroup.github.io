@@ -17,7 +17,7 @@ faculty:
 
 phd:
   - name: "Michele Guerra"
-    image: "/images/mg.jpg"
+    image: "/figs/people/default.png"
     bio: "Michele is a PhD student researching randomized and trainable models for time series and graphs. The focus of is research is on uncertainty quantification and interpretability."
 
   - name: "Jonas Berg Hansen"

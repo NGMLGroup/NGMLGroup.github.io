@@ -40,18 +40,23 @@ title: "People"
                         <i class="fab fa-linkedin"></i>
                     </a>
                     {% endif %}
+                    {% if person.github %}
+                    <a href="{{ person.github }}" target="_blank" title="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    {% endif %}
                 </div>
             </div>
         </div>
         {% endfor %}
     </section>
 
-    <!-- Repeat the same structure for Postdocs, PhD Students, and Visitors -->
+    <!-- PhD Students -->
     <section class="phd">
         <h2>PhD students</h2>
         {% for person in site.data.people.phd %}
         <div class="person">
-            <img src="{{ person.image }}" alt="{{ person.name }}'s profile picture" class="profile-pic" />
+            <img src="{% if person.image %}{{ person.image }}{% else %}{{'/figs/people/default.png'}}{% endif %}" alt="{{ person.name }}'s profile picture" class="profile-pic" />
             <div class="info">
                 <h3>{{ person.name }}</h3>
                 <p>{{ person.bio }}</p>
@@ -91,7 +96,7 @@ title: "People"
         <h2>Collaborators and visitors</h2>
         {% for person in site.data.people.collaborator %}
         <div class="person">
-            <img src="{{ person.image }}" alt="{{ person.name }}'s profile picture" class="profile-pic" />
+            <img src="{% if person.image %}{{ person.image }}{% else %}{{'/figs/people/default.png'}}{% endif %}" alt="{{ person.name }}'s profile picture" class="profile-pic" />
             <div class="info">
                 <h3>{{ person.name }}</h3>
                 <div class="links">

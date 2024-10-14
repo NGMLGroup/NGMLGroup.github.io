@@ -1,9 +1,9 @@
 ---
-layout: default
+layout: base
 ---
 
 
-![Northernmost Graph ML group logo](figs\NGMLGlogo.png "The Northernmost Graph ML Group logo"){: .align-center style="width: 50%;"}
+![Graph of a part of a social network, from Gephi](figs\blogcatalog.png "a small social network"){: .align-center style="width: 50%;"}
 
 _Welcome to the homepage of the Northernmost Graph Machine Learning group_
 
@@ -15,8 +15,6 @@ We are located at the [UiT the Arctic University of Norway](https://en.uit.no/) 
 See our [Events page](events.md) for the local events and activities that we organize.
 
 If you are a student looking for a master project or a summer job, have a look at our [student projects](studentprojects.md) page.
-
-![Graph of a part of a social network, from Gephi](figs\blogcatalog.png "a small social network"){: .align-center style="width: 50%;"}
 
 
 **Contacts**

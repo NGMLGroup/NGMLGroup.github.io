@@ -1,0 +1,146 @@
+---
+layout: base
+title: "Publications"
+---
+
+<div class="publications-page">
+    <h1>Publications</h1>
+
+    <section class="publications">
+        {% for publication in site.data.publications %}
+        <div class="publication">
+            
+            <!-- Title -->
+            <h3 class="pub-title"><strong>{{ publication.title }}</strong></h3>
+
+            <!-- Authors -->
+            <p class="authors">
+                <em style="color: gray;">{{ publication.authors }}</em>
+            </p>
+
+            <!-- Venue (optional) -->
+            {% if publication.venue %}
+            <p class="venue">
+                <em>{{ publication.venue }}</em>
+            </p>
+            {% endif %}
+
+            <!-- Figure -->
+            {% if publication.figure %}
+            <div class="pub-figure">
+                <img src="{{ publication.figure }}" alt="Figure for {{ publication.title }}">
+            </div>
+            {% endif %}
+
+            <!-- Abstract -->
+            <p>{{ publication.abstract }}</p>
+
+            <!-- Links (GitHub, Arxiv, Cite) -->
+            <div class="pub-links">
+                {% if publication.github %}
+                <a href="{{ publication.github }}" target="_blank" class="btn">
+                    <i class="fab fa-github"></i> GitHub
+                </a>
+                {% endif %}
+                {% if publication.arxiv %}
+                <a href="{{ publication.arxiv }}" target="_blank" class="btn">
+                    <i class="fas fa-file-alt"></i> ArXiv
+                </a>
+                {% endif %}
+                <!-- Cite Link with quotation mark icon -->
+                <a href="javascript:void(0);" onclick="toggleBibtex({{ forloop.index }})" class="btn cite-btn">
+                    <i class="fas fa-quote-right"></i> Cite
+                </a>
+            </div>
+
+            <!-- BibTeX Entry (Hidden by Default) -->
+            <div id="bibtex-entry-{{ forloop.index }}" class="bibtex-entry" style="display: none;">
+                <pre>{{ publication.bibtex }}</pre>
+            </div>
+
+        </div>
+        {% endfor %}
+    </section>
+</div>
+
+<style>
+.publications-page {
+    padding: 20px;
+}
+
+/* Title to span full page width */
+.pub-title {
+    width: 100%;
+    text-align: center;
+    font-size: 1.4em;
+    margin-bottom: 10px;
+}
+
+/* Authors and venue */
+.authors, .venue {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+/* Figure centered and set to 80% of page width */
+.pub-figure {
+    display: flex;
+    justify-content: center; /* Center the image */
+    margin-bottom: 20px;
+}
+
+.pub-figure img {
+    width: 80%; /* Set the image to 80% of the page width */
+    height: auto;
+    border-radius: 5px;
+}
+
+/* Publication links (GitHub, ArXiv, Cite) */
+.pub-links {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.pub-links .btn {
+    margin-right: 10px;
+    text-decoration: none;
+    font-size: 1.2em;
+    color: #007acc; /* Link color */
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.pub-links .btn i {
+    margin-right: 5px;
+}
+
+/* BibTeX entry styling */
+.bibtex-entry {
+    margin-top: 10px;
+    background-color: #f9f9f9;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: left;
+    font-size: 0.9em;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+
+/* Hover effect for the links */
+.pub-links .btn:hover {
+    color: #0056b3;
+}
+</style>
+
+<script>
+function toggleBibtex(index) {
+    var bibtexEntry = document.getElementById('bibtex-entry-' + index);
+    if (bibtexEntry.style.display === "none") {
+        bibtexEntry.style.display = "block";
+    } else {
+        bibtexEntry.style.display = "none";
+    }
+}
+</script>

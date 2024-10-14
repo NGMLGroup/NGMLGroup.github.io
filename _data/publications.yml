@@ -1,0 +1,32 @@
+- title: "Graph-based Forecasting with Missing Data through Spatiotemporal Downsampling"
+  authors: "Ivan Marisca, Cesare Alippi, Filippo Maria Bianchi"
+  venue: "ICML 2024"
+  figure: "figs/publications/hdtts.png"
+  abstract: "Given a set of synchronous time series, each associated with a sensor-point in space and characterized by inter-series relationships, the problem of spatiotemporal forecasting consists of predicting future observations for each point. Spatiotemporal graph neural networks achieve striking results by representing the relationships across time series as a graph. Nonetheless, most existing methods rely on the often unrealistic assumption that inputs are always available and fail to capture hidden spatiotemporal dynamics when part of the data is missing. In this work, we tackle this problem through hierarchical spatiotemporal downsampling. The input time series are progressively coarsened over time and space, obtaining a pool of representations that capture heterogeneous temporal and spatial dynamics. Conditioned on observations and missing data patterns, such representations are combined by an interpretable attention mechanism to generate the forecasts. Our approach outperforms state-of-the-art methods on synthetic and real-world benchmarks under different missing data distributions, particularly in the presence of contiguous blocks of missing values."
+  github: "https://github.com/marshka/hdtts"
+  arxiv: "https://arxiv.org/abs/2402.10634"
+  bibtex: |
+    @inproceedings{marisca2024graph,
+      title     = {Graph-based Forecasting with Missing Data through Spatiotemporal Downsampling},
+      author    = {Marisca, Ivan and Alippi, Cesare and Bianchi, Filippo Maria},
+      booktitle = {Proceedings of the 41st International Conference on Machine Learning},
+      pages     = {34846--34865},
+      year      = {2024},
+      volume    = {235},
+      series    = {Proceedings of Machine Learning Research},
+      publisher = {PMLR}
+    }
+
+- title: "MaxCutPool: differentiable feature-aware Maxcut for pooling in graph neural networks"
+  authors: "Carlo Abate, Filippo Maria Bianchi"
+  figure: "figs/publications/maxcutpool.png"
+  abstract: "We propose a novel approach to compute the MAXCUT in attributed graphs, i.e., graphs with features associated with nodes and edges. Our approach is robust to the underlying graph topology and is fully differentiable, making it possible to find solutions that jointly optimize the MAXCUT along with other objectives. Based on the obtained MAXCUT partition, we implement a hierarchical graph pooling layer for Graph Neural Networks, which is sparse, differentiable, and particularly suitable for downstream tasks on heterophilic graphs."
+  github: "https://github.com/NGMLGroup/MaxCutPool"
+  arxiv: "https://arxiv.org/abs/2409.05100"
+  bibtex: |
+    @article{abate2024maxcutpool,
+      title={MaxCutPool: differentiable feature-aware Maxcut for pooling in graph neural networks},
+      author={Abate, Carlo and Bianchi, Filippo Maria},
+      journal={arXiv preprint arXiv:2409.05100},
+      year={2024}
+    }

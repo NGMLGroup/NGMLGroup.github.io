@@ -7,14 +7,13 @@ logo: figs/NGMLGlogo.png
 # The `>` after `description:` means to ignore line-breaks until next key.
 # If you want to omit the line-break after the end of text, use `>-` instead.
 description: >
-  The Northermost GraphML group in the world, based in Tromsø, Norway. Graph machine learning, Graph data analysis,
-  graph signal processing, network science, graph theory, graph visualization and other graph-related themes.
+  The Northermost GraphML group in the world, based in Tromsø, Norway.
 # Build settings
 
 theme: minima
 
 plugins:
-  - jekyll-feed
+#   - jekyll-feed
   - jekyll-seo-tag
 
 # Theme-specific settings
@@ -50,9 +49,8 @@ minima:
 header_pages:
   - news.md
   - people.html
-  - publications
-  - studentprojects.md
-  
+  - publications.html
+  - theses.md
   
 collections:
   events:
@@ -64,7 +62,7 @@ collections:
 
 # Set to `true` to show excerpts on the homepage.
 #
-# show_excerpts: false
+show_excerpts: true
 
 # display posts with dates in the future
 future: true

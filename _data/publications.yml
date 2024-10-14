@@ -1,3 +1,17 @@
+- title: "MaxCutPool: differentiable feature-aware Maxcut for pooling in graph neural networks"
+  authors: "Carlo Abate, Filippo Maria Bianchi"
+  figure: "figs/publications/maxcutpool.png"
+  abstract: "We propose a novel approach to compute the MAXCUT in attributed graphs, i.e., graphs with features associated with nodes and edges. Our approach is robust to the underlying graph topology and is fully differentiable, making it possible to find solutions that jointly optimize the MAXCUT along with other objectives. Based on the obtained MAXCUT partition, we implement a hierarchical graph pooling layer for Graph Neural Networks, which is sparse, differentiable, and particularly suitable for downstream tasks on heterophilic graphs."
+  github: "https://github.com/NGMLGroup/MaxCutPool"
+  arxiv: "https://arxiv.org/abs/2409.05100"
+  bibtex: |
+    @article{abate2024maxcutpool,
+      title={MaxCutPool: differentiable feature-aware Maxcut for pooling in graph neural networks},
+      author={Abate, Carlo and Bianchi, Filippo Maria},
+      journal={arXiv preprint arXiv:2409.05100},
+      year={2024}
+    }
+
 - title: "Graph-based Forecasting with Missing Data through Spatiotemporal Downsampling"
   authors: "Ivan Marisca, Cesare Alippi, Filippo Maria Bianchi"
   venue: "ICML 2024"
@@ -15,18 +29,4 @@
       volume    = {235},
       series    = {Proceedings of Machine Learning Research},
       publisher = {PMLR}
-    }
-
-- title: "MaxCutPool: differentiable feature-aware Maxcut for pooling in graph neural networks"
-  authors: "Carlo Abate, Filippo Maria Bianchi"
-  figure: "figs/publications/maxcutpool.png"
-  abstract: "We propose a novel approach to compute the MAXCUT in attributed graphs, i.e., graphs with features associated with nodes and edges. Our approach is robust to the underlying graph topology and is fully differentiable, making it possible to find solutions that jointly optimize the MAXCUT along with other objectives. Based on the obtained MAXCUT partition, we implement a hierarchical graph pooling layer for Graph Neural Networks, which is sparse, differentiable, and particularly suitable for downstream tasks on heterophilic graphs."
-  github: "https://github.com/NGMLGroup/MaxCutPool"
-  arxiv: "https://arxiv.org/abs/2409.05100"
-  bibtex: |
-    @article{abate2024maxcutpool,
-      title={MaxCutPool: differentiable feature-aware Maxcut for pooling in graph neural networks},
-      author={Abate, Carlo and Bianchi, Filippo Maria},
-      journal={arXiv preprint arXiv:2409.05100},
-      year={2024}
     }

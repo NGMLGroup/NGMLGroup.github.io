@@ -15,6 +15,7 @@ faculty:
     scholar: "https://scholar.google.fr/citations?user=muGuSyoAAAAJ"
     twitter: "https://x.com/GBR_data"
     github: "https://github.com/bricaud"
+    linkedin: https://www.linkedin.com/in/benjaminricaud/
 
 
 phd:
@@ -22,6 +23,7 @@ phd:
     image: "/figs/people/mg.png"
     bio: "Michele is a PhD student researching randomized and trainable models for time series and graphs. The focus of is research is on uncertainty quantification and interpretability."
     scholar: https://scholar.google.ca/citations?user=HzMTPo0AAAAJ&hl=en&oi=ao
+    linkedin: https://www.linkedin.com/in/michele-guerra-34a273182/
 
   - name: "Jonas Berg Hansen"
     bio: "Jonas is a PhD student researching pooling in graph neural networks."

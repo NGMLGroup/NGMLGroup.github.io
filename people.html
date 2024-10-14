@@ -6,9 +6,56 @@ title: "People"
 <div class="people-page">
     <h1>Meet our team!</h1>
 
+    <!-- Faculty Members -->
     <section class="faculty">
         <h2>Faculty Members</h2>
         {% for person in site.data.people.faculty %}
+        <div class="person">
+            <img src="{% if person.image %}{{ person.image }}{% else %}{{'/figs/people/default.png'}}{% endif %}" alt="{{ person.name }}'s profile picture" class="profile-pic" />
+            <div class="info">
+                <h3>{{ person.name }}</h3>
+                <p>{{ person.bio }}</p>
+                <div class="links">
+                    {% if person.webpage %}
+                    <a href="{{ person.webpage }}" target="_blank" title="Personal Webpage">
+                        <i class="fas fa-globe"></i>
+                    </a>
+                    {% endif %}
+                    {% if person.email %}
+                    <a href="mailto:{{ person.email }}" title="Email">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                    {% endif %}
+                    {% if person.scholar %}
+                    <a href="{{ person.scholar }}" target="_blank" title="Google Scholar">
+                        <i class="fas fa-graduation-cap"></i>
+                    </a>
+                    {% endif %}
+                    {% if person.twitter %}
+                    <a href="{{ person.twitter }}" target="_blank" title="Twitter">
+                        <i class="fa-brands fa-x-twitter"></i>
+                    </a>
+                    {% endif %}
+                    {% if person.linkedin %}
+                    <a href="{{ person.linkedin }}" target="_blank" title="LinkedIn">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    {% endif %}
+                    {% if person.github %}
+                    <a href="{{ person.github }}" target="_blank" title="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+    </section>
+
+    <!-- Postdoc Researchers -->
+    <section class="postdoc">
+        <h2>Researchers and postdocs</h2>
+        {% for person in site.data.people.postdoc %}
         <div class="person">
             <img src="{% if person.image %}{{ person.image }}{% else %}{{'/figs/people/default.png'}}{% endif %}" alt="{{ person.name }}'s profile picture" class="profile-pic" />
             <div class="info">
@@ -92,6 +139,7 @@ title: "People"
         {% endfor %}
     </section>
 
+    <!-- Collaborators -->
     <section class="collaborators"></section>
         <h2>Collaborators and visitors</h2>
         {% for person in site.data.people.collaborator %}

@@ -9,184 +9,208 @@ title: "People"
     <!-- Faculty Members -->
     <section class="faculty">
         <h2>Faculty Members</h2>
-        {% for person in site.data.people.faculty %}
-        <div class="person">
-            <img src="{% if person.image %}{{ person.image }}{% else %}{{'/figs/people/default.png'}}{% endif %}" alt="{{ person.name }}'s profile picture" class="profile-pic" />
-            <div class="info">
-                <h3>{{ person.name }}</h3>
-                <p>{{ person.bio }}</p>
-                <div class="links">
-                    {% if person.webpage %}
-                    <a href="{{ person.webpage }}" target="_blank" title="Personal Webpage">
-                        <i class="fas fa-globe"></i>
-                    </a>
-                    {% endif %}
-                    {% if person.email %}
-                    <a href="mailto:{{ person.email }}" title="Email">
-                        <i class="fas fa-envelope"></i>
-                    </a>
-                    {% endif %}
-                    {% if person.scholar %}
-                    <a href="{{ person.scholar }}" target="_blank" title="Google Scholar">
-                        <i class="fas fa-graduation-cap"></i>
-                    </a>
-                    {% endif %}
-                    {% if person.twitter %}
-                    <a href="{{ person.twitter }}" target="_blank" title="Twitter">
-                        <i class="fa-brands fa-x-twitter"></i>
-                    </a>
-                    {% endif %}
-                    {% if person.linkedin %}
-                    <a href="{{ person.linkedin }}" target="_blank" title="LinkedIn">
-                        <i class="fab fa-linkedin"></i>
-                    </a>
-                    {% endif %}
-                    {% if person.github %}
-                    <a href="{{ person.github }}" target="_blank" title="GitHub">
-                        <i class="fab fa-github"></i>
-                    </a>
-                    {% endif %}
+        <div class="person-grid">
+            {% for person in site.data.people.faculty %}
+            <div class="person">
+                <img src="{% if person.image %}{{ person.image }}{% else %}{{'/figs/people/default.png'}}{% endif %}" alt="{{ person.name }}'s profile picture" class="profile-pic" />
+                <div class="info">
+                    <h3>{{ person.name }}</h3>
+                    <p>{{ person.bio }}</p>
+                    <div class="links">
+                        {% if person.webpage %}
+                        <a href="{{ person.webpage }}" target="_blank" title="Personal Webpage">
+                            <i class="fas fa-globe"></i>
+                        </a>
+                        {% endif %}
+                        {% if person.email %}
+                        <a href="mailto:{{ person.email }}" title="Email">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                        {% endif %}
+                        {% if person.scholar %}
+                        <a href="{{ person.scholar }}" target="_blank" title="Google Scholar">
+                            <i class="fas fa-graduation-cap"></i>
+                        </a>
+                        {% endif %}
+                        {% if person.twitter %}
+                        <a href="{{ person.twitter }}" target="_blank" title="Twitter">
+                            <i class="fa-brands fa-x-twitter"></i>
+                        </a>
+                        {% endif %}
+                        {% if person.linkedin %}
+                        <a href="{{ person.linkedin }}" target="_blank" title="LinkedIn">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        {% endif %}
+                        {% if person.github %}
+                        <a href="{{ person.github }}" target="_blank" title="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        {% endif %}
+                    </div>
                 </div>
             </div>
+            {% endfor %}
         </div>
-        {% endfor %}
     </section>
 
     <!-- Postdoc Researchers -->
     <section class="postdoc">
         <h2>Researchers and postdocs</h2>
-        {% for person in site.data.people.postdoc %}
-        <div class="person">
-            <img src="{% if person.image %}{{ person.image }}{% else %}{{'/figs/people/default.png'}}{% endif %}" alt="{{ person.name }}'s profile picture" class="profile-pic" />
-            <div class="info">
-                <h3>{{ person.name }}</h3>
-                <p>{{ person.bio }}</p>
-                <div class="links">
-                    {% if person.webpage %}
-                    <a href="{{ person.webpage }}" target="_blank" title="Personal Webpage">
-                        <i class="fas fa-globe"></i>
-                    </a>
-                    {% endif %}
-                    {% if person.email %}
-                    <a href="mailto:{{ person.email }}" title="Email">
-                        <i class="fas fa-envelope"></i>
-                    </a>
-                    {% endif %}
-                    {% if person.scholar %}
-                    <a href="{{ person.scholar }}" target="_blank" title="Google Scholar">
-                        <i class="fas fa-graduation-cap"></i>
-                    </a>
-                    {% endif %}
-                    {% if person.twitter %}
-                    <a href="{{ person.twitter }}" target="_blank" title="Twitter">
-                        <i class="fa-brands fa-x-twitter"></i>
-                    </a>
-                    {% endif %}
-                    {% if person.linkedin %}
-                    <a href="{{ person.linkedin }}" target="_blank" title="LinkedIn">
-                        <i class="fab fa-linkedin"></i>
-                    </a>
-                    {% endif %}
-                    {% if person.github %}
-                    <a href="{{ person.github }}" target="_blank" title="GitHub">
-                        <i class="fab fa-github"></i>
-                    </a>
-                    {% endif %}
+        <div class="person-grid">
+            {% for person in site.data.people.postdoc %}
+            <div class="person">
+                <img src="{% if person.image %}{{ person.image }}{% else %}{{'/figs/people/default.png'}}{% endif %}" alt="{{ person.name }}'s profile picture" class="profile-pic" />
+                <div class="info">
+                    <h3>{{ person.name }}</h3>
+                    <p>{{ person.bio }}</p>
+                    <div class="links">
+                        {% if person.webpage %}
+                        <a href="{{ person.webpage }}" target="_blank" title="Personal Webpage">
+                            <i class="fas fa-globe"></i>
+                        </a>
+                        {% endif %}
+                        {% if person.email %}
+                        <a href="mailto:{{ person.email }}" title="Email">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                        {% endif %}
+                        {% if person.scholar %}
+                        <a href="{{ person.scholar }}" target="_blank" title="Google Scholar">
+                            <i class="fas fa-graduation-cap"></i>
+                        </a>
+                        {% endif %}
+                        {% if person.twitter %}
+                        <a href="{{ person.twitter }}" target="_blank" title="Twitter">
+                            <i class="fa-brands fa-x-twitter"></i>
+                        </a>
+                        {% endif %}
+                        {% if person.linkedin %}
+                        <a href="{{ person.linkedin }}" target="_blank" title="LinkedIn">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        {% endif %}
+                        {% if person.github %}
+                        <a href="{{ person.github }}" target="_blank" title="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        {% endif %}
+                    </div>
                 </div>
             </div>
+            {% endfor %}
         </div>
-        {% endfor %}
     </section>
 
     <!-- PhD Students -->
     <section class="phd">
         <h2>PhD students</h2>
-        {% for person in site.data.people.phd %}
-        <div class="person">
-            <img src="{% if person.image %}{{ person.image }}{% else %}{{'/figs/people/default.png'}}{% endif %}" alt="{{ person.name }}'s profile picture" class="profile-pic" />
-            <div class="info">
-                <h3>{{ person.name }}</h3>
-                <p>{{ person.bio }}</p>
-                <div class="links">
-                    {% if person.webpage %}
-                    <a href="{{ person.webpage }}" target="_blank" title="Personal Webpage">
-                        <i class="fas fa-globe"></i>
-                    </a>
-                    {% endif %}
-                    {% if person.email %}
-                    <a href="mailto:{{ person.email }}" title="Email">
-                        <i class="fas fa-envelope"></i>
-                    </a>
-                    {% endif %}
-                    {% if person.scholar %}
-                    <a href="{{ person.scholar }}" target="_blank" title="Google Scholar">
-                        <i class="fas fa-graduation-cap"></i>
-                    </a>
-                    {% endif %}
-                    {% if person.twitter %}
-                    <a href="{{ person.twitter }}" target="_blank" title="Twitter">
-                        <i class="fab fa-x-twitter"></i>
-                    </a>
-                    {% endif %}
-                    {% if person.linkedin %}
-                    <a href="{{ person.linkedin }}" target="_blank" title="LinkedIn">
-                        <i class="fab fa-linkedin"></i>
-                    </a>
-                    {% endif %}
+        <div class="person-grid">
+            {% for person in site.data.people.phd %}
+            <div class="person">
+                <img src="{% if person.image %}{{ person.image }}{% else %}{{'/figs/people/default.png'}}{% endif %}" alt="{{ person.name }}'s profile picture" class="profile-pic" />
+                <div class="info">
+                    <h3>{{ person.name }}</h3>
+                    <p>{{ person.bio }}</p>
+                    <div class="links">
+                        {% if person.webpage %}
+                        <a href="{{ person.webpage }}" target="_blank" title="Personal Webpage">
+                            <i class="fas fa-globe"></i>
+                        </a>
+                        {% endif %}
+                        {% if person.email %}
+                        <a href="mailto:{{ person.email }}" title="Email">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                        {% endif %}
+                        {% if person.scholar %}
+                        <a href="{{ person.scholar }}" target="_blank" title="Google Scholar">
+                            <i class="fas fa-graduation-cap"></i>
+                        </a>
+                        {% endif %}
+                        {% if person.twitter %}
+                        <a href="{{ person.twitter }}" target="_blank" title="Twitter">
+                            <i class="fab fa-x-twitter"></i>
+                        </a>
+                        {% endif %}
+                        {% if person.linkedin %}
+                        <a href="{{ person.linkedin }}" target="_blank" title="LinkedIn">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        {% endif %}
+                    </div>
                 </div>
             </div>
+            {% endfor %}
         </div>
-        {% endfor %}
     </section>
 
     <!-- Collaborators -->
-    <section class="collaborators"></section>
-        <h2>Collaborators and visitors</h2>
-        {% for person in site.data.people.collaborator %}
-        <div class="person">
-            <img src="{% if person.image %}{{ person.image }}{% else %}{{'/figs/people/default.png'}}{% endif %}" alt="{{ person.name }}'s profile picture" class="profile-pic" />
-            <div class="info">
-                <h3>{{ person.name }}</h3>
-                <div class="links">
-                    {% if person.webpage %}
-                    <a href="{{ person.webpage }}" target="_blank" title="Personal Webpage">
-                        <i class="fas fa-globe"></i>
-                    </a>
-                    {% endif %}
-                    {% if person.email %}
-                    <a href="mailto:{{ person.email }}" title="Email">
-                        <i class="fas fa-envelope"></i>
-                    </a>
-                    {% endif %}
-                    {% if person.scholar %}
-                    <a href="{{ person.scholar }}" target="_blank" title="Google Scholar">
-                        <i class="fas fa-graduation-cap"></i>
-                    </a>
-                    {% endif %}
-                    {% if person.twitter %}
-                    <a href="{{ person.twitter }}" target="_blank" title="Twitter">
-                        <i class="fab fa-x-twitter"></i>
-                    </a>
-                    {% endif %}
-                    {% if person.linkedin %}
-                    <a href="{{ person.linkedin }}" target="_blank" title="LinkedIn">
-                        <i class="fab fa-linkedin"></i>
-                    </a>
-                    {% endif %}
+    <section class="collaborators">
+        <h2>Collaborators and Visitors</h2>
+        <div class="collaborators-grid">
+            {% for person in site.data.people.collaborator %}
+            <div class="person">
+                <!-- Image (optional) -->
+                <img src="{% if person.image %}{{ person.image }}{% else %}{{'/figs/people/default.png'}}{% endif %}" alt="{{ person.name }}'s profile picture" class="profile-pic" />
+
+                <!-- Information -->
+                <div class="info">
+                    <h3>{{ person.name }}</h3>
+                    <p>{{ person.position }}</p>
+                    <p>{{ person.affiliation }}</p>
+
+                    <div class="links">
+                        {% if person.webpage %}
+                        <a href="{{ person.webpage }}" target="_blank" title="Personal Webpage">
+                            <i class="fas fa-globe"></i>
+                        </a>
+                        {% endif %}
+                        {% if person.email %}
+                        <a href="mailto:{{ person.email }}" title="Email">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                        {% endif %}
+                        {% if person.scholar %}
+                        <a href="{{ person.scholar }}" target="_blank" title="Google Scholar">
+                            <i class="fas fa-graduation-cap"></i>
+                        </a>
+                        {% endif %}
+                        {% if person.twitter %}
+                        <a href="{{ person.twitter }}" target="_blank" title="Twitter">
+                            <i class="fab fa-x-twitter"></i>
+                        </a>
+                        {% endif %}
+                        {% if person.linkedin %}
+                        <a href="{{ person.linkedin }}" target="_blank" title="LinkedIn">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        {% endif %}
+                    </div>
                 </div>
             </div>
+            {% endfor %}
         </div>
-        {% endfor %}
     </section>
-
 </div>
 
 <style>
+section {
+    margin-bottom: 40px; /* Space between sections */
+    padding-bottom: 20px; /* Add space before the line */
+    border-bottom: 2px solid #ddd; /* Light gray line between sections */
+}
+
+section:last-child {
+    border-bottom: none; /* No border after the last section */
+}
+
 .people-page {
     padding: 20px;
 }
 .person {
     display: flex;
+    flex-direction: column;
     align-items: center;
     margin-bottom: 20px;
 }
@@ -194,10 +218,22 @@ title: "People"
     border-radius: 50%;
     width: 100px;
     height: 100px;
-    margin-right: 20px;
+    object-fit: cover;
+    margin-bottom: 15px;
 }
 .info {
     flex: 1;
+    text-align: center;
+}
+.info h3 {
+    margin-bottom: 10px;
+    font-size: 1.2em;
+}
+.info p {
+    margin: 5px 0;
+    font-size: 0.9em; /* Decrease font size for bio */
+    line-height: 1.4; /* Optional: Adjust line height for readability */
+    color: #666; /* Optional: Adjust text color to a slightly lighter shade */
 }
 .links a {
     margin-right: 10px;
@@ -207,5 +243,20 @@ title: "People"
 }
 .links a:hover {
     color: #007acc;
+}
+
+
+.person-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two columns */
+    gap: 20px; /* Space between rows and columns */
+    justify-content: center; /* Center items if fewer than 2 */
+}
+
+.collaborators-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Two columns */
+    gap: 20px; /* Space between rows and columns */
+    justify-content: center; /* Center items if fewer than 3 */
 }
 </style>

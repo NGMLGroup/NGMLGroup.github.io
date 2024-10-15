@@ -47,10 +47,10 @@ minima:
 # order as they should show up.
 #
 header_pages:
-  # - news.md
   - people.html
   - publications.html
   - theses.md
+  - news.md
   
 collections:
   events:

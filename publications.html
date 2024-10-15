@@ -64,6 +64,17 @@ title: "Publications"
 </div>
 
 <style>
+.publication:last-child {
+    border-bottom: none;
+}
+
+/* General styling for publications */
+.publication {
+    border-bottom: 1px solid #ddd; /* Light gray line between publications */
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
 .publications-page {
     padding: 20px;
 }
@@ -105,7 +116,7 @@ title: "Publications"
     margin-right: 10px;
     text-decoration: none;
     font-size: 1.2em;
-    color: #007acc; /* Link color */
+    color: #333; /* Link color */
     background-color: transparent;
     border: none;
     cursor: pointer;
@@ -113,6 +124,11 @@ title: "Publications"
 
 .pub-links .btn i {
     margin-right: 5px;
+}
+
+/* Hover effect for the links */
+.pub-links .btn:hover {
+    color: #0056b3;
 }
 
 /* BibTeX entry styling */
@@ -126,11 +142,6 @@ title: "Publications"
     font-size: 0.9em;
     white-space: pre-wrap;
     word-wrap: break-word;
-}
-
-/* Hover effect for the links */
-.pub-links .btn:hover {
-    color: #0056b3;
 }
 </style>
 

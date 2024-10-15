@@ -1,7 +1,7 @@
 faculty:
   - name: "Filippo Maria Bianchi"
     image: "/figs/people/fmb.jpg"
-    bio: "Filippo is an Associate Professor at the Dept. of Mathematics and Statistics. His research focuses on machine learning for time series and graphs."
+    bio: "Filippo is an Associate Professor at the Math Dept. His research is on machine learning for time series and graphs, with a focus on pooling in GNNs and spatio-temporal models."
     webpage: "https://sites.google.com/view/filippombianchi/home"
     scholar: "https://scholar.google.ca/citations?user=yb7cT1MAAAAJ&hl=en"
     twitter: "https://x.com/FilippoMariaBi1"
@@ -10,13 +10,21 @@ faculty:
 
   - name: "Benjamin Ricaud"
     image: "/figs/people/br.png"
-    bio: Benjamin is an associate professor at the physics department in the Machine Learning group. His main research topics are Graph signal processing, Methods for exploring large graphs (web and social networks), Graphs in biology, Machine learning in audio and explainable AI, Sparsity in data and models.
+    bio: Benjamin is an Associate Professor in the Machine Learning group researching graph signal processing, methods for exploring large graphs, graphs in biology, sparsity in data and models.
     webpage: "https://bricaud.github.io/"
     scholar: "https://scholar.google.fr/citations?user=muGuSyoAAAAJ"
     twitter: "https://x.com/GBR_data"
     github: "https://github.com/bricaud"
     linkedin: https://www.linkedin.com/in/benjaminricaud/
 
+  - name: "Filippo Maria Bianchi"
+    image: "/figs/people/fmb.jpg"
+    bio: "Filippo is an Associate Professor at the Dept. of Mathematics and Statistics. His research focuses on machine learning for time series and graphs. Recently, he is focusing on pooling in GNNs and spatio-temporal models."
+    webpage: "https://sites.google.com/view/filippombianchi/home"
+    scholar: "https://scholar.google.ca/citations?user=yb7cT1MAAAAJ&hl=en"
+    twitter: "https://x.com/FilippoMariaBi1"
+    linkedin: "https://www.linkedin.com/in/filippo-maria-bianchi/"
+    github: "https://github.com/FilippoMB"
 
 phd:
   - name: "Michele Guerra"
@@ -26,9 +34,38 @@ phd:
     linkedin: https://www.linkedin.com/in/michele-guerra-34a273182/
 
   - name: "Jonas Berg Hansen"
-    bio: "Jonas is a PhD student researching pooling in graph neural networks."
+    bio: "Jonas is a PhD student researching pooling in graph neural networks. He applies his research in the context of energy analytics."
 
-  
+postdoc:
+  - name: "John Doe"
+
 collaborator:
+  - name: "Simone Scardapane"
+    position: "Researcher"
+    affiliation: "Sapienza University of Rome"
+    webpage: "https://spindro.github.io/"
+    scholar: "https://scholar.google.ca/citations?user=yb7cT1MAAAAJ&hl=en"
+
   - name: "Indro Spinelli"
-    homepage: "https://spindro.github.io/"
+    position: "Researcher"
+    affiliation: "Sapienza University of Rome"
+    webpage: "https://spindro.github.io/"
+    scholar: "https://scholar.google.ca/citations?user=yb7cT1MAAAAJ&hl=en"
+
+  - name: "Indro Spinelli"
+    position: "Researcher"
+    affiliation: "Sapienza University of Rome"
+    webpage: "https://spindro.github.io/"
+    scholar: "https://scholar.google.ca/citations?user=yb7cT1MAAAAJ&hl=en"
+
+  - name: "Indro Spinelli"
+    position: "Researcher"
+    affiliation: "Sapienza University of Rome"
+    webpage: "https://spindro.github.io/"
+    scholar: "https://scholar.google.ca/citations?user=yb7cT1MAAAAJ&hl=en"
+
+  - name: "Indro Spinelli"
+    position: "Researcher"
+    affiliation: "Sapienza University of Rome"
+    webpage: "https://spindro.github.io/"
+    scholar: "https://scholar.google.ca/citations?user=yb7cT1MAAAAJ&hl=en"

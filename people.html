@@ -138,6 +138,11 @@ title: "People"
                             <i class="fab fa-linkedin"></i>
                         </a>
                         {% endif %}
+                        {% if person.github %}
+                        <a href="{{ person.github }}" target="_blank" title="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        {% endif %}
                     </div>
                 </div>
             </div>
@@ -184,6 +189,11 @@ title: "People"
                         {% if person.linkedin %}
                         <a href="{{ person.linkedin }}" target="_blank" title="LinkedIn">
                             <i class="fab fa-linkedin"></i>
+                        </a>
+                        {% endif %}
+                        {% if person.github %}
+                        <a href="{{ person.github }}" target="_blank" title="GitHub">
+                            <i class="fab fa-github"></i>
                         </a>
                         {% endif %}
                     </div>

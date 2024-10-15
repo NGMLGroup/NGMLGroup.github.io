@@ -17,14 +17,12 @@ faculty:
     github: "https://github.com/bricaud"
     linkedin: https://www.linkedin.com/in/benjaminricaud/
 
-  - name: "Filippo Maria Bianchi"
-    image: "/figs/people/fmb.jpg"
-    bio: "Filippo is an Associate Professor at the Dept. of Mathematics and Statistics. His research focuses on machine learning for time series and graphs. Recently, he is focusing on pooling in GNNs and spatio-temporal models."
-    webpage: "https://sites.google.com/view/filippombianchi/home"
-    scholar: "https://scholar.google.ca/citations?user=yb7cT1MAAAAJ&hl=en"
-    twitter: "https://x.com/FilippoMariaBi1"
-    linkedin: "https://www.linkedin.com/in/filippo-maria-bianchi/"
-    github: "https://github.com/FilippoMB"
+  - name: "Elisabeth Wetzer"
+    image: "/figs/people/ew.png"
+    bio: "Elisabeth is an Associate Professor in the Machine Learning group. Her research interests include representation learning for graphs, similarity measures and clustering methods for graphs."
+    webpage: "https://en.uit.no/ansatte/person?p_document_id=834826&p_dimension_id=88131"
+    scholar: "https://scholar.google.com/citations?user=qSc3kA8AAAAJ&hl=en"
+    linkedin: "https://www.linkedin.com/in/elisabeth-wetzer/"
 
 phd:
   - name: "Michele Guerra"
@@ -36,37 +34,28 @@ phd:
 
   - name: "Jonas Berg Hansen"
     bio: "Jonas is a PhD student researching pooling in graph neural networks. He applies his research in the context of energy analytics."
+    webpage: "https://en.uit.no/ansatte/person?p_document_id=686752&p_dimension_id=88131"
 
 postdoc:
   - name: "John Doe"
 
 collaborator:
   - name: "Simone Scardapane"
-    position: "Researcher"
+    image: "/figs/people/ss.png"
+    position: "Assistant Professor"
     affiliation: "Sapienza University of Rome"
-    webpage: "https://spindro.github.io/"
-    scholar: "https://scholar.google.ca/citations?user=yb7cT1MAAAAJ&hl=en"
+    webpage: "https://www.sscardapane.it/"
+    scholar: "https://scholar.google.it/citations?user=aSuosYoAAAAJ&hl=en"
+    twitter: "https://x.com/s_scardapane"
+    linkedin: "https://www.linkedin.com/in/simonescardapane/"
+    github: "https://github.com/sscardapane"
 
   - name: "Indro Spinelli"
-    position: "Researcher"
+    image: "/figs/people/is.png"
+    position: "Assistant Professor"
     affiliation: "Sapienza University of Rome"
     webpage: "https://spindro.github.io/"
-    scholar: "https://scholar.google.ca/citations?user=yb7cT1MAAAAJ&hl=en"
-
-  - name: "Indro Spinelli"
-    position: "Researcher"
-    affiliation: "Sapienza University of Rome"
-    webpage: "https://spindro.github.io/"
-    scholar: "https://scholar.google.ca/citations?user=yb7cT1MAAAAJ&hl=en"
-
-  - name: "Indro Spinelli"
-    position: "Researcher"
-    affiliation: "Sapienza University of Rome"
-    webpage: "https://spindro.github.io/"
-    scholar: "https://scholar.google.ca/citations?user=yb7cT1MAAAAJ&hl=en"
-
-  - name: "Indro Spinelli"
-    position: "Researcher"
-    affiliation: "Sapienza University of Rome"
-    webpage: "https://spindro.github.io/"
-    scholar: "https://scholar.google.ca/citations?user=yb7cT1MAAAAJ&hl=en"
+    scholar: "https://scholar.google.it/citations?user=0glmB_UAAAAJ&hl=en"
+    github: "https://github.com/spindro"
+    linkedin: "https://www.linkedin.com/in/indro-spinelli-770380123/"
+    twitter: "https://x.com/IndroSpinelli"

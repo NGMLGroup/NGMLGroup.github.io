@@ -8,7 +8,9 @@ affiliation: "University of Siena, Italy"
 published: true
 ---
 
-By {{ page.presenter }}, {{ page.affiliation }}. [google Scholar](https://scholar.google.com/citations?user=uly8D-sAAAAJ&hl=it&oi=ao)
+A new seminar from {{ page.presenter }}, {{ page.affiliation }}. [google Scholar](https://scholar.google.com/citations?user=uly8D-sAAAAJ&hl=it&oi=ao)!
+
+<!--more-->
 
 **Time and place:** {{ page.date }}, {{ page.place }}.
 

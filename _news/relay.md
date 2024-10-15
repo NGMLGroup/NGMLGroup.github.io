@@ -5,6 +5,9 @@ date: 2023-11-01
 published: true
 ---
 
+A new 4-years NFR project has been funded!
+
+<!--more-->
 
 ![Relay]({{ '/figs/news/relay.png' | relative_url }}){: .align-center style="width: 65%;"}
 

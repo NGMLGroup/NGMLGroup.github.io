@@ -510,6 +510,85 @@ table td {
 }
 
 /**
+ * News
+ */
+.recent-news {
+  margin: 50px 0;
+  text-align: center;
+}
+
+.news-carousel {
+  background-color: #f5f5f5; /* Light gray background */
+  padding: 20px; /* Add padding around the content */
+  border-radius: 10px; /* Optional: round the corners */
+}
+
+.news-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.news-list li {
+  display: none;
+  font-size: 1.2em;
+  padding: 20px;
+  border-bottom: 1px solid #ddd;
+}
+
+.news-list li h3 {
+  margin: 0;
+  font-size: 1.5em;
+}
+
+.news-list li p {
+  margin: 10px 0;
+}
+
+/**
+ * Home page content
+ */
+.homepage-content {
+  text-align: center;
+  padding: 20px;
+}
+
+.image-container {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.homepage-content p {
+  font-size: 1.2em;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.homepage-content ul {
+  list-style-type: none;
+  padding: 0;
+  font-size: 1.2em;
+}
+
+.homepage-content ul li {
+  margin-bottom: 10px;
+}
+
+.homepage-content a {
+  color: #007acc;
+  text-decoration: none;
+}
+
+.homepage-content a:hover {
+  text-decoration: underline;
+}
+
+.align-center {
+  display: block;
+  margin: 0 auto;
+}
+
+/**
  * Site header
  */
 .site-header {

@@ -9,7 +9,9 @@ webpage: ""
 published: true
 ---
 
-{{page.presenter}} gather to welcome a new member and to talk abut connections between geometry, graphs and machine learning
+{{page.presenter}} gather to welcome a new member and to talk abut connections between geometry, graphs and machine learning!
+
+<!--more-->
 
 **Time and place:** {{ page.date |  date: "%-d %B %Y %R"}}, {{ page.place }}.
 

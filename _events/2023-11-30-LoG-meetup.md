@@ -9,7 +9,9 @@ webpage: "https://sites.google.com/view/log-tromso-meetup"
 published: true
 ---
 
-Local meetup of the LoG conference [Webpage]({{ page.webpage }})
+We are organizing the 1st edition of the local meetup of the LoG conference [Webpage]({{ page.webpage }}) in Tromsø!
+
+<!--more-->
 
 **Time and place:** {{ page.date |  date: "%-d %B %Y %R"}}, {{ page.place }}.
 

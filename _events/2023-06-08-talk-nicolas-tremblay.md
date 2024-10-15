@@ -9,7 +9,9 @@ webpage: "https://ntremblay.cnrs.fr/"
 published: true
 ---
 
-By {{ page.presenter }}, {{ page.affiliation }}. [Webpage]({{ page.webpage }})
+Seminar by {{ page.presenter }}, {{ page.affiliation }}. [Webpage]({{ page.webpage }})
+
+<!--more-->
 
 **Time and place:** {{ page.date |  date: "%-d %B %Y %R"}}, {{ page.place }}.
 

@@ -1,0 +1,80 @@
+---
+layout: base
+title: "Home"
+---
+
+<div class="homepage-content">
+    <!-- Image with caption -->
+    <div class="image-container">
+        <img src="figs/blogcatalog.png" alt="Graph of a part of a social network, from Gephi" class="align-center" style="width: 65%;">
+    </div>
+
+    <!-- Welcome message -->
+    <p><em>Welcome to the homepage of the Northernmost Graph Machine Learning group</em></p>
+
+    <!-- Description of the group -->
+    <p>
+        We are located at the <a href="https://en.uit.no/" target="_blank">UiT the Arctic University of Norway</a> 
+        and we are affiliated with the IEEE Task Force 
+        <a href="https://www.learning4graphs.org/home-page" target="_blank">Learning for Graphs</a>.
+    </p>
+</div>
+
+<!-- News section -->
+<section class="recent-news">
+    <h2>Recent News and Events</h2>
+
+    <div class="news-carousel">
+        <ul class="news-list">
+        {% assign combined_posts = site.news | concat: site.events %}
+        {% assign sorted_posts = combined_posts | sort: 'date' | reverse %}
+        {% for post in sorted_posts limit: 5 %}
+            <li>
+            <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+            <p>{{ post.date | date: "%B %-d, %Y" }}</p>
+            <p>{{ post.excerpt }}</p>
+            </li>
+        {% endfor %}
+        </ul>
+    </div>
+</section>
+
+<script>
+$(document).ready(function() {
+  let newsItems = $('.news-list li');
+  let currentIndex = 0;
+
+  function showNextNews() {
+    $(newsItems[currentIndex]).fadeOut(500, function() {
+      currentIndex = (currentIndex + 1) % newsItems.length; // Loop through items
+      $(newsItems[currentIndex]).fadeIn(500);
+    });
+  }
+
+  // Hide all news items initially except the first one
+  newsItems.hide();
+  $(newsItems[0]).show();
+
+  // Rotate every 5 seconds
+  setInterval(showNextNews, 5000);
+});
+</script>
+
+
+<!-- Other info section -->
+<div class="about">
+    <h2>ℹ️ About us</h2>
+    <p>
+        Our research activities focus on Graph Neural Networks and other machine learning methodologies 
+        to process and analyze data represented as graphs. We are also interested in graph signal processing, 
+        network science, graph theory, graph visualization, and other graph-related themes. We gather regularly 
+        to discuss the latest trends in graph machine learning, organize tutorials, workshops, and lectures 
+        about our research topics.
+    </p>
+
+    <!-- Links to other pages -->
+    <ul>
+        <li>See our <a href="events.md">Events page</a> for the local events and activities that we organize.</li>
+        <li>If you are a student looking for a master project or a summer job, have a look at our <a href="studentprojects.md">student projects</a> page.</li>
+    </ul>
+</div>

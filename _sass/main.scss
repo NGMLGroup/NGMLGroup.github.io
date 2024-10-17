@@ -1,0 +1,237 @@
+/* Variables */
+$primary-color: #007acc; /* Blue */
+$secondary-color: #333; /* Dark gray */
+$background-color: #f9f9f9; /* Light gray */
+$font-family: 'Arial', sans-serif; /* Font family */
+
+
+/* General styling */
+
+section {
+    margin-bottom: 40px; /* Space between sections */
+    padding-bottom: 20px; /* Add space before the line */
+    border-bottom: 2px solid #ddd; /* Light gray line between sections */
+}
+
+section:last-child {
+    border-bottom: none; /* No border after the last section */
+}
+
+
+/**
+ * Home page content
+ */
+.homepage-content {
+text-align: center;
+padding: 20px;
+}
+
+.image-container {
+text-align: center;
+margin-bottom: 20px;
+}
+
+.homepage-content p {
+font-size: 1.2em;
+line-height: 1.6;
+margin-bottom: 20px;
+}
+
+.homepage-content ul {
+list-style-type: none;
+padding: 0;
+font-size: 1.2em;
+}
+
+.homepage-content ul li {
+margin-bottom: 10px;
+}
+
+.homepage-content a {
+color: #007acc;
+text-decoration: none;
+}
+
+.homepage-content a:hover {
+text-decoration: underline;
+}
+
+.align-center {
+display: block;
+margin: 0 auto;
+}
+
+/**
+* News
+*/
+.recent-news {
+margin: 50px 0;
+text-align: center;
+}
+
+.news-carousel {
+background-color: #f5f5f5; /* Light gray background */
+padding: 20px; /* Add padding around the content */
+border-radius: 10px; /* Optional: round the corners */
+}
+
+.news-list {
+list-style: none;
+padding: 0;
+margin: 0;
+}
+
+.news-list li {
+display: none;
+font-size: 1.2em;
+padding: 20px;
+border-bottom: 1px solid #ddd;
+}
+
+.news-list li h3 {
+margin: 0;
+font-size: 1.5em;
+}
+
+.news-list li p {
+margin: 10px 0;
+}
+
+/* People page */
+.people-page {
+    padding: 20px;
+}
+.person, .collaborator {
+    max-width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.collaborator {
+    max-width: 30%;
+}
+.profile-pic {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+.info {
+    flex: 1;
+    text-align: center;
+}
+.info h3 {
+    margin-bottom: 10px;
+    font-size: 1.2em;
+}
+.info p {
+    margin: 5px 0;
+    font-size: 0.9em; /* Decrease font size for bio */
+    line-height: 1.4; /* Optional: Adjust line height for readability */
+    color: #666; /* Optional: Adjust text color to a slightly lighter shade */
+}
+.links a {
+    margin-right: 10px;
+    font-size: 1.5em;
+    color: #333;
+    text-decoration: none;
+}
+.links a:hover {
+    color: $primary-color;
+}
+
+.person-grid {
+    display: flex;
+    gap: 15px;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+/* Publications page */
+
+.publication:last-child {
+    border-bottom: none;
+}
+
+/* General styling for publications */
+.publication {
+    border-bottom: 1px solid #ddd; /* Light gray line between publications */
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.publications-page {
+    padding: 20px;
+}
+
+/* Title to span full page width */
+.pub-title {
+    width: 100%;
+    text-align: center;
+    font-size: 1.4em;
+    margin-bottom: 10px;
+}
+
+/* Authors and venue */
+.authors, .venue {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+/* Figure centered and set to 80% of page width */
+.pub-figure {
+    display: flex;
+    justify-content: center; /* Center the image */
+    margin-bottom: 20px;
+}
+
+.pub-figure img {
+    width: 80%; /* Set the image to 80% of the page width */
+    height: auto;
+    border-radius: 5px;
+}
+
+/* Publication links (GitHub, ArXiv, Cite) */
+.pub-links {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.pub-links .btn {
+    margin-right: 10px;
+    text-decoration: none;
+    font-size: 1.2em;
+    color: #333; /* Link color */
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.pub-links .btn i {
+    margin-right: 5px;
+}
+
+/* Hover effect for the links */
+.pub-links .btn:hover {
+    color: #0056b3;
+}
+
+/* BibTeX entry styling */
+
+pre {
+    color: #abb2bf;
+    background: #282c34;
+    border: 1px solid #070707;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: left;
+    font-size: 0.9em;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    font-size: 0.8em;
+}

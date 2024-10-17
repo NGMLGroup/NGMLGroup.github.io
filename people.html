@@ -153,9 +153,9 @@ title: "People"
     <!-- Collaborators -->
     <section class="collaborators">
         <h2>Collaborators and Visitors</h2>
-        <div class="collaborators-grid">
+        <div class="person-grid">
             {% for person in site.data.people.collaborator %}
-            <div class="person">
+            <div class="collaborator">
                 <!-- Image (optional) -->
                 <img src="{% if person.image %}{{ person.image }}{% else %}{{'/figs/people/default.png'}}{% endif %}" alt="{{ person.name }}'s profile picture" class="profile-pic" />
 
@@ -203,70 +203,3 @@ title: "People"
         </div>
     </section>
 </div>
-
-<style>
-section {
-    margin-bottom: 40px; /* Space between sections */
-    padding-bottom: 20px; /* Add space before the line */
-    border-bottom: 2px solid #ddd; /* Light gray line between sections */
-}
-
-section:last-child {
-    border-bottom: none; /* No border after the last section */
-}
-
-.people-page {
-    padding: 20px;
-}
-.person {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 20px;
-}
-.profile-pic {
-    border-radius: 50%;
-    width: 100px;
-    height: 100px;
-    object-fit: cover;
-    margin-bottom: 15px;
-}
-.info {
-    flex: 1;
-    text-align: center;
-}
-.info h3 {
-    margin-bottom: 10px;
-    font-size: 1.2em;
-}
-.info p {
-    margin: 5px 0;
-    font-size: 0.9em; /* Decrease font size for bio */
-    line-height: 1.4; /* Optional: Adjust line height for readability */
-    color: #666; /* Optional: Adjust text color to a slightly lighter shade */
-}
-.links a {
-    margin-right: 10px;
-    font-size: 1.5em;
-    color: #333;
-    text-decoration: none;
-}
-.links a:hover {
-    color: #007acc;
-}
-
-
-.person-grid {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr); /* Two columns */
-    gap: 20px; /* Space between rows and columns */
-    justify-content: center; /* Center items if fewer than 2 */
-}
-
-.collaborators-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr); /* Two columns */
-    gap: 20px; /* Space between rows and columns */
-    justify-content: center; /* Center items if fewer than 3 */
-}
-</style>

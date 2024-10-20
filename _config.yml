@@ -59,9 +59,11 @@ collections:
   news:
     output: true
     permalink: /news/:path/
+  theses:
+    output: true
+    permalink: /theses/:path/
 
 # Set to `true` to show excerpts on the homepage.
-#
 show_excerpts: true
 
 # display posts with dates in the future

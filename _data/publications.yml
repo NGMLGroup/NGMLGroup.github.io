@@ -1,3 +1,19 @@
+- title: "Interpreting Temporal Graph Neural Networks with Koopman Theory"
+  authors: "Michele Guerra, Simone Scardapane, Filippo Maria Bianchi"
+  figure: "figs/publications/koopman.png"
+  abstract: "We propose an XAI technique based on Koopman theory to interpret temporal graphs and the spatio-temporal Graph Neural Newtworks used to process them. The proposed approach allows to identify nodes and time steps when relevant events occur."
+  github: "https://github.com/NGMLGroup/Koopman-TGNN-Interpretability"
+  arxiv: "https://arxiv.org/abs/2410.13469"
+  bibtex: |
+    @misc{guerra2024interpretingtemporalgraphneural,
+      title={Interpreting Temporal Graph Neural Networks with Koopman Theory}, 
+      author={Michele Guerra and Simone Scardapane and Filippo Maria Bianchi},
+      year={2024},
+      eprint={2410.13469},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+    }
+
 - title: "MaxCutPool: differentiable feature-aware Maxcut for pooling in graph neural networks"
   authors: "Carlo Abate, Filippo Maria Bianchi"
   figure: "figs/publications/maxcutpool.png"

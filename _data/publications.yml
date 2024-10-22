@@ -1,6 +1,6 @@
 - title: "Interpreting Temporal Graph Neural Networks with Koopman Theory"
   authors: "Michele Guerra, Simone Scardapane, Filippo Maria Bianchi"
-  figure: "figs/publications/koopman.gif"
+  figure: "figs/publications/maxcutpool.png"
   abstract: "We propose an XAI technique based on Koopman theory to interpret temporal graphs and the spatio-temporal Graph Neural Newtworks used to process them. The proposed approach allows to identify nodes and time steps when relevant events occur."
   github: "https://github.com/NGMLGroup/Koopman-TGNN-Interpretability"
   arxiv: "https://arxiv.org/abs/2410.13469"

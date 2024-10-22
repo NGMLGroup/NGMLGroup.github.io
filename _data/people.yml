@@ -38,7 +38,14 @@ phd:
     webpage: "https://en.uit.no/ansatte/person?p_document_id=686752&p_dimension_id=88131"
 
 postdoc:
-  - name: "John Doe"
+  - name: "Andrea Cini"
+    image: "/figs/people/ac.png"
+    bio: "Andrea is an SNSF Swiss Postdoctoral Fellow, affiliated with USI and Oxford Univeristy. His research focuses on spatio-temporal models and is the creator of Torch Spatiotemporal."
+    scholar: "https://scholar.google.com/citations?user=bQI2UIUAAAAJ&hl=en"
+    webpage: "https://andreacini.github.io/"
+    github: "https://github.com/andreacini"
+    linkedin: "https://www.linkedin.com/in/andrea-cini/"
+    twitter: "https://x.com/andreacini1994"
 
 collaborator:
   - name: "Simone Scardapane"

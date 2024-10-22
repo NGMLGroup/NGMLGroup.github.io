@@ -34,8 +34,10 @@ phd:
     webpage: "https://en.uit.no/ansatte/person?p_document_id=767125&p_dimension_id=88140"
 
   - name: "Jonas Berg Hansen"
+    image: "/figs/people/jbh.jpg"
     bio: "Jonas is a PhD student researching pooling in graph neural networks. He applies his research in the context of energy analytics."
     webpage: "https://en.uit.no/ansatte/person?p_document_id=686752&p_dimension_id=88131"
+    github: "https://github.com/JonasBergHansen"
 
 postdoc:
   - name: "Andrea Cini"
@@ -84,3 +86,12 @@ collaborator:
     scholar: "https://scholar.google.com/citations?user=s6gZ2LAAAAAJ&hl=it"
     github: "https://github.com/carloabate"
     linkedin: "https://www.linkedin.com/in/carloabate/"
+
+  - name: "Daniele Castellana"
+    image: "/figs/people/dc.png"
+    position: "Assistant Professor"
+    affiliation: "University of Florence"
+    scholar: "https://scholar.google.it/citations?user=Dzv0TCAAAAAJ&hl=en"
+    webpage: "https://danielecastellana22.github.io/"
+    github: "https://github.com/danielecastellana22"
+    linkedin: "https://www.linkedin.com/in/daniele-castellana/"

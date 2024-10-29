@@ -27,7 +27,7 @@ faculty:
 phd:
   - name: "Michele Guerra"
     image: "/figs/people/mg.png"
-    bio: "Michele is a PhD student researching randomized and trainable models for time series and graphs. The focus of is research is on uncertainty quantification and interpretability."
+    bio: "Michele is a PhD student researching randomized and trainable models for time series and graphs. The focus of his research is on uncertainty quantification and interpretability."
     scholar: https://scholar.google.ca/citations?user=HzMTPo0AAAAJ&hl=en&oi=ao
     linkedin: https://www.linkedin.com/in/michele-guerra-34a273182/
     github: https://github.com/eloMG

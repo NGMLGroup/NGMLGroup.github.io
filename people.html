@@ -12,7 +12,8 @@ title: "People"
         <div class="person-grid">
             {% for person in site.data.people.faculty %}
             <div class="person">
-                <img src="{% if person.image %}{{ person.image }}{% else %}{{'/figs/people/default.png'}}{% endif %}" alt="{{ person.name }}'s profile picture" class="profile-pic" />
+                <img src="{% if person.image %}{{ person.image }}{% else %}{{'/figs/people/default.png'}}{% endif %}"
+                    alt="{{ person.name }}'s profile picture" class="profile-pic" />
                 <div class="info">
                     <h3>{{ person.name }}</h3>
                     <p>{{ person.bio }}</p>
@@ -60,7 +61,8 @@ title: "People"
         <div class="person-grid">
             {% for person in site.data.people.postdoc %}
             <div class="person">
-                <img src="{% if person.image %}{{ person.image }}{% else %}{{'/figs/people/default.png'}}{% endif %}" alt="{{ person.name }}'s profile picture" class="profile-pic" />
+                <img src="{% if person.image %}{{ person.image }}{% else %}{{'/figs/people/default.png'}}{% endif %}"
+                    alt="{{ person.name }}'s profile picture" class="profile-pic" />
                 <div class="info">
                     <h3>{{ person.name }}</h3>
                     <p>{{ person.bio }}</p>
@@ -108,7 +110,8 @@ title: "People"
         <div class="person-grid">
             {% for person in site.data.people.phd %}
             <div class="person">
-                <img src="{% if person.image %}{{ person.image }}{% else %}{{'/figs/people/default.png'}}{% endif %}" alt="{{ person.name }}'s profile picture" class="profile-pic" />
+                <img src="{% if person.image %}{{ person.image }}{% else %}{{'/figs/people/default.png'}}{% endif %}"
+                    alt="{{ person.name }}'s profile picture" class="profile-pic" />
                 <div class="info">
                     <h3>{{ person.name }}</h3>
                     <p>{{ person.bio }}</p>
@@ -143,6 +146,11 @@ title: "People"
                             <i class="fab fa-github"></i>
                         </a>
                         {% endif %}
+                        {% if person.bluesky %}
+                        <a href="{{ person.bluesky }}" target="_blank" title="Bluesky">
+                            <i class="fab fa-bluesky"></i>
+                        </a>
+                        {% endif %}
                     </div>
                 </div>
             </div>
@@ -157,7 +165,8 @@ title: "People"
             {% for person in site.data.people.collaborator %}
             <div class="collaborator">
                 <!-- Image (optional) -->
-                <img src="{% if person.image %}{{ person.image }}{% else %}{{'/figs/people/default.png'}}{% endif %}" alt="{{ person.name }}'s profile picture" class="profile-pic" />
+                <img src="{% if person.image %}{{ person.image }}{% else %}{{'/figs/people/default.png'}}{% endif %}"
+                    alt="{{ person.name }}'s profile picture" class="profile-pic" />
 
                 <!-- Information -->
                 <div class="info">

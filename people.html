@@ -48,6 +48,11 @@ title: "People"
                             <i class="fab fa-github"></i>
                         </a>
                         {% endif %}
+                        {% if person.bluesky %}
+                        <a href="{{ person.bluesky }}" target="_blank" title="Bluesky">
+                            <i class="fa-brands fa-bluesky"></i>
+                        </a>
+                        {% endif %}
                     </div>
                 </div>
             </div>

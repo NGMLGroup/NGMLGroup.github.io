@@ -1,3 +1,21 @@
+- title: "BN-Pool: a Bayesian Nonparametric Approach to Graph Pooling"
+  authors: "Daniele Castellana, Filippo Maria Bianchi"
+  figure: "figs/publications/bnpool.gif"
+  abstract: "We introduce BN-Pool, the first clustering-based pooling method for GNNs that adaptively determines the number of supernodes in the pooled graph. 
+  This is done by partitioning the graph nodes into an unbounded number of clusters using a generative model based on a Bayesian non-parametric framework."
+  github: "https://github.com/NGMLGroup/Bayesian-Nonparametric-Graph-Pooling"
+  arxiv: "https://arxiv.org/abs/2501.09821"
+  bibtex: |
+    @misc{castellana2025bnpool,
+      title={BN-Pool: a Bayesian Nonparametric Approach to Graph Pooling}, 
+      author={Daniele Castellana and Filippo Maria Bianchi},
+      year={2025},
+      eprint={2501.09821},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2501.09821}, 
+    }
+
 - title: "Interpreting Temporal Graph Neural Networks with Koopman Theory"
   authors: "Michele Guerra, Simone Scardapane, Filippo Maria Bianchi"
   figure: "figs/publications/koopman.gif"

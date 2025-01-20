@@ -3,7 +3,7 @@ layout: base
 title: Events
 ---
 
-## Events
+## 📆 Events
 
 <ul>
   {% assign sorted_events = site.events | sort: 'date' | reverse %}
@@ -14,7 +14,7 @@ title: Events
   {% endfor %}
 </ul>
 
-## Past News
+## 🗞️ Past News
 
 <ul>
   {% assign sorted_news = site.news | sort: 'date' | reverse %}

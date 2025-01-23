@@ -5,9 +5,7 @@ date: 2024-10-15
 published: true
 ---
 
-"*Interpreting Temporal Graph Neural Networks with Koopman Theory*"
-
-By Michele Guerra, Simone Scardapane, and Filippo Maria Bianchi.
+The paper  "*Interpreting Temporal Graph Neural Networks with Koopman Theory*" by **Michele Guerra**, **Simone Scardapane**, and **Filippo Maria Bianchi** is out!
 
 <!--more-->
 

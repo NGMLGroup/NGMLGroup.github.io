@@ -5,7 +5,7 @@ date: 2023-11-01
 published: true
 ---
 
-A new 4-years NFR project has been funded!
+A new 4-years NFR project has been funded! The project focuses on relational deep learning for energy analytics.
 
 <!--more-->
 

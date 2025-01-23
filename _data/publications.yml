@@ -34,6 +34,7 @@
 
 - title: "MaxCutPool: differentiable feature-aware Maxcut for pooling in graph neural networks"
   authors: "Carlo Abate, Filippo Maria Bianchi"
+  venue: "ICLR 2025"
   figure: "figs/publications/maxcutpool.png"
   abstract: "We propose a novel approach to compute the MAXCUT in attributed graphs, i.e., graphs with features associated with nodes and edges. Our approach is robust to the underlying graph topology and is fully differentiable, making it possible to find solutions that jointly optimize the MAXCUT along with other objectives. Based on the obtained MAXCUT partition, we implement a hierarchical graph pooling layer for Graph Neural Networks, which is sparse, differentiable, and particularly suitable for downstream tasks on heterophilic graphs."
   github: "https://github.com/NGMLGroup/MaxCutPool"

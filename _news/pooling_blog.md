@@ -5,7 +5,7 @@ date: 2024-12-19
 published: true
 ---
 
-New blog on [Pooling in Graph Neural Networks](https://gnn-pooling.notion.site/)!
+A new blog on [Pooling in Graph Neural Networks](https://gnn-pooling.notion.site/) by **Filippo Maria Bianchi** is out!
 
 <!--more-->
 

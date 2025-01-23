@@ -5,9 +5,7 @@ date: 2025-01-20
 published: true
 ---
 
-"*BN-Pool: a Bayesian Nonparametric Approach to Graph Pooling*"
-
-By **Daniele Castellana** & **Filippo Maria Bianchi**.
+The paper "*BN-Pool: a Bayesian Nonparametric Approach to Graph Pooling*" by **Daniele Castellana** & **Filippo Maria Bianchi** is out!
 
 <!--more-->
 

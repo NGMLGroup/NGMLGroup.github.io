@@ -1,11 +1,11 @@
 ---
-title: "New preprint"
+title: "Paper accepted at ICLR"
 layout: post
-date: 2024-09-10
+date: 2025-01-23
 published: true
 ---
 
-The paper "*MaxCutPool: differentiable feature-aware Maxcut for pooling in graph neural networks*" by **Carlo Abate** and **Filippo Maria Bianchi** is out!
+The paper "*MaxCutPool: differentiable feature-aware Maxcut for pooling in graph neural networks*" by **Carlo Abate** and **Filippo Maria Bianchi** has been accepted at ICLR 2025!
 
 <!--more-->
 

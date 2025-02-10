@@ -51,7 +51,7 @@ phd:
 postdoc:
   - name: "Andrea Cini"
     image: "/figs/people/ac.png"
-    bio: "Andrea is an SNSF Swiss Postdoctoral Fellow, affiliated with USI and Oxford Univeristy. His research focuses on spatio-temporal models and is the creator of Torch Spatiotemporal."
+    bio: "Andrea is an SNSF Postdoc Fellow at UiT and the University of Oxford, also affiliated with USI. His research focuses on time series processing and graph machine learning."
     scholar: "https://scholar.google.com/citations?user=bQI2UIUAAAAJ&hl=en"
     webpage: "https://andreacini.github.io/"
     github: "https://github.com/andreacini"

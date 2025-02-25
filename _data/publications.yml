@@ -1,3 +1,16 @@
+- title: "Relational Conformal Prediction for Correlated Time Series"
+  authors: "Andrea Cini, Alexander Jenkins, Danilo Mandic, Cesare Alippi, Filippo Maria Bianchi"
+  figure: "figs/publications/corel.png"
+  abstract: "We propose a novel conformal prediction method based on graph deep learning. Our method can be applied on top of any time series predictor, can learn the relationships across the time series and, thanks to an adaptive component, can handle non-exchangeable data and nonstationarity in the time series."
+  arxiv: "https://arxiv.org/abs/2502.09443"
+  bibtex: |
+    @article{cini2025relational,
+      title={Relational Conformal Prediction for Correlated Time Series},
+      author={Cini, Andrea and Jenkins, Alexander and Mandic, Danilo and Alippi, Cesare and Bianchi, Filippo Maria},
+      journal={arXiv preprint arXiv:2502.09443},
+      year={2025}
+    }
+
 - title: "BN-Pool: a Bayesian Nonparametric Approach to Graph Pooling"
   authors: "Daniele Castellana, Filippo Maria Bianchi"
   figure: "figs/publications/bnpool.gif"

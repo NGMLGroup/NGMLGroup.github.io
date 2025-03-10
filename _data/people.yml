@@ -58,6 +58,13 @@ postdoc:
     linkedin: "https://www.linkedin.com/in/andrea-cini/"
     twitter: "https://x.com/andreacini1994"
 
+  - name: "Nicolas Tremblay"
+    image: "/figs/people/nt.png"
+    bio: "Nicolas is a CNRS Researcher at Gipsa-lab, in Grenoble, France. He is currently working as an MSCA Postdoc at UiT. His research includes graph signal processing and sampling algorithms for ML."
+    scholar: "https://scholar.google.fr/citations?user=sLUQDBcAAAAJ&hl=en"
+    webpage: "https://www.ntremblay.cnrs.fr/"
+
+
 collaborator:
   - name: "Simone Scardapane"
     image: "/figs/people/ss.png"

@@ -3,6 +3,7 @@ layout: base
 title: "Polar weather prediction with Graph neural networks"
 keywords: "Weather forecast, Graph Neural Networks, Deep Learning"
 contact_person: "Benjamin Ricaud"
+exclude: true
 ---
 
 # Polar weather prediction with Graph neural networks {#polar-weather}

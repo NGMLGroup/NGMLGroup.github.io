@@ -3,6 +3,7 @@ layout: base
 title: "Graph neural networks and Physics"
 keywords: "Physics Informed Neural Networks, Graph Neural Networks"
 contact_person: "Benjamin Ricaud"
+exclude: true
 ---
 
 # Graph neural networks and Physics

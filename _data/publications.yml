@@ -5,28 +5,27 @@
   arxiv: "https://arxiv.org/abs/2502.09443"
   bibtex: |
     @article{cini2025relational,
-      title={Relational Conformal Prediction for Correlated Time Series},
-      author={Cini, Andrea and Jenkins, Alexander and Mandic, Danilo and Alippi, Cesare and Bianchi, Filippo Maria},
-      journal={arXiv preprint arXiv:2502.09443},
-      year={2025}
+      title   = {Relational Conformal Prediction for Correlated Time Series},
+      author  = {Cini, Andrea and Jenkins, Alexander and Mandic, Danilo and Alippi, Cesare and Bianchi, Filippo Maria},
+      journal = {arXiv preprint arXiv:2502.09443},
+      year    = {2025}
     }
 
 - title: "BN-Pool: a Bayesian Nonparametric Approach to Graph Pooling"
   authors: "Daniele Castellana, Filippo Maria Bianchi"
   figure: "figs/publications/bnpool.gif"
-  abstract: "We introduce BN-Pool, the first clustering-based pooling method for GNNs that adaptively determines the number of supernodes in the pooled graph. 
-  This is done by partitioning the graph nodes into an unbounded number of clusters using a generative model based on a Bayesian non-parametric framework."
+  abstract: "We introduce BN-Pool, the first clustering-based pooling method for GNNs that adaptively determines the number of supernodes in the pooled graph. This is done by partitioning the graph nodes into an unbounded number of clusters using a generative model based on a Bayesian non-parametric framework."
   github: "https://github.com/NGMLGroup/Bayesian-Nonparametric-Graph-Pooling"
   arxiv: "https://arxiv.org/abs/2501.09821"
   bibtex: |
     @misc{castellana2025bnpool,
-      title={BN-Pool: a Bayesian Nonparametric Approach to Graph Pooling}, 
-      author={Daniele Castellana and Filippo Maria Bianchi},
-      year={2025},
-      eprint={2501.09821},
-      archivePrefix={arXiv},
-      primaryClass={cs.LG},
-      url={https://arxiv.org/abs/2501.09821}, 
+      title         = {BN-Pool: a Bayesian Nonparametric Approach to Graph Pooling}, 
+      author        = {Daniele Castellana and Filippo Maria Bianchi},
+      year          = {2025},
+      eprint        = {2501.09821},
+      archivePrefix = {arXiv},
+      primaryClass  = {cs.LG},
+      url           = {https://arxiv.org/abs/2501.09821}, 
     }
 
 - title: "Interpreting Temporal Graph Neural Networks with Koopman Theory"
@@ -37,12 +36,12 @@
   arxiv: "https://arxiv.org/abs/2410.13469"
   bibtex: |
     @misc{guerra2024interpretingtemporalgraphneural,
-      title={Interpreting Temporal Graph Neural Networks with Koopman Theory}, 
-      author={Michele Guerra and Simone Scardapane and Filippo Maria Bianchi},
-      year={2024},
-      eprint={2410.13469},
-      archivePrefix={arXiv},
-      primaryClass={cs.LG},
+      title         = {Interpreting Temporal Graph Neural Networks with Koopman Theory}, 
+      author        = {Michele Guerra and Simone Scardapane and Filippo Maria Bianchi},
+      year          = {2024},
+      eprint        = {2410.13469},
+      archivePrefix = {arXiv},
+      primaryClass  = {cs.LG},
     }
 
 - title: "MaxCutPool: differentiable feature-aware Maxcut for pooling in graph neural networks"
@@ -53,11 +52,12 @@
   github: "https://github.com/NGMLGroup/MaxCutPool"
   arxiv: "https://arxiv.org/abs/2409.05100"
   bibtex: |
-    @article{abate2024maxcutpool,
-      title={MaxCutPool: differentiable feature-aware Maxcut for pooling in graph neural networks},
-      author={Abate, Carlo and Bianchi, Filippo Maria},
-      journal={arXiv preprint arXiv:2409.05100},
-      year={2024}
+    @inproceedings{abate2025maxcutpool,
+      title     = {MaxCutPool: differentiable feature-aware Maxcut for pooling in graph neural networks},
+      author    = {Carlo Abate and Filippo Maria Bianchi},
+      booktitle = {The Thirteenth International Conference on Learning Representations},
+      year      = {2025},
+      url       = {https://openreview.net/forum?id=xlbXRJ2XCP}
     }
 
 - title: "Graph-based Forecasting with Missing Data through Spatiotemporal Downsampling"
@@ -77,4 +77,51 @@
       volume    = {235},
       series    = {Proceedings of Machine Learning Research},
       publisher = {PMLR}
+    }
+
+- title: "The expressive power of pooling in Graph Neural Networks"
+  authors: "Filippo Maria Bianchi, Veronica Lachi"
+  venue: "NeurIPS 2023"
+  figure: "figs/publications/expressive.png"
+  abstract: "A graph pooling operator can be expressed as the composition of 3 functions: SEL defines how to form the vertices of the coarsened graph; RED computes the vertex features in the coarsened graph; CON computes the edges in the coarsened graphs. In this work we show that if certain conditions are met on the GNN layers before pooling, on the SEL, and on the RED functions, then enough information is preserved in the coarsened graph. In particular, if two graphs are WL-distinguishable, their coarsened versions will also be WL-dinstinguishable."
+  github: "https://github.com/FilippoMB/The-expressive-power-of-pooling-in-GNNs"
+  arxiv: "https://arxiv.org/abs/2304.01575"
+  bibtex: |
+    @article{bianchi2023expressive,
+      title   = {The expressive power of pooling in Graph Neural Networks},
+      author  = {Filippo Maria Bianchi and Veronica Lachi},
+      journal = {Advances in neural information processing systems},
+      volume  = {36},
+      year    = {2023}
+    }
+
+- title: "Total Variation Graph Neural Networks"
+  authors: "Jonas Berg Hansen, Filippo Maria Bianchi"
+  venue: "ICML 2023"
+  figure: "figs/publications/tvgnn_larger.png"
+  abstract: "We propose the Total Variation GNN model, which can be used to cluster the vertices of an annotated graph, by accounting both for the graph topology and the vertex features. Compared to other GNNs for clustering, TVGNN creates sharp cluster assignments that better approximate the optimal (in the minimum cut sense) partition. The TVGNN model can also be used to implement graph pooling in a deep GNN architecture for tasks such as graph classification."
+  github: "https://github.com/FilippoMB/Total-variation-graph-neural-networks"
+  arxiv: "https://arxiv.org/abs/2211.06218"
+  bibtex: |
+    @inproceedings{hansen2023tvgnn,
+      title         = {Total Variation Graph Neural Networks},
+      author        = {Hansen, Jonas Berg and Bianchi, Filippo Maria},
+      booktitle     = {Proceedings of the 40th international conference on Machine learning},
+      year          = {2023},
+      organization  = {ACM}
+    }
+
+- title: "Scalable Spatiotemporal Graph Neural Networks"
+  authors: "Andrea Cini, Ivan Marisca, Filippo Maria Bianchi, Cesare Alippi"
+  venue: "AAAI 2023"
+  figure: "figs/publications/scalable.png"
+  abstract: "SGP is novel approach based on an encode-decoder architecture with a training-free spatiotemporal encoding scheme and where the only learned parameters are in the node-level trainable decoder (an MLP). Representations for each point in time and space can be precomputed and the decoder can be trained by sampling uniformly time and space thus gettig rid of the dependency on sequence lenght and graph size for what concerns the computational complexity of the training procedure. The spatiotemporal encoder relies on two modules: 1) a randomized recurrent neural network for encoding sequences and 2) a propagation process through the graph structure exploiting powers of a graph shift operator."
+  github: "https://github.com/Graph-Machine-Learning-Group/sgp"
+  arxiv: "https://arxiv.org/abs/2209.06520"
+  bibtex: |
+    @article{cini2023scalable,
+      title   = {Scalable Spatiotemporal Graph Neural Networks},
+      author  = {Cini, Andrea and Marisca, Ivan and Bianchi, Filippo Maria and Alippi, Cesare},
+      journal = {Proceedings of the 37th AAAI Conference on Artificial Intelligence},
+      year    = {2023}
     }

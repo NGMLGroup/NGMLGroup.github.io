@@ -1,11 +1,9 @@
 ---
 layout: base
-title: "Power flow optimization with Graph Neural Networks"
+title: "🔋 Power flow optimization with Graph Neural Networks"
 keywords: "Power flow oprimization, Energy analytics, Power engineering"
 contact_person: "Filippo Maria Bianchi"
 ---
-
-# Power flow optimization with Graph Neural Networks
 
 ## 📝 Description
 Power flows are usually optimized with numerical solver that are slow and are not robust to perturbations in the grid topology. GNNs can be used to determine how much power each generator should inject on the grid, based on the grid topology, the physical properties of its components, and the load demand.

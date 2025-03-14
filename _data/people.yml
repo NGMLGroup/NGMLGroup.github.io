@@ -43,6 +43,7 @@ phd:
   - name: "Roberto Neglia"
     image: "/figs/people/rn.jpg"
     bio: "Roberto is a PhD student focusing on basic research in machine learning for time series and graphs. His research interests include randomized architectures for large spatio-temporal models and uncertainty quantification."
+    webpage: "https://uit.no/ansatte/person?p_document_id=864872&p_dimension_id=88140"
     github: "https://github.com/RobertoNeglia"
     linkedin: "https://www.linkedin.com/in/roberto-neglia/"
     twitter: "https://x.com/beertorob"

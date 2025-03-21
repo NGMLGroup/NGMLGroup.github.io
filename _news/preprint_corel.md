@@ -5,7 +5,7 @@ date: 2025-02-25
 published: true
 ---
 
-The new paper "*Relational Conformal Prediction for Correlated Time Seriesg*" by **Andrea Cini** and co-authors is out!
+The new paper "*Relational Conformal Prediction for Correlated Time Series*" by **Andrea Cini** and co-authors is out!
 
 <!--more-->
 

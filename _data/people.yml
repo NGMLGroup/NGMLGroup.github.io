@@ -122,3 +122,10 @@ collaborator:
     scholar: "https://scholar.google.com/citations?user=s6gZ2LAAAAAJ&hl=it"
     github: "https://github.com/carloabate"
     linkedin: "https://www.linkedin.com/in/carloabate/"
+
+  - name: "Michele Craighero"
+    image: "/figs/people/mc.png"
+    position: "PhD student"
+    affiliation: "DEIB, Politecnico di Milano"
+    webpage: "https://phd-inf.polimi.it/phd-current-students/craighero-michele-b291642f/"
+    linkedin: "https://www.linkedin.com/in/michele-craighero-198b80239"

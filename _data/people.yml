@@ -77,7 +77,7 @@ postdoc:
 collaborator:
   - name: "Simone Scardapane"
     image: "/figs/people/ss.png"
-    position: "Assistant Professor"
+    position: "Associate Professor"
     affiliation: "Sapienza University of Rome"
     webpage: "https://www.sscardapane.it/"
     scholar: "https://scholar.google.it/citations?user=aSuosYoAAAAJ&hl=en"
@@ -115,8 +115,8 @@ collaborator:
 
   - name: "Ivan Marisca"
     image: "/figs/people/im.png"
-    position: "PhD student"
-    affiliation: "USI, IDSIA"
+    position: "Researcher"
+    affiliation: "GraphSight, USI - IDSIA"
     scholar: "https://scholar.google.com/citations?user=loKgz80AAAAJ"
     webpage: "https://marshka.github.io/"
     github: "https://github.com/marshka"
@@ -129,3 +129,15 @@ collaborator:
     affiliation: "DEIB, Politecnico di Milano"
     webpage: "https://phd-inf.polimi.it/phd-current-students/craighero-michele-b291642f/"
     linkedin: "https://www.linkedin.com/in/michele-craighero-198b80239"
+
+  - name: "Michele Fontanesi"
+    image: "/figs/people/mf.jpg"
+    position: "PhD student"
+    affiliation: "University of Pisa"
+    linkedin: "https://www.linkedin.com/in/mf001/?originalSubdomain=it"
+
+  - name: "I. Presutti Gasbarro"
+    image: "/figs/people/ipg.png"
+    position: "PhD student"
+    affiliation: "University of L'Aquila"
+    linkedin: "https://www.linkedin.com/in/isabella-presutti-gasbarro-78865197/?originalSubdomain=it"

@@ -50,6 +50,14 @@ phd:
     bluesky: "https://bsky.app/profile/beertorob.bsky.social"
 
 postdoc:
+  - name: "Carlo Abate"
+    image: "/figs/people/ca.jpeg"
+    bio: "Carlo is a Postdoc at UiT working on basic research in graph machine learning. His interests include graph pooling and generative models for graphs."
+    scholar: "https://scholar.google.com/citations?user=s6gZ2LAAAAAJ&hl=it"
+    github: "https://github.com/carloabate"
+    linkedin: "https://www.linkedin.com/in/carloabate/"
+    webpage: "https://www.carloabate.it"
+
   - name: "Andrea Cini"
     image: "/figs/people/ac.png"
     bio: "Andrea is an SNSF Postdoc Fellow at UiT and the University of Oxford, also affiliated with USI. His research focuses on time series processing and graph machine learning."
@@ -115,10 +123,9 @@ collaborator:
     linkedin: "https://www.linkedin.com/in/ivanmarisca"
     twitter: "https://x.com/IvanMarisca"
 
-  - name: "Carlo Abate"
-    image: "/figs/people/ca.jpeg"
-    position: "PhD Student"
-    affiliation: "UniBo, IIT Genova"
-    scholar: "https://scholar.google.com/citations?user=s6gZ2LAAAAAJ&hl=it"
-    github: "https://github.com/carloabate"
-    linkedin: "https://www.linkedin.com/in/carloabate/"
+  - name: "Michele Craighero"
+    image: "/figs/people/mc.jpeg"
+    position: "PhD student"
+    affiliation: "DEIB, Politecnico di Milano"
+    webpage: "https://phd-inf.polimi.it/phd-current-students/craighero-michele-b291642f/"
+    linkedin: "https://www.linkedin.com/in/michele-craighero-198b80239"

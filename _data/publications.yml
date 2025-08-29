@@ -1,3 +1,20 @@
+- title: "On Time Series Clustering with Graph Neural Networks"
+  authors: "Jonas Berg Hansen, Andrea Cini, Filippo Maria Bianchi"
+  venue: "TMLR 2025"
+  figure: "figs/publications/hansen2025clustering.png"
+  abstract: "We propose an approach based on Spatio-temporal Graph Neural Network model to perform clustering of time series, whose dependencies are represented by a graph."
+  github: "https://github.com/NGMLGroup/Time-Series-Clustering-with-GNNs"
+  arxiv: "https://openreview.net/forum?id=MHQXfiXsr3"
+  bibtex: |
+    @article{hansen2025clustering,
+      title={On Time Series Clustering with Graph Neural Networks},
+      author={Hansen, Jonas Berg and Cini, Andrea and Bianchi, Filippo Maria},
+      journal={Transactions on Machine Learning Research},
+      issn={2835-8856},
+      year={2025},
+      url={https://openreview.net/forum?id=MHQXfiXsr3}
+    }
+
 - title: "Relational Conformal Prediction for Correlated Time Series"
   authors: "Andrea Cini, Alexander Jenkins, Danilo Mandic, Cesare Alippi, Filippo Maria Bianchi"
   venue: "ICML 2025"

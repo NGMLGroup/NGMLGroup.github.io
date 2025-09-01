@@ -2,7 +2,7 @@
   authors: "Jonas Berg Hansen, Andrea Cini, Filippo Maria Bianchi"
   venue: "TMLR 2025"
   figure: "figs/publications/hansen2025clustering.png"
-  abstract: "We propose an approach based on Spatio-temporal Graph Neural Network model to perform clustering of time series, whose dependencies are represented by a graph."
+  abstract: "We study the effectiveness of Spatio-temporal Graph Neural Networks to perform clustering of time series, whose dependencies are represented by a graph."
   github: "https://github.com/NGMLGroup/Time-Series-Clustering-with-GNNs"
   arxiv: "https://openreview.net/forum?id=MHQXfiXsr3"
   bibtex: |

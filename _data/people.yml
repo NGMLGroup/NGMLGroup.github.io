@@ -1,7 +1,7 @@
 faculty:
   - name: "Filippo Maria Bianchi"
     image: "/figs/people/fmb.jpg"
-    bio: "Filippo is an Associate Professor at the Math Dept. His research is on machine learning for time series and graphs, with a focus on pooling in GNNs and spatio-temporal models."
+    bio: "Filippo is a Professor at the Math Dept. His research on machine learning for time series and graphs focuses on GNNs, spatio-temporal models, and Reservoir Computing."
     webpage: "https://sites.google.com/view/filippombianchi/home"
     scholar: "https://scholar.google.ca/citations?user=yb7cT1MAAAAJ&hl=en"
     twitter: "https://x.com/FilippoMariaBi1"

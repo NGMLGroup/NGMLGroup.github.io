@@ -1,0 +1,14 @@
+---
+layout: home
+title: "Blog"
+list_title: "Latest Posts"
+---
+
+{% for post in site.posts limit:10 %}
+<div class="post-preview">
+  <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+  <p class="post-meta">{{ post.date | date: "%B %-d, %Y" }} by {{ post.author }}</p>
+  <p>{{ post.excerpt }}</p>
+  <a href="{{ post.url }}" class="read-more">Read more →</a>
+</div>
+{% endfor %}

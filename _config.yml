@@ -50,9 +50,9 @@ minima:
 header_pages:
   - people.html
   - publications.html
+  - blog.html
   - theses.md
   - news.md
-  - blog.html
   
 collections:
   events:

@@ -1,3 +1,19 @@
+- title: "ResCP: Residual Conformal Prediction for Time Series Forecasting"
+  authors: "Roberto Neglia, Andrea Cini, Michael M. Bronstein, Filippo Maria Bianchi"
+  figure: "figs/publications/rescp2k.gif"
+  abstract: "We propose ResCP, a novel conformal prediction method for time series forecasting. ResCP leverages the efficiency and representation capabilities of Reservoir Computing to dynamically reweight conformity scores at each time step. This allows us to account for local temporal dynamics when modeling the error distribution without compromising computational scalability. Moreover, we prove that, under reasonable assumptions, ResCP achieves asymptotic conditional coverage."
+  arxiv: "https://arxiv.org/abs/???"
+  bibtex: |
+    @misc{neglia2025rescp,
+      title   = {ResCP: Residual Conformal Prediction for Time Series Forecasting},
+      author  = {Neglia, Roberto and Cini, Andrea and Bronstein, Michael M. and Bianchi, Filippo Maria},
+      year          = {2025},
+      eprint        = {???},
+      archivePrefix = {arXiv},
+      primaryClass  = {cs.LG},
+      url           = {https://arxiv.org/abs/???}, 
+    }
+
 - title: "On Time Series Clustering with Graph Neural Networks"
   authors: "Jonas Berg Hansen, Andrea Cini, Filippo Maria Bianchi"
   venue: "TMLR 2025"

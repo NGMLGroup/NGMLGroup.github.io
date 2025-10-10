@@ -32,6 +32,7 @@ In this blog, we'll be sharing:
 - **Educational content** to make complex concepts accessible;
 - **Practical applications** of graph neural networks;
 - **Updates** on our group activities, collaborations and events.
+- **Behind the scenes** looks at our research process and team dynamics.
 
 ---
 

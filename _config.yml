@@ -13,8 +13,9 @@ description: >
 theme: minima
 
 plugins:
-#   - jekyll-feed
+  - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-paginate
 
 # Theme-specific settings
 
@@ -49,6 +50,7 @@ minima:
 header_pages:
   - people.html
   - publications.html
+  - blog.html
   - theses.md
   - news.md
   
@@ -68,3 +70,7 @@ show_excerpts: true
 
 # display posts with dates in the future
 future: true
+
+# Pagination settings
+paginate: 5
+paginate_path: "/blog/page:num/"

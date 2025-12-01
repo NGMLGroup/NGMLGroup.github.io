@@ -15,7 +15,8 @@
     }
 
 - title: "Efficient Learning of Molecular Properties Using Graph Neural Networks Enhanced with Chemistry Knowledge"
-  authors: "Tetiana Lutchyn, Marie Mardal, Benjamin Ricaud*"
+  authors: "Tetiana Lutchyn, Marie Mardal, Benjamin Ricaud"
+  venue: "Journal ACS Omega"
   figure: "figs/publications/TchemGNN.png"
   abstract: "We build a simple GNN-based model that integrates chemistry knowledge that GNNs may have difficulties to learn. We show that this combination greatly enhances the accuracy compared with the pure GNN approach.  With a simple approach, this study highlights some limitations of GNNs and the crucial benefit of giving GNN models easy access to global information about the graph in the context of applications to chemistry. We focus on regression tasks at the molecular level, on small-molecule data sets. "
   github: "https://github.com/uitml/TChemGNN"

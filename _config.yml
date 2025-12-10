@@ -64,6 +64,9 @@ collections:
   theses:
     output: true
     permalink: /theses/:path/
+  social:
+    output: true
+    permalink: /social/:path/
 
 # Set to `true` to show excerpts on the homepage.
 show_excerpts: true

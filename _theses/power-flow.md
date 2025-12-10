@@ -6,6 +6,7 @@ contact_person: "Filippo Maria Bianchi"
 ---
 
 ## 📝 Description
+
 Power flows are usually optimized with numerical solver that are slow and are not robust to perturbations in the grid topology. GNNs can be used to determine how much power each generator should inject on the grid, based on the grid topology, the physical properties of its components, and the load demand.
 
 The project will aim at improving and extending with new functionalities a recently-proposed [GNN-based power solver](https://github.com/JonasBergHansen/Power-Flow-Balancing-with-Decentralized-Graph-Neural-Networks) by:
@@ -15,9 +16,10 @@ The project will aim at improving and extending with new functionalities a recen
 - Make the prediction probabilistic, i.e., generate confidence intervals for the power production of each electrical node;
 - Smart generation of training data with a power grid simulator.
 
+## 📚 References
 
-## 📚 References:
 - [GNN-based power solver](https://github.com/JonasBergHansen/Power-Flow-Balancing-with-Decentralized-Graph-Neural-Networks)
 
-## 📨 Contact:
-Filippo Maria Bianchi <filippo.m.bianchi@uit.no>
+## 📨 Contact
+
+Filippo Maria Bianchi (<filippo.m.bianchi@uit.no>)

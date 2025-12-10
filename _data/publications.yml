@@ -1,3 +1,40 @@
+- title: "ResCP: Residual Conformal Prediction for Time Series Forecasting"
+  authors: "Roberto Neglia, Andrea Cini, Michael M. Bronstein, Filippo Maria Bianchi"
+  figure: "figs/publications/rescp2k.gif"
+  abstract: "We propose ResCP, a novel conformal prediction method for time series forecasting. ResCP leverages the efficiency and representation capabilities of Reservoir Computing to dynamically reweight conformity scores at each time step. This allows us to account for local temporal dynamics when modeling the error distribution without compromising computational scalability. Moreover, we prove that, under reasonable assumptions, ResCP achieves asymptotic conditional coverage."
+  arxiv: "https://arxiv.org/abs/2510.05060"
+  bibtex: |
+    @misc{neglia2025rescp,
+      title   = {ResCP: Residual Conformal Prediction for Time Series Forecasting},
+      author  = {Neglia, Roberto and Cini, Andrea and Bronstein, Michael M. and Bianchi, Filippo Maria},
+      year          = {2025},
+      eprint        = {2510.05060},
+      archivePrefix = {arXiv},
+      primaryClass  = {cs.LG},
+      url           = {https://arxiv.org/abs/2510.05060}, 
+    }
+
+- title: "Efficient Learning of Molecular Properties Using Graph Neural Networks Enhanced with Chemistry Knowledge"
+  authors: "Tetiana Lutchyn, Marie Mardal, Benjamin Ricaud"
+  venue: "Journal ACS Omega"
+  figure: "figs/publications/TchemGNN.png"
+  abstract: "We build a simple GNN-based model that integrates chemistry knowledge that GNNs may have difficulties to learn. We show that this combination greatly enhances the accuracy compared with the pure GNN approach.  With a simple approach, this study highlights some limitations of GNNs and the crucial benefit of giving GNN models easy access to global information about the graph in the context of applications to chemistry. We focus on regression tasks at the molecular level, on small-molecule data sets. "
+  github: "https://github.com/uitml/TChemGNN"
+  arxiv: "https://chemrxiv.org/engage/chemrxiv/article-details/68693d7cc1cb1ecda0442439"
+  bibtex: |
+    @article{doi:10.1021/acsomega.5c07178,
+    author = {Lutchyn, Tetiana and Mardal, Marie and Ricaud, Benjamin},
+    title = {Efficient Learning of Molecular Properties Using Graph Neural Networks Enhanced with Chemistry Knowledge},
+    journal = {ACS Omega},
+    volume = {10},
+    number = {45},
+    pages = {54421-54429},
+    year = {2025},
+    doi = {10.1021/acsomega.5c07178},
+    URL = {https://doi.org/10.1021/acsomega.5c07178},
+    eprint = {https://doi.org/10.1021/acsomega.5c07178}
+    }
+
 - title: "On Time Series Clustering with Graph Neural Networks"
   authors: "Jonas Berg Hansen, Andrea Cini, Filippo Maria Bianchi"
   venue: "TMLR 2025"

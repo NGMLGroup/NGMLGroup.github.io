@@ -44,6 +44,7 @@ phd:
     image: "/figs/people/rn.jpg"
     bio: "Roberto is a PhD student focusing on basic research in machine learning for time series and graphs. His research interests include randomized architectures for large spatio-temporal models and uncertainty quantification."
     webpage: "https://robertoneglia.github.io/"
+    scholar: "https://scholar.google.com/citations?user=Lfe35YQAAAAJ"
     github: "https://github.com/RobertoNeglia"
     linkedin: "https://www.linkedin.com/in/roberto-neglia/"
     twitter: "https://x.com/beertorob"

@@ -1,20 +1,45 @@
 /* Variables */
-$primary-color: #007acc; /* Blue */
-$secondary-color: #333; /* Dark gray */
-$background-color: #f9f9f9; /* Light gray */
-$font-family: 'Arial', sans-serif; /* Font family */
+$primary-color: #007acc;
+/* Blue */
+$secondary-color: #333;
+/* Dark gray */
+$background-color: #f9f9f9;
+/* Light gray */
+$font-family: 'Arial', sans-serif;
+/* Font family */
 
 
 /* General styling */
 
 section {
-    margin-bottom: 40px; /* Space between sections */
-    padding-bottom: 20px; /* Add space before the line */
-    border-bottom: 2px solid #ddd; /* Light gray line between sections */
+    margin-bottom: 40px;
+    /* Space between sections */
+    padding-bottom: 20px;
+    /* Add space before the line */
+    position: relative;
+    /* for pseudo-element positioning */
 }
 
-section:last-child {
-    border-bottom: none; /* No border after the last section */
+/* Draw a long, centered divider that stretches across the viewport */
+section::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    /* Make the divider match the content width instead of full viewport */
+    width: 100%;
+    max-width: 1100px;
+    /* shorter cap so lines aren't overly long */
+    height: 2px;
+    background: #ddd;
+    /* same color as before */
+    pointer-events: none;
+}
+
+section:last-child::after {
+    display: none;
+    /* No divider after the last section */
 }
 
 
@@ -22,95 +47,103 @@ section:last-child {
  * Home page content
  */
 .homepage-content {
-text-align: center;
-padding: 20px;
+    text-align: center;
+    padding: 20px;
 }
 
 .image-container {
-text-align: center;
-margin-bottom: 20px;
+    text-align: center;
+    margin-bottom: 20px;
 }
 
 .homepage-content p {
-font-size: 1.2em;
-line-height: 1.6;
-margin-bottom: 20px;
+    font-size: 1.2em;
+    line-height: 1.6;
+    margin-bottom: 20px;
 }
 
 .homepage-content ul {
-list-style-type: none;
-padding: 0;
-font-size: 1.2em;
+    list-style-type: none;
+    padding: 0;
+    font-size: 1.2em;
 }
 
 .homepage-content ul li {
-margin-bottom: 10px;
+    margin-bottom: 10px;
 }
 
 .homepage-content a {
-color: #007acc;
-text-decoration: none;
+    color: #007acc;
+    text-decoration: none;
 }
 
 .homepage-content a:hover {
-text-decoration: underline;
+    text-decoration: underline;
 }
 
 .align-center {
-display: block;
-margin: 0 auto;
+    display: block;
+    margin: 0 auto;
 }
 
 /**
 * News
 */
 .recent-news {
-margin: 50px 0;
-text-align: center;
+    margin: 50px 0;
+    text-align: center;
 }
 
 .news-carousel {
-background-color: #f5f5f5;
-padding: 20px; /* Add padding around the content */
-border-radius: 10px; /* Optional: round the corners */
+    background-color: #f5f5f5;
+    padding: 20px;
+    /* Add padding around the content */
+    border-radius: 10px;
+    /* Optional: round the corners */
 }
 
 .news-list {
-list-style: none;
-padding: 0;
-margin: 0;
+    list-style: none;
+    padding: 0;
+    margin: 0;
 }
 
 .news-list li {
-display: none;
-font-size: 1.2em;
-padding: 20px;
-border-bottom: 1px solid #ddd;
+    display: none;
+    font-size: 1.2em;
+    padding: 20px;
+    border-bottom: 1px solid #ddd;
 }
 
 .news-list li h3 {
-margin: 0;
-font-size: 1.5em;
+    margin: 0;
+    font-size: 1.5em;
 }
 
 .news-list li p {
-margin: 10px 0;
+    margin: 10px 0;
 }
 
 /* People page */
 .people-page {
     padding: 20px;
 }
-.person, .collaborator {
-    max-width: 40%;
+
+.person,
+.collaborator {
+    /* Fixed card width to allow grid centering of incomplete rows */
+    width: 280px;
+    box-sizing: border-box;
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-bottom: 20px;
 }
+
 .collaborator {
-    max-width: 30%;
+    width: 280px;
 }
+
 .profile-pic {
     border-radius: 50%;
     width: 100px;
@@ -118,36 +151,66 @@ margin: 10px 0;
     object-fit: cover;
     margin-bottom: 15px;
 }
+
 .info {
     flex: 1;
     text-align: center;
 }
+
 .info h3 {
     margin-bottom: 10px;
     font-size: 1.2em;
 }
+
 .info p {
     margin: 5px 0;
-    font-size: 0.9em; /* Decrease font size for bio */
-    line-height: 1.4; /* Optional: Adjust line height for readability */
-    color: #666; /* Optional: Adjust text color to a slightly lighter shade */
+    font-size: 0.9em;
+    /* Decrease font size for bio */
+    line-height: 1.4;
+    /* Optional: Adjust line height for readability */
+    color: #666;
+    /* Optional: Adjust text color to a slightly lighter shade */
 }
+
 .links a {
     margin-right: 10px;
     font-size: 1.5em;
     color: #333;
     text-decoration: none;
 }
+
 .links a:hover {
     color: $primary-color;
 }
 
 .person-grid {
-    display: flex;
+    display: grid;
+    /* 3 fixed-width columns on wide screens so leftover items can be centered */
+    grid-template-columns: repeat(3, 280px);
     gap: 15px;
-    justify-content: space-evenly;
-    flex-direction: row;
-    flex-wrap: wrap;
+    justify-content: center;
+    /* center the grid when the row isn't full */
+}
+
+/* Responsive breakpoints: 3 columns -> 2 columns -> 1 column */
+@media (max-width: 900px) {
+    .person-grid {
+        grid-template-columns: repeat(2, 280px);
+    }
+}
+
+@media (max-width: 600px) {
+    .person-grid {
+        grid-template-columns: 1fr;
+        justify-items: center;
+    }
+
+    .person,
+    .collaborator {
+        width: 100%;
+        max-width: 480px;
+        /* limit card width on small screens */
+    }
 }
 
 
@@ -159,7 +222,8 @@ margin: 10px 0;
 
 /* General styling for publications */
 .publication {
-    border-bottom: 1px solid #ddd; /* Light gray line between publications */
+    border-bottom: 1px solid #ddd;
+    /* Light gray line between publications */
     padding-bottom: 20px;
     margin-bottom: 20px;
 }
@@ -177,7 +241,8 @@ margin: 10px 0;
 }
 
 /* Authors and venue */
-.authors, .venue {
+.authors,
+.venue {
     text-align: center;
     margin-bottom: 15px;
 }
@@ -185,12 +250,14 @@ margin: 10px 0;
 /* Figure centered and set to 80% of page width */
 .pub-figure {
     display: flex;
-    justify-content: center; /* Center the image */
+    justify-content: center;
+    /* Center the image */
     margin-bottom: 20px;
 }
 
 .pub-figure img {
-    width: 80%; /* Set the image to 80% of the page width */
+    width: 80%;
+    /* Set the image to 80% of the page width */
     height: auto;
     border-radius: 5px;
 }
@@ -205,7 +272,8 @@ margin: 10px 0;
     margin-right: 10px;
     text-decoration: none;
     font-size: 1.2em;
-    color: #333; /* Link color */
+    color: #333;
+    /* Link color */
     background-color: transparent;
     border: none;
     cursor: pointer;

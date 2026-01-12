@@ -144,6 +144,11 @@ section:last-child::after {
     margin-bottom: 20px;
 }
 
+/* Faculty cards are wider */
+.faculty .person {
+    width: 400px;
+}
+
 .collaborator {
     width: 280px;
 }
@@ -189,16 +194,26 @@ section:last-child::after {
 
 .person-grid {
     display: grid;
-    /* 3 fixed-width columns on wide screens so leftover items can be centered */
+    /* 3 fixed-width columns on wide screens */
     grid-template-columns: repeat(3, 280px);
     gap: 15px;
     justify-content: center;
     /* center the grid when the row isn't full */
 }
 
+/* Faculty-specific grid: 2 larger columns */
+.faculty .person-grid {
+    grid-template-columns: repeat(2, 400px);
+    gap: 20px;
+}
+
 /* Responsive breakpoints: 3 columns -> 2 columns -> 1 column */
 @media (max-width: 900px) {
     .person-grid {
+        grid-template-columns: repeat(2, 280px);
+    }
+
+    .faculty .person-grid {
         grid-template-columns: repeat(2, 280px);
     }
 }
@@ -214,6 +229,11 @@ section:last-child::after {
         width: 100%;
         max-width: 480px;
         /* limit card width on small screens */
+    }
+
+    .faculty .person {
+        width: 100%;
+        max-width: 480px;
     }
 }
 

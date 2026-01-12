@@ -24,6 +24,14 @@ faculty:
     webpage: "https://en.uit.no/ansatte/person?p_document_id=834826&p_dimension_id=88131"
     scholar: "https://scholar.google.com/citations?user=qSc3kA8AAAAJ&hl=en"
     linkedin: "https://www.linkedin.com/in/elisabeth-wetzer/"
+  
+  - name: "Veronica Lachi"
+    image: "/figs/people/vl.png"
+    bio: "Veronica is an Associate Professor in the Machine Learning group. Her research focuses on the expressive power of graph neural networks, uncertainty quantification in graph learning, and learning on graphs with missing data."
+    scholar: "https://scholar.google.com/citations?user=uly8D-sAAAAJ&hl=it"
+    linkedin: "https://www.linkedin.com/in/veronica-lachi-85b726254/"
+    twitter: "https://x.com/lachiveronica"
+    github: "https://github.com/veronicalachi"
 
 phd:
   - name: "Michele Guerra"
@@ -95,15 +103,6 @@ collaborator:
     github: "https://github.com/spindro"
     linkedin: "https://www.linkedin.com/in/indro-spinelli-770380123/"
     twitter: "https://x.com/IndroSpinelli"
-
-  - name: "Veronica Lachi"
-    image: "/figs/people/vl.png"
-    position: "Postdoc"
-    affiliation: "Fondazione Bruno Kessler"
-    scholar: "https://scholar.google.com/citations?user=uly8D-sAAAAJ&hl=it"
-    linkedin: "https://www.linkedin.com/in/veronica-lachi-85b726254/"
-    twitter: "https://x.com/lachiveronica"
-    github: "https://github.com/veronicalachi"
 
   - name: "Daniele Castellana"
     image: "/figs/people/dc.png"

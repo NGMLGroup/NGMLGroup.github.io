@@ -156,6 +156,14 @@
     var palette = ['#38bdf8', '#10b981', '#a78bfa'];
     var particleCount = 70;
     var maxDistance = 180;
+    var prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+    var themeEffective = document.documentElement.dataset.themeEffective;
+    var isLight = themeEffective
+      ? themeEffective === 'light'
+      : !prefersDark;
+    var lineBaseAlpha = isLight ? 0.6 : 0.4;
+    var particleAlpha = isLight ? 'ff' : 'dd';
+    var compositeMode = isLight ? 'source-over' : 'lighter';
 
     function resize() {
       canvas.width = Math.floor(window.innerWidth * dpr);
@@ -179,7 +187,7 @@
 
     function draw() {
       context.clearRect(0, 0, window.innerWidth, window.innerHeight);
-      context.globalCompositeOperation = 'lighter';
+      context.globalCompositeOperation = compositeMode;
 
       particles.forEach(function (particle) {
         particle.x += particle.vx;
@@ -191,7 +199,7 @@
         if (particle.y > window.innerHeight + 80) particle.y = -80;
 
         context.beginPath();
-        context.fillStyle = particle.color + 'dd';
+        context.fillStyle = particle.color + particleAlpha;
         context.arc(particle.x, particle.y, particle.radius, 0, Math.PI * 2);
         context.fill();
       });
@@ -203,7 +211,7 @@
           var distance = Math.sqrt(dx * dx + dy * dy);
 
           if (distance < maxDistance) {
-            var alpha = (1 - distance / maxDistance) * 0.4;
+            var alpha = (1 - distance / maxDistance) * lineBaseAlpha;
             context.strokeStyle = 'rgba(56, 189, 248,' + alpha.toFixed(3) + ')';
             context.lineWidth = 1.2;
             context.beginPath();

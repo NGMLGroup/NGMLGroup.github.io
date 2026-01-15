@@ -5,13 +5,13 @@ title: "Blog & Social"
 
 <!-- Toggle Buttons as Page Title -->
 <div class="blog-toggle-header">
-  <button id="btn-blog" class="toggle-btn active" onclick="showSection('blog')">📝 Blog Posts</button>
-  <button id="btn-social" class="toggle-btn" onclick="showSection('social')">📸 Social</button>
+  <button id="btn-blog" class="toggle-btn active" type="button">Blog Posts</button>
+  <button id="btn-social" class="toggle-btn" type="button">Social</button>
 </div>
 
 <!-- Blog Posts Section -->
 <section class="blog-posts" id="section-blog">
-  <h2>📝 Latest Posts</h2>
+  <h2>Latest Posts</h2>
   {% for post in site.posts limit:10 %}
   <div class="post-preview">
     <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
@@ -23,8 +23,8 @@ title: "Blog & Social"
 </section>
 
 <!-- Social Section -->
-<section class="social-section" id="section-social" style="display: none;">
-  <h2>📸 Behind the Scenes</h2>
+<section class="social-section" id="section-social" hidden>
+  <h2>Behind the Scenes</h2>
   <!-- <p style="text-align: center; margin-bottom: 30px;">
     Conferences, get-togethers, social events, and more from the NGML Group
   </p> -->
@@ -54,23 +54,3 @@ title: "Blog & Social"
   </div>
 </section>
 
-<script>
-  function showSection(section) {
-    // Hide all sections
-    document.getElementById('section-blog').style.display = 'none';
-    document.getElementById('section-social').style.display = 'none';
-
-    // Remove active class from all buttons
-    document.getElementById('btn-blog').classList.remove('active');
-    document.getElementById('btn-social').classList.remove('active');
-
-    // Show selected section and activate button
-    if (section === 'blog') {
-      document.getElementById('section-blog').style.display = 'block';
-      document.getElementById('btn-blog').classList.add('active');
-    } else if (section === 'social') {
-      document.getElementById('section-social').style.display = 'block';
-      document.getElementById('btn-social').classList.add('active');
-    }
-  }
-</script>

@@ -1,12 +1,16 @@
 ---
-permalink: /assets/minima-social-icons.svg
 ---
 
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 {% comment %}
-  Iterate through {{ site.minima.social_links }} and render platform related SVG-symbol
-  unless the platform is "rss" because we need the "rss" symbol for the `Subscribe` link
-  in the footer and therefore inject the "rss" icon outside the iteration loop.
+  NGMLG social icon sprite.
+
+  Generated from `site.minima.social_links` so the icons
+  in the footer automatically match `_config.yml`.
+
+  We intentionally do NOT use the Minima default output path
+  (`/assets/minima-social-icons.svg`) to avoid a Jekyll build
+  destination conflict with the Minima gem asset.
 {% endcomment %}
 {% for entry in site.minima.social_links %}
   {%- assign symbol_id = entry.platform -%}

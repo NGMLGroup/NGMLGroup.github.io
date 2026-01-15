@@ -7,10 +7,9 @@ title: "Home"
     <!-- Welcome message -->
     <p><em>Welcome to the homepage of the Northernmost Graph Machine Learning group</em></p>
 
-    <!-- Image with caption -->
-    <div class="image-container" style="overflow: visible;">
-        <img src="figs/aurora-graph.png" alt="" class="align-center"
-            style="width: 150%; max-width: 150%; margin-left: -25%; margin-right: -25%; display: block;">
+    <!-- Hero image -->
+    <div class="image-container">
+        <img src="figs/aurora-graph.png" alt="Aurora-inspired graph illustration" class="hero-image align-center">
     </div>
 
 
@@ -41,31 +40,11 @@ title: "Home"
     </div>
 </section>
 
-<script>
-    $(document).ready(function () {
-        let newsItems = $('.news-list li');
-        let currentIndex = 0;
-
-        function showNextNews() {
-            $(newsItems[currentIndex]).fadeOut(500, function () {
-                currentIndex = (currentIndex + 1) % newsItems.length; // Loop through items
-                $(newsItems[currentIndex]).fadeIn(500);
-            });
-        }
-
-        // Hide all news items initially except the first one
-        newsItems.hide();
-        $(newsItems[0]).show();
-
-        // Rotate every 5 seconds
-        setInterval(showNextNews, 5000);
-    });
-</script>
 
 
 <!-- Other info section -->
 <div class="about">
-    <h2>ℹ️ About us</h2>
+    <h2>About us</h2>
     <p>
         Our research activities focus on Graph Neural Networks and other machine learning methodologies
         to process and analyze data represented as graphs. We are also interested in graph signal processing,

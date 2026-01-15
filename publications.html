@@ -4,7 +4,7 @@ title: "Publications"
 ---
 
 <div class="publications-page">
-    <h1>📚 Publications</h1>
+    <h1>Publications</h1>
 
     <section class="publications">
         {% for publication in site.data.publications %}
@@ -15,7 +15,7 @@ title: "Publications"
 
             <!-- Authors -->
             <p class="authors">
-                <em style="color: gray;">{{ publication.authors }}</em>
+                <em>{{ publication.authors }}</em>
             </p>
 
             <!-- Venue (optional) -->
@@ -47,14 +47,14 @@ title: "Publications"
                     <i class="fas fa-file-alt"></i> ArXiv
                 </a>
                 {% endif %}
-                <!-- Cite Link with quotation mark icon -->
-                <a href="javascript:void(0);" onclick="toggleBibtex({{ forloop.index }})" class="btn cite-btn">
+                <!-- Cite toggle -->
+                <button type="button" class="btn cite-btn" data-bibtex-target="bibtex-entry-{{ forloop.index }}">
                     <i class="fas fa-quote-right"></i> Cite
-                </a>
+                </button>
             </div>
 
             <!-- BibTeX Entry (Hidden by Default) -->
-            <div id="bibtex-entry-{{ forloop.index }}" class="bibtex-entry" style="display: none;">
+            <div id="bibtex-entry-{{ forloop.index }}" class="bibtex-entry">
                 <pre>{{ publication.bibtex }}</pre>
             </div>
 
@@ -63,13 +63,3 @@ title: "Publications"
     </section>
 </div>
 
-<script>
-function toggleBibtex(index) {
-    var bibtexEntry = document.getElementById('bibtex-entry-' + index);
-    if (bibtexEntry.style.display === "none") {
-        bibtexEntry.style.display = "block";
-    } else {
-        bibtexEntry.style.display = "none";
-    }
-}
-</script>

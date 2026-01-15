@@ -50,12 +50,21 @@
   }
 
   function initMobileNavCloseOnClick() {
-    var navTrigger = document.getElementById('nav-trigger');
-    if (!navTrigger) return;
+    var nav = document.querySelector('.site-nav');
+    var toggle = document.getElementById('nav-toggle');
+    if (!nav || !toggle) return;
 
-    document.querySelectorAll('.site-nav .page-link').forEach(function (link) {
+    toggle.addEventListener('click', function () {
+      var isOpen = nav.classList.toggle('is-open');
+      toggle.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+    });
+
+    nav.querySelectorAll('.page-link').forEach(function (link) {
       link.addEventListener('click', function () {
-        navTrigger.checked = false;
+        if (window.innerWidth < 768) {
+          nav.classList.remove('is-open');
+          toggle.setAttribute('aria-expanded', 'false');
+        }
       });
     });
   }

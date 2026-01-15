@@ -1,6 +1,6 @@
 faculty:
   - name: "Filippo Maria Bianchi"
-    image: "/figs/people/fmb.jpg"
+    image: "/figs/people/fmb.jpeg"
     bio: "Filippo is a Professor at the Math Dept. His research on machine learning for time series and graphs focuses on GNNs, spatio-temporal models, and Reservoir Computing."
     webpage: "https://sites.google.com/view/filippombianchi/home"
     scholar: "https://scholar.google.ca/citations?user=yb7cT1MAAAAJ&hl=en"
@@ -143,7 +143,7 @@ collaborator:
     linkedin: "https://www.linkedin.com/in/isabella-presutti-gasbarro-78865197/?originalSubdomain=it"
   
   - name: "Giulio Loddi"
-    image: "/figs/people/gl.png"
+    image: "/figs/people/gl.jpeg"
     position: "PhD student"
     affiliation: "IMT School for Advanced Studies, Lucca"
     webpage: "https://www.researchgate.net/profile/Giulio-Loddi"

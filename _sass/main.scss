@@ -108,6 +108,36 @@ body {
     radial-gradient(900px 450px at 70% 120%, rgba(167, 139, 250, 0.12), transparent 55%),
     var(--bg);
   color: var(--text);
+  position: relative;
+  overflow-x: hidden;
+}
+
+.aurora-canvas {
+  position: fixed;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 0;
+  mix-blend-mode: screen;
+  opacity: 0.75;
+}
+
+html[data-theme="light"] .aurora-canvas,
+html:not([data-theme="dark"]) .aurora-canvas {
+  mix-blend-mode: multiply;
+  opacity: 0.75;
+}
+
+body > * {
+  position: relative;
+  z-index: 1;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .aurora-canvas {
+    display: none;
+  }
 }
 
 a {
@@ -185,7 +215,7 @@ a:hover {
   font-weight: 700;
   letter-spacing: -0.02em;
   line-height: 1.1;
-  font-size: 1.05rem;
+  font-size: 1.5rem;
   color: var(--text);
 }
 
@@ -333,26 +363,6 @@ section:last-child::after {
   box-shadow: var(--shadow-sm);
 }
 
-/* Reveal animation (progressively enhanced) */
-.reveal {
-  opacity: 0;
-  transform: translateY(10px);
-  transition: opacity 450ms ease, transform 450ms ease;
-}
-
-.reveal.is-visible {
-  opacity: 1;
-  transform: none;
-}
-
-@media (prefers-reduced-motion: reduce) {
-  .reveal {
-    opacity: 1;
-    transform: none;
-    transition: none;
-  }
-}
-
 /* -----------------------------
    Home
 ----------------------------- */
@@ -374,12 +384,12 @@ section:last-child::after {
 
 .image-container {
   margin: 18px 0 24px;
-  overflow: visible;
+  overflow: hidden;
 }
 
 .hero-image {
-  width: min(120%, 1100px);
-  max-width: 120%;
+  width: min(100%, 1100px);
+  max-width: 100%;
   display: block;
   margin: 0 auto;
 }

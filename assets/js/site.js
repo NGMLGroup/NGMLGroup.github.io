@@ -142,67 +142,98 @@
     });
   }
 
-  function initRevealAnimations() {
-    var candidates = Array.prototype.slice.call(
-      document.querySelectorAll('section, .person, .collaborator, .publication, .post-preview, .social-item')
-    );
+  function initAuroraCanvas() {
+    var canvas = document.getElementById('aurora-canvas');
+    if (!canvas) return;
 
-    if (candidates.length === 0) return;
+    var prefersReduced = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    if (prefersReduced) return;
 
-    candidates.forEach(function (el) {
-      el.classList.add('reveal');
-    });
+    var context = canvas.getContext('2d');
+    var particles = [];
+    var dpr = window.devicePixelRatio || 1;
 
-    function forceVisible() {
-      candidates.forEach(function (el) {
-        el.classList.add('is-visible');
+    var palette = ['#38bdf8', '#10b981', '#a78bfa'];
+    var particleCount = 70;
+    var maxDistance = 180;
+
+    function resize() {
+      canvas.width = Math.floor(window.innerWidth * dpr);
+      canvas.height = Math.floor(window.innerHeight * dpr);
+      context.setTransform(dpr, 0, 0, dpr, 0, 0);
+    }
+
+    function createParticles() {
+      particles = [];
+      for (var i = 0; i < particleCount; i += 1) {
+        particles.push({
+          x: Math.random() * window.innerWidth,
+          y: Math.random() * window.innerHeight,
+          vx: (Math.random() - 0.5) * 0.45,
+          vy: (Math.random() - 0.5) * 0.45,
+          radius: 2 + Math.random() * 3.5,
+          color: palette[i % palette.length]
+        });
+      }
+    }
+
+    function draw() {
+      context.clearRect(0, 0, window.innerWidth, window.innerHeight);
+      context.globalCompositeOperation = 'lighter';
+
+      particles.forEach(function (particle) {
+        particle.x += particle.vx;
+        particle.y += particle.vy;
+
+        if (particle.x < -80) particle.x = window.innerWidth + 80;
+        if (particle.x > window.innerWidth + 80) particle.x = -80;
+        if (particle.y < -80) particle.y = window.innerHeight + 80;
+        if (particle.y > window.innerHeight + 80) particle.y = -80;
+
+        context.beginPath();
+        context.fillStyle = particle.color + 'dd';
+        context.arc(particle.x, particle.y, particle.radius, 0, Math.PI * 2);
+        context.fill();
       });
-    }
 
-    if (!('IntersectionObserver' in window)) {
-      forceVisible();
-      return;
-    }
+      for (var i = 0; i < particles.length; i += 1) {
+        for (var j = i + 1; j < particles.length; j += 1) {
+          var dx = particles[i].x - particles[j].x;
+          var dy = particles[i].y - particles[j].y;
+          var distance = Math.sqrt(dx * dx + dy * dy);
 
-    var observer;
-    try {
-      observer = new IntersectionObserver(
-        function (entries) {
-          entries.forEach(function (entry) {
-            if (entry.isIntersecting) {
-              entry.target.classList.add('is-visible');
-              observer.unobserve(entry.target);
-            }
-          });
-        },
-        { threshold: 0.12 }
-      );
-    } catch (e) {
-      // If anything goes wrong, do not hide content.
-      forceVisible();
-      return;
-    }
-
-    candidates.forEach(function (el) {
-      observer.observe(el);
-    });
-
-    // Safety net: never leave content hidden.
-    window.setTimeout(function () {
-      candidates.forEach(function (el) {
-        if (!el.classList.contains('is-visible')) {
-          el.classList.add('is-visible');
+          if (distance < maxDistance) {
+            var alpha = (1 - distance / maxDistance) * 0.4;
+            context.strokeStyle = 'rgba(56, 189, 248,' + alpha.toFixed(3) + ')';
+            context.lineWidth = 1.2;
+            context.beginPath();
+            context.moveTo(particles[i].x, particles[i].y);
+            context.lineTo(particles[j].x, particles[j].y);
+            context.stroke();
+          }
         }
-      });
-    }, 800);
+      }
+
+      requestAnimationFrame(draw);
+    }
+
+    resize();
+    createParticles();
+    draw();
+
+    window.addEventListener('resize', function () {
+      resize();
+      createParticles();
+    });
   }
+
 
   document.addEventListener('DOMContentLoaded', function () {
     initThemeToggle();
+    initAuroraCanvas();
     initMobileNavCloseOnClick();
     initNewsCarousel();
     initBlogToggle();
     initBibtexToggle();
-    initRevealAnimations();
   });
 })();

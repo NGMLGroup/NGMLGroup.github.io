@@ -223,7 +223,7 @@ a:hover {
   font-weight: 700;
   letter-spacing: -0.02em;
   line-height: 1.05;
-  font-size: clamp(2.3rem, 3vw + 1rem, 3.2rem);
+  font-size: clamp(2.3rem, calc(3vw + 1rem), 3.2rem);
   color: var(--text);
   white-space: nowrap;
   display: inline-flex;

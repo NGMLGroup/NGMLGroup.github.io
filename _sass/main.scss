@@ -18,9 +18,12 @@
   --link: #0284c7;
   --link-hover: #0369a1;
 
-  --accent: #10b981; /* aurora green */
-  --accent-2: #38bdf8; /* arctic sky */
-  --accent-3: #a78bfa; /* polar purple */
+  --accent: #10b981;
+  /* aurora green */
+  --accent-2: #38bdf8;
+  /* arctic sky */
+  --accent-3: #a78bfa;
+  /* polar purple */
   --button-bg: #10b981;
   --button-bg-hover: #0ea371;
 
@@ -129,7 +132,7 @@ html:not([data-theme="dark"]) .aurora-canvas {
   opacity: 0.65;
 }
 
-body > * {
+body>* {
   position: relative;
   z-index: 1;
 }
@@ -537,7 +540,7 @@ section:last-child::after {
   padding: 0;
 }
 
-.people-page section > h2 {
+.people-page section>h2 {
   text-align: center;
 }
 
@@ -563,6 +566,10 @@ section:last-child::after {
 }
 
 .faculty .person {
+  width: 400px;
+}
+
+.phd .person {
   width: 400px;
 }
 
@@ -629,6 +636,17 @@ section:last-child::after {
 .faculty .person-grid {
   grid-template-columns: repeat(2, 400px);
   gap: 18px;
+}
+
+.phd .person-grid {
+  grid-template-columns: repeat(2, 400px);
+  gap: 18px;
+  justify-content: center;
+
+  /* Center single item on last row */
+  &>.person:last-child:nth-child(2n + 1) {
+    grid-column: 1 / 2;
+  }
 }
 
 @media (max-width: 900px) {

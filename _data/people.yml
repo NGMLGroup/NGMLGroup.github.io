@@ -58,6 +58,13 @@ phd:
     twitter: "https://x.com/beertorob"
     bluesky: "https://bsky.app/profile/beertorob.bsky.social"
 
+  - name: "Youssef Wally"
+    image: "/figs/people/yw.jpeg"
+    bio: "Youssef is a PhD student whose interests lie at the intersection of medical and healthcare data, with a strong focus on developing advanced representation learning methods and similarity measures"
+    scholar: "https://scholar.google.com/citations?user=tlZ4sG0AAAAJ&hl=en"
+    linkedin: "https://www.linkedin.com/in/youssef-wally/"
+    webpage: "https://www.integreat.no/people/phd-postdoc-fellows/youssef-wally/index.html"
+
 postdoc:
   - name: "Carlo Abate"
     image: "/figs/people/ca.jpeg"

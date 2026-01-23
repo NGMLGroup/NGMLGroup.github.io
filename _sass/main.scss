@@ -587,12 +587,14 @@ section:last-child::after {
   position: absolute;
   inset: 0;
   padding: 8px 10px;
+  pointer-events: none;
 }
 
 .news-list li.is-active {
   opacity: 1;
   transform: none;
   position: relative;
+  pointer-events: auto;
 }
 
 .news-list li h3 {

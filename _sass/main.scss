@@ -357,6 +357,79 @@ html[data-theme-effective="dark"] .theme-toggle .icon-moon {
   transition: background-color 150ms ease, color 150ms ease, transform 150ms ease;
 }
 
+/* Map container styles */
+.maps-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  margin: 20px 0;
+}
+
+.map-item {
+  display: flex;
+  flex-direction: column;
+}
+
+.map-item iframe {
+  width: 100% !important;
+  height: auto !important;
+  min-height: 350px;
+}
+
+@media (max-width: 900px) {
+  .maps-container {
+    grid-template-columns: 1fr;
+  }
+}
+
+.log-logo {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.log-logo-light,
+.log-logo-dark {
+  display: none !important;
+}
+
+html[data-theme="light"] .log-logo-light {
+  display: block !important;
+}
+
+html[data-theme="light"] .log-logo-dark {
+  display: none !important;
+}
+
+html[data-theme="dark"] .log-logo-light {
+  display: none !important;
+}
+
+html[data-theme="dark"] .log-logo-dark {
+  display: block !important;
+}
+
+@media (prefers-color-scheme: light) {
+  html:not([data-theme]) .log-logo-light {
+    display: block;
+  }
+
+  html:not([data-theme]) .log-logo-dark {
+    display: none;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  html:not([data-theme]) .log-logo-light {
+    display: none;
+  }
+
+  html:not([data-theme]) .log-logo-dark {
+    display: block;
+  }
+}
+
 .site-nav .page-link:hover {
   text-decoration: none;
   color: var(--text);

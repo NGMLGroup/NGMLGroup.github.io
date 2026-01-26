@@ -625,7 +625,7 @@ section:last-child::after {
 
 .person,
 .collaborator {
-  width: 280px;
+  width: 300px;
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
@@ -645,11 +645,11 @@ section:last-child::after {
 }
 
 .faculty .person {
-  width: 400px;
+  width: 450px;
 }
 
 .phd .person {
-  width: 400px;
+  width: 450px;
 }
 
 .profile-pic {
@@ -707,18 +707,18 @@ section:last-child::after {
 
 .person-grid {
   display: grid;
-  grid-template-columns: repeat(3, 280px);
+  grid-template-columns: repeat(3, 300px);
   gap: 16px;
   justify-content: center;
 }
 
 .faculty .person-grid {
-  grid-template-columns: repeat(2, 400px);
+  grid-template-columns: repeat(2, 450px);
   gap: 18px;
 }
 
 .phd .person-grid {
-  grid-template-columns: repeat(2, 400px);
+  grid-template-columns: repeat(2, 450px);
   gap: 18px;
   justify-content: center;
 

@@ -1,5 +1,5 @@
 ---
-title: "Paper accepted at ICLR"
+title: "🔥 Paper accepted at ICLR"
 layout: post
 date: 2025-01-23
 published: true

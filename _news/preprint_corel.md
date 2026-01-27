@@ -1,5 +1,5 @@
 ---
-title: "New preprint"
+title: "📢 New preprint"
 layout: post
 date: 2025-02-25
 published: true

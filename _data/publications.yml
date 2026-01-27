@@ -1,5 +1,6 @@
 - title: "ResCP: Residual Conformal Prediction for Time Series Forecasting"
   authors: "Roberto Neglia, Andrea Cini, Michael M. Bronstein, Filippo Maria Bianchi"
+  venue: "ICLR 2026"
   figure: "figs/publications/rescp2k.gif"
   abstract: "We propose ResCP, a novel conformal prediction method for time series forecasting. ResCP leverages the efficiency and representation capabilities of Reservoir Computing to dynamically reweight conformity scores at each time step. This allows us to account for local temporal dynamics when modeling the error distribution without compromising computational scalability. Moreover, we prove that, under reasonable assumptions, ResCP achieves asymptotic conditional coverage."
   arxiv: "https://arxiv.org/abs/2510.05060"
@@ -12,6 +13,23 @@
       archivePrefix = {arXiv},
       primaryClass  = {cs.LG},
       url           = {https://arxiv.org/abs/2510.05060}, 
+    }
+
+- title: "Torch Geometric Pool: the Pytorch library for pooling in Graph Neural Networks"
+  authors: "Filippo Maria Bianchi, Carlo Abate, Ivan Marisca"
+  figure: "figs/publications/tgp-logo-wide.png"
+  abstract: "We present Torch Geometric Pool (TGP), a PyTorch library that implements a wide variety of graph pooling methods for GNNs. TGP is designed with an easy-to-use API, enabling seamless integration with existing PyTorch Geometric codebases. The library includes implementations of state-of-the-art pooling techniques, along with comprehensive documentation and examples to facilitate adoption by the research community."
+  github: "https://github.com/tgp-team/torch-geometric-pool"
+  arxiv: "https://arxiv.org/abs/2512.12642"
+  bibtex: |
+    @misc{bianchi2025torchgeometricpoolpytorch,
+      title={Torch Geometric Pool: the Pytorch library for pooling in Graph Neural Networks}, 
+      author={Filippo Maria Bianchi and Carlo Abate and Ivan Marisca},
+      year={2025},
+      eprint={2512.12642},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2512.12642}, 
     }
 
 - title: "Efficient Learning of Molecular Properties Using Graph Neural Networks Enhanced with Chemistry Knowledge"

@@ -1,5 +1,5 @@
 ---
-title: "New blog"
+title: "📢 New blog"
 layout: post
 date: 2024-12-19
 published: true

@@ -1,8 +1,9 @@
 (function () {
   function getPreferredTheme() {
-    return window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches
-      ? 'dark'
-      : 'light';
+    // Default to dark theme unless user's system explicitly prefers light
+    return window.matchMedia && window.matchMedia('(prefers-color-scheme: light)').matches
+      ? 'light'
+      : 'dark';
   }
 
   function setThemeEffective(theme) {

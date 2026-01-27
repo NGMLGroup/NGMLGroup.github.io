@@ -298,8 +298,10 @@ a:hover {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  padding: 8px 14px;
-  border-radius: 999px;
+  width: 40px;
+  height: 40px;
+  padding: 0;
+  border-radius: 50%;
   border: 1px solid var(--border);
   background: var(--bg-elev);
   color: var(--text);
@@ -307,6 +309,11 @@ a:hover {
   cursor: pointer;
   flex: 0 0 auto;
   transition: transform 150ms ease, background-color 150ms ease;
+}
+
+.theme-toggle i {
+  font-size: 16px;
+  line-height: 1;
 }
 
 .theme-toggle:hover {
@@ -458,7 +465,8 @@ html[data-theme="dark"] .log-logo-dark {
   }
 
   .theme-toggle {
-    padding: 6px 6px;
+    width: 36px;
+    height: 36px;
   }
 
   .site-nav .nav-links {
@@ -983,4 +991,52 @@ html[data-theme-effective="dark"] .bibtex-entry pre {
 .footer-col-wrapper,
 .social-links {
   color: var(--muted);
+}
+
+/* -----------------------------
+   Integreat sponsor logo theme switching
+----------------------------- */
+
+.integreat-text-light {
+  display: inline !important;
+}
+
+.integreat-text-dark {
+  display: none !important;
+}
+
+html[data-theme="light"] .integreat-text-light {
+  display: inline !important;
+}
+
+html[data-theme="light"] .integreat-text-dark {
+  display: none !important;
+}
+
+html[data-theme="dark"] .integreat-text-light {
+  display: none !important;
+}
+
+html[data-theme="dark"] .integreat-text-dark {
+  display: inline !important;
+}
+
+@media (prefers-color-scheme: light) {
+  html:not([data-theme]) .integreat-text-light {
+    display: inline !important;
+  }
+
+  html:not([data-theme]) .integreat-text-dark {
+    display: none !important;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  html:not([data-theme]) .integreat-text-light {
+    display: none !important;
+  }
+
+  html:not([data-theme]) .integreat-text-dark {
+    display: inline !important;
+  }
 }

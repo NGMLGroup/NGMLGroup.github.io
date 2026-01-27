@@ -11,12 +11,12 @@ published: true
 
 ### The Learning on Graphs (LoG) conference local meetup returns to Tromsø! 🌐
 
-Following the success of our previous events, we are thrilled to announce the Third Annual LoG Local Meetup in Tromsø , taking place on February 17th and 18th, 2026 .
+Following the success of our previous events, we are thrilled to announce the Third Annual LoG Local Meetup in Tromsø , taking place on February 17th and 18th, 2026.
 
 <div style="float: right; width: 40%; max-width: 400px; margin: 0 0 10px 20px; text-align: center;">
-<img src="/figs/log-logo-light_new.png" alt="Learning on Graphs Conference Tromsø Meetup"
+<img src="/figs/events/LoG_2026/log-logo-light_new.png" alt="Learning on Graphs Conference Tromsø Meetup"
     class="log-logo log-logo-light" style="width: 100%; height: auto;" />
-<img src="/figs/log-logo-dark_new.png" alt="Learning on Graphs Conference Tromsø Meetup"
+<img src="/figs/events/LoG_2026/log-logo-dark_new.png" alt="Learning on Graphs Conference Tromsø Meetup"
     class="log-logo log-logo-dark" style="width: 100%; height: auto;" />
 </div>
 
@@ -48,3 +48,17 @@ Following the success of our previous events, we are thrilled to announce the Th
 [See the full program here](https://ngmlgroup.github.io/log2025/).
 
 [Registration](https://nettskjema.no/a/log2026-meetup) is required through Nettskjema before 11/02/2026.
+
+---
+
+### Sponsored by
+
+This event is sponsored by [Integreat](https://www.integreat.no/) — the Norwegian Centre for Knowledge-driven Machine Learning.
+
+<div style="display: flex; align-items: center; justify-content: center; gap: 15px; margin: 20px 0;">
+    <a href="https://www.integreat.no/" target="_blank" style="display: flex; align-items: center; gap: 15px; text-decoration: none;">
+        <img src="/figs/events/LoG_2026/integreat-logo.png" alt="Integreat Logo" style="height: 60px; width: auto;" />
+        <img src="/figs/events/LoG_2026/integreat_logo_black.png" alt="Integreat" class="integreat-text integreat-text-light" style="height: 45px; width: auto;" />
+        <img src="/figs/events/LoG_2026/integreat_logo_white.png" alt="Integreat" class="integreat-text integreat-text-dark" style="height: 45px; width: auto;" />
+    </a>
+</div>

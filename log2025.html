@@ -371,13 +371,61 @@ exclude: true
             display: block;
         }
     }
+
+    /* Integreat text logo theme switching */
+    .integreat-text-light {
+        display: inline !important;
+    }
+
+    .integreat-text-dark {
+        display: none !important;
+    }
+
+    /* Light theme */
+    html[data-theme="light"] .integreat-text-light {
+        display: inline !important;
+    }
+
+    html[data-theme="light"] .integreat-text-dark {
+        display: none !important;
+    }
+
+    /* Dark theme */
+    html[data-theme="dark"] .integreat-text-light {
+        display: none !important;
+    }
+
+    html[data-theme="dark"] .integreat-text-dark {
+        display: inline !important;
+    }
+
+    /* System preference fallback */
+    @media (prefers-color-scheme: light) {
+        html:not([data-theme]) .integreat-text-light {
+            display: inline !important;
+        }
+
+        html:not([data-theme]) .integreat-text-dark {
+            display: none !important;
+        }
+    }
+
+    @media (prefers-color-scheme: dark) {
+        html:not([data-theme]) .integreat-text-light {
+            display: none !important;
+        }
+
+        html:not([data-theme]) .integreat-text-dark {
+            display: inline !important;
+        }
+    }
 </style>
 
 <div class="log-event-page">
     <div class="log-header">
-        <img src="/figs/log-logo-light_new.png" alt="Learning on Graphs Conference Tromsø Meetup"
+        <img src="/figs/events/LoG_2026/log-logo-light_new.png" alt="Learning on Graphs Conference Tromsø Meetup"
             class="log-logo log-logo-light" width="60%" />
-        <img src="/figs/log-logo-dark_new.png" alt="Learning on Graphs Conference Tromsø Meetup"
+        <img src="/figs/events/LoG_2026/log-logo-dark_new.png" alt="Learning on Graphs Conference Tromsø Meetup"
             class="log-logo log-logo-dark" width="60%" />
         <p class="subtitle">Tromsø, Norway 🇳🇴</p>
         <p class="subtitle">Date: 17-18 February 2026 | Location: UiT - the Arctic University of Norway</p>
@@ -594,6 +642,20 @@ exclude: true
             Follow us for updates:
             <a href="https://github.com/ngmlgroup" target="_blank">GitHub</a>
         </p>
+    </div>
+
+    <div class="log-section">
+        <h2>Sponsored by</h2>
+        <p>
+            This event is sponsored by <a href="https://www.integreat.no/" target="_blank">Integreat</a> — the Norwegian Centre for Knowledge-driven Machine Learning.
+        </p>
+        <div class="sponsor-logo" style="display: flex; align-items: center; justify-content: center; gap: 20px; margin: 30px 0;">
+            <a href="https://www.integreat.no/" target="_blank" style="display: flex; align-items: center; gap: 15px; text-decoration: none;">
+                <img src="/figs/events/LoG_2026/integreat-logo.png" alt="Integreat Logo" style="height: 80px; width: auto;" />
+                <img src="/figs/events/LoG_2026/integreat_logo_black.png" alt="Integreat" class="integreat-text integreat-text-light" style="height: 60px; width: auto;" />
+                <img src="/figs/events/LoG_2026/integreat_logo_white.png" alt="Integreat" class="integreat-text integreat-text-dark" style="height: 60px; width: auto;" />
+            </a>
+        </div>
     </div>
 </div>
 

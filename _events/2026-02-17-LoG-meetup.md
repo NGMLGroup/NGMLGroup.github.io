@@ -47,7 +47,7 @@ Following the success of our previous events, we are thrilled to announce the Th
 
 [See the full program here](https://ngmlgroup.github.io/log2025/).
 
-[Registration](https://nettskjema.no/a/log2026-meetup) is required through Nettskjema before 11/02/2026.
+Attendance is free but [registration](https://forms.gle/8F6MKErJ6RpuhtL59) is required before 11/02/2026.
 
 ---
 

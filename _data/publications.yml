@@ -15,6 +15,23 @@
       url           = {https://arxiv.org/abs/2510.05060}, 
     }
 
+- title: "Bridging Theory and Practice in Link Representation with Graph Neural Networks"
+  authors: "Veronica Lachi, Francesco Ferrini, Antonio Longa, Bruno Lepri, Andrea Passerini, Manfred Jaeger"
+  venue: "NeurIPS 2025 (spotlight)"
+  figure: "figs/publications/link-pred.png"
+  abstract: "We introduce a unifying framework that subsumes existing message-passing link models and enables formal expressiveness comparisons. Using this framework, we derive a hierarchy of state-of-the-art methods and offer theoretical tools to analyze future architectures. To complement our analysis, we propose a synthetic evaluation protocol comprising the first benchmark specifically designed to assess link-level expressiveness."
+  arxiv: "https://arxiv.org/abs/2506.24018"
+  bibtex: |
+    @misc{lachi2025bridgingtheorypracticelink,
+      title={Bridging Theory and Practice in Link Representation with Graph Neural Networks}, 
+      author={Veronica Lachi and Francesco Ferrini and Antonio Longa and Bruno Lepri and Andrea Passerini and Manfred Jaeger},
+      year={2025},
+      eprint={2506.24018},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2506.24018}, 
+    }
+
 - title: "Torch Geometric Pool: the Pytorch library for pooling in Graph Neural Networks"
   authors: "Filippo Maria Bianchi, Carlo Abate, Ivan Marisca"
   figure: "figs/publications/tgp-logo-wide.png"

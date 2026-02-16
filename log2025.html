@@ -146,6 +146,15 @@ exclude: true
         margin: 20px 0;
     }
 
+    .alert-note {
+        background: #fdecec;
+        padding: 12px 15px;
+        border-left: 4px solid #d93025;
+        margin: 12px 0;
+        color: #5f2120;
+        list-style: none;
+    }
+
     /* Light theme explicit styles */
     html[data-theme="light"] .info-box {
         background: #f5f5f5;
@@ -177,6 +186,12 @@ exclude: true
     html[data-theme="light"] .highlight {
         background: #fff3cd;
         color: inherit;
+    }
+
+    html[data-theme="light"] .alert-note {
+        background: #fdecec;
+        color: #5f2120;
+        border-left-color: #d93025;
     }
 
     /* Dark theme support */
@@ -213,6 +228,12 @@ exclude: true
             color: #fff3cd;
             border-left-color: #ffc107;
         }
+
+        .alert-note {
+            background: #3a1f1f;
+            color: #f2b8b5;
+            border-left-color: #f28b82;
+        }
     }
 
     html[data-theme="dark"] .info-box {
@@ -246,6 +267,12 @@ exclude: true
         background: #3a3a1a;
         color: #fff3cd;
         border-left-color: #ffc107;
+    }
+
+    html[data-theme="dark"] .alert-note {
+        background: #3a1f1f;
+        color: #f2b8b5;
+        border-left-color: #f28b82;
     }
 
     /* Expandable keynote styles */
@@ -480,7 +507,9 @@ exclude: true
         <!-- <p><em>Detailed schedule will be announced soon. Here's a general outline:</em></p> -->
 
         <div class="schedule-item">
-            <span class="schedule-time">Day 1</span>
+            <span class="schedule-time">Day 1 — <a
+                    href="https://teams.microsoft.com/meet/35485170447885?p=atOUjyj6c9TlgiS3Wq" target="_blank">Teams
+                    stream</a></span>
             <ul>
                 <li>08:45 Registration 🤗. Morning talk + PhD Kitchen 📚 </li>
                 <li class="keynote-item">
@@ -549,10 +578,12 @@ exclude: true
                 </li>
                 <li>13:00 Lunch break 🍱 </li>
                 <li>14:00 Afternoon talk 🎙️ + poster session 🗺️</li>
+                <li class="alert-note">Note: Bacciu's Keynote talk uses a separate Zoom link.</li>
                 <li class="keynote-item">
                     <div class="keynote-header" onclick="toggleKeynote('keynote2')">
                         <span class="keynote-toggle" id="keynote2-toggle">▼</span>
-                        <span>14:15 Keynote 2 🎤: Davide Bacciu</span>
+                        <span>14:15 Keynote 2 🎤: Davide Bacciu — <a href="https://uio.zoom.us/j/62535744013"
+                                target="_blank">Zoom stream</a></span>
                     </div>
                     <div class="keynote-abstract expanded" id="keynote2">
                         <div
@@ -580,7 +611,9 @@ exclude: true
         </div>
 
         <div class="schedule-item">
-            <span class="schedule-time">Day 2</span>
+            <span class="schedule-time">Day 2 — <a
+                    href="https://teams.microsoft.com/meet/36504811304822?p=rPuMLmWjo2FnIUs0Hj" target="_blank">Teams
+                    stream</a></span>
             <ul>
                 <li>08:45 Welcome back! ☀️</li>
                 <li class="keynote-item">

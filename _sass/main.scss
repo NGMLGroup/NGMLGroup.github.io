@@ -737,25 +737,39 @@ section:last-child::after {
 }
 
 @media (max-width: 900px) {
-  .person-grid {
+
+  .person-grid,
+  .postdoc .person-grid,
+  .collaborators .person-grid {
     grid-template-columns: repeat(2, 280px);
   }
 
-  .faculty .person-grid {
+  .faculty .person-grid,
+  .phd .person-grid {
     grid-template-columns: repeat(2, 280px);
   }
 
-  .faculty .person {
+  .faculty .person,
+  .phd .person,
+  .postdoc .person,
+  .collaborators .collaborator {
     width: 280px;
   }
 }
 
 @media (max-width: 720px) {
-  .faculty .person-grid {
+
+  .faculty .person-grid,
+  .phd .person-grid,
+  .postdoc .person-grid,
+  .collaborators .person-grid {
     grid-template-columns: 1fr;
   }
 
-  .faculty .person {
+  .faculty .person,
+  .phd .person,
+  .postdoc .person,
+  .collaborators .collaborator {
     width: 100%;
     max-width: 520px;
   }

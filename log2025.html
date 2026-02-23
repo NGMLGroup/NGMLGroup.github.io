@@ -471,8 +471,8 @@ exclude: true
     </div>
 
     <div class="highlight">
-        <strong>📢 Register <a href="https://forms.gle/8F6MKErJ6RpuhtL59">here</a> before Wednesday, February 11th
-            2026.</strong>
+        <strong><s>📢 Register <a href="https://forms.gle/8F6MKErJ6RpuhtL59">here</a> before Wednesday, February
+                11th 2026.</s></strong>
     </div>
 
     <div class="log-section">
@@ -507,15 +507,15 @@ exclude: true
         <!-- <p><em>Detailed schedule will be announced soon. Here's a general outline:</em></p> -->
 
         <div class="schedule-item">
-            <span class="schedule-time">Day 1 — <a
-                    href="https://teams.microsoft.com/meet/35485170447885?p=atOUjyj6c9TlgiS3Wq" target="_blank">Teams
-                    stream</a></span>
+            <span class="schedule-time">Day 1</span>
             <ul>
                 <li>08:45 Registration 🤗. Morning talk + PhD Kitchen 📚 </li>
                 <li class="keynote-item">
                     <div class="keynote-header" onclick="toggleKeynote('keynote1')">
                         <span class="keynote-toggle" id="keynote1-toggle">▼</span>
-                        <span>09:00 Keynote 1 🎤: Sabrina Gaito</span>
+                        <span>09:00 Keynote 1 🎤: Sabrina Gaito — <a
+                                href="/assets/slides/log2026/Talk_Gaito_LoG_2026.pdf" target="_blank">slides
+                                (PDF)</a></span>
                     </div>
                     <div class="keynote-abstract expanded" id="keynote1">
                         <div
@@ -578,12 +578,10 @@ exclude: true
                 </li>
                 <li>13:00 Lunch break 🍱 </li>
                 <li>14:00 Afternoon talk 🎙️ + poster session 🗺️</li>
-                <li class="alert-note">Note: Bacciu's Keynote talk uses a separate Zoom link.</li>
                 <li class="keynote-item">
                     <div class="keynote-header" onclick="toggleKeynote('keynote2')">
                         <span class="keynote-toggle" id="keynote2-toggle">▼</span>
-                        <span>14:15 Keynote 2 🎤: Davide Bacciu — <a href="https://uio.zoom.us/j/62535744013"
-                                target="_blank">Zoom stream</a></span>
+                        <span>14:15 Keynote 2 🎤: Davide Bacciu</span>
                     </div>
                     <div class="keynote-abstract expanded" id="keynote2">
                         <div
@@ -611,15 +609,15 @@ exclude: true
         </div>
 
         <div class="schedule-item">
-            <span class="schedule-time">Day 2 — <a
-                    href="https://teams.microsoft.com/meet/36504811304822?p=rPuMLmWjo2FnIUs0Hj" target="_blank">Teams
-                    stream</a></span>
+            <span class="schedule-time">Day 2</span>
             <ul>
                 <li>08:45 Welcome back! ☀️</li>
                 <li class="keynote-item">
                     <div class="keynote-header" onclick="toggleKeynote('keynote5')">
                         <span class="keynote-toggle" id="keynote5-toggle">▼</span>
-                        <span>09:00 Tutorial (part 1) 👨‍🏫: Andrea Cini</span>
+                        <span>09:00 Tutorial (part 1) 👨‍🏫: Andrea Cini — <a
+                                href="/assets/slides/log2026/tutorial_log_tromsø_handout.pdf" target="_blank">handout
+                                (PDF)</a></span>
                     </div>
                     <div class="keynote-abstract expanded" id="keynote5">
                         <div
@@ -712,6 +710,14 @@ exclude: true
 </div>
 
 <script>
+    document.addEventListener('DOMContentLoaded', function () {
+        document.querySelectorAll('.keynote-header a').forEach(function (link) {
+            link.addEventListener('click', function (event) {
+                event.stopPropagation();
+            });
+        });
+    });
+
     function toggleKeynote(id) {
         const abstract = document.getElementById(id);
         const toggle = document.getElementById(id + '-toggle');

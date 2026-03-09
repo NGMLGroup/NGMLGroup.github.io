@@ -216,4 +216,60 @@ title: "People"
             {% endfor %}
         </div>
     </section>
+
+
+    <!-- Alumni -->
+    <section class="collaborators">
+        <h2>Alumni</h2>
+        <div class="person-grid">
+            {% for person in site.data.people.alumni %}
+            <div class="collaborator">
+                <!-- Image (optional) -->
+                <img src="{% if person.image %}{{ person.image }}{% else %}{{'/figs/people/default.png'}}{% endif %}"
+                    alt="{{ person.name }}'s profile picture" class="profile-pic" />
+
+                <!-- Information -->
+                <div class="info">
+                    <h3>{{ person.name }}</h3>
+                    <p>{{ person.position }}</p>
+                    <p>{{ person.affiliation }}</p>
+
+                    <div class="links">
+                        {% if person.webpage %}
+                        <a href="{{ person.webpage }}" target="_blank" title="Personal Webpage">
+                            <i class="fas fa-globe"></i>
+                        </a>
+                        {% endif %}
+                        {% if person.email %}
+                        <a href="mailto:{{ person.email }}" title="Email">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                        {% endif %}
+                        {% if person.scholar %}
+                        <a href="{{ person.scholar }}" target="_blank" title="Google Scholar">
+                            <i class="fas fa-graduation-cap"></i>
+                        </a>
+                        {% endif %}
+                        {% if person.twitter %}
+                        <a href="{{ person.twitter }}" target="_blank" title="Twitter">
+                            <i class="fab fa-x-twitter"></i>
+                        </a>
+                        {% endif %}
+                        {% if person.linkedin %}
+                        <a href="{{ person.linkedin }}" target="_blank" title="LinkedIn">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        {% endif %}
+                        {% if person.github %}
+                        <a href="{{ person.github }}" target="_blank" title="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        {% endif %}
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </section>
+    
 </div>

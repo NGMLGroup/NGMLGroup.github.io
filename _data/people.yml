@@ -43,12 +43,6 @@ phd:
     github: https://github.com/eloMG
     webpage: "https://elomg.github.io/"
 
-  - name: "Jonas Berg Hansen"
-    image: "/figs/people/jbh.jpg"
-    bio: "Jonas is a PhD student researching pooling in graph neural networks. He applies his research in the context of energy analytics."
-    webpage: "https://en.uit.no/ansatte/person?p_document_id=686752&p_dimension_id=88131"
-    github: "https://github.com/JonasBergHansen"
-
   - name: "Roberto Neglia"
     image: "/figs/people/rn.jpg"
     bio: "Roberto is a PhD student focusing on basic research in machine learning for time series and graphs. His research interests include randomized architectures for large spatio-temporal models and uncertainty quantification."
@@ -89,6 +83,15 @@ postdoc:
     bio: "Nicolas is a CNRS Researcher at Gipsa-lab, in Grenoble, France. He is currently working as an MSCA Postdoc at UiT. His research includes graph signal processing and sampling algorithms for ML."
     scholar: "https://scholar.google.fr/citations?user=sLUQDBcAAAAJ&hl=en"
     webpage: "https://www.ntremblay.cnrs.fr/"
+
+  - name: "Antonio Longa"
+    image: "/figs/people/al.png"
+    bio: "Antonio is a Postdoc at UiT working on research in graph machine learning. His interests include temporal graph neural networks and explainability."
+    scholar: "https://scholar.google.com/citations?hl=it&user=ZsTTo5MAAAAJ"
+    webpage: "https://antoniolonga.github.io/"
+    twitter: "https://x.com/AntonioLonga94"
+    linkedin: "https://www.linkedin.com/in/antonio-longa-51ab2a113/"
+    github: "https://github.com/AntonioLonga"
 
 
 collaborator:
@@ -154,4 +157,30 @@ collaborator:
     image: "/figs/people/gl.jpeg"
     position: "PhD student"
     affiliation: "IMT School for Advanced Studies, Lucca"
-    webpage: "https://www.researchgate.net/profile/Giulio-Loddi"
+    webpage: "https://www.researchgate.net/profile/Giulio-Loddi"  
+
+  - name: "Dionisia Naddeo"
+    image: "/figs/people/dn.jpg"
+    position: "PhD student"
+    affiliation: "Department of Biomedicine and Prevention, University of Rome, Tor Vergata Italy"
+    linkedin: "https://www.linkedin.com/in/dionisianaddeo/"
+    scholar: "https://scholar.google.com/citations?user=1DOrArsAAAAJ&hl=en"
+    webpage: "https://fismed.uniroma2.it/staff/dionisia-naddeo/"
+    
+  - name: "Lorenzo Epifani"
+    image: "/figs/people/le.jpg"
+    position: "PhD student"
+    affiliation: "Politecnico di Milano"
+    linkedin: "https://www.linkedin.com/in/lorenzo-epifani-7937b0168/"
+    scholar: "https://scholar.google.com/citations?user=sQpIYzQAAAAJ"
+    github: "https://github.com/Lorenzo-Epifani"
+    webpage: "https://lorenzo-epifani.github.io/"
+    
+
+
+alumni:
+  - name: "Jonas Berg Hansen"
+    image: "/figs/people/jbh.jpg"
+    bio: "Jonas is a PhD student researching pooling in graph neural networks. He applies his research in the context of energy analytics."
+    webpage: "https://en.uit.no/ansatte/person?p_document_id=686752&p_dimension_id=88131"
+    github: "https://github.com/JonasBergHansen"

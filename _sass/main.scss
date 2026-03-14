@@ -657,7 +657,8 @@ section:last-child::after {
   width: 450px;
 }
 
-.phd .person {
+.phd .person,
+.postdoc .person {
   width: 450px;
 }
 
@@ -727,6 +728,17 @@ section:last-child::after {
 }
 
 .phd .person-grid {
+  grid-template-columns: repeat(2, 450px);
+  gap: 18px;
+  justify-content: center;
+
+  /* Center single item on last row */
+  &>.person:last-child:nth-child(2n + 1) {
+    grid-column: 1 / 2;
+  }
+}
+
+.postdoc .person-grid {
   grid-template-columns: repeat(2, 450px);
   gap: 18px;
   justify-content: center;

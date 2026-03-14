@@ -60,6 +60,13 @@ phd:
     linkedin: "https://www.linkedin.com/in/youssef-wally/"
     webpage: "https://www.integreat.no/people/phd-postdoc-fellows/youssef-wally/index.html"
 
+  - name: "Riccardo Gelato"
+    image: "/figs/people/rg.jpg"
+    bio: "Riccardo is a PhD student researching Out-Of-Distribution (OOD) detection and generalization for graphs. He is also interested in domain adaptation, foundation models, and image segmentation."
+    scholar: "https://scholar.google.com/citations?user=VcrmWWYAAAAJ&hl=it&oi=ao"
+    linkedin: "https://www.linkedin.com/in/riccardo-gelato-780925186/"
+    github: "https://github.com/RiccardoGelato"
+
 postdoc:
   - name: "Carlo Abate"
     image: "/figs/people/ca.jpeg"

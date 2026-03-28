@@ -52,6 +52,7 @@ header_pages:
   - publications.html
   - blog.html
   - theses.md
+  - seminars.html
   - news.md
   
 collections:

@@ -1,0 +1,87 @@
+---
+layout: base
+title: "Seminars"
+---
+
+{% assign sorted_seminars = site.data.seminars | sort: "date" | reverse %}
+
+<div class="seminars-page">
+  <header class="seminars-hero">
+    <p class="seminars-eyebrow">Seminar Series</p>
+    <h1>Seminars</h1>
+    <p class="seminars-intro">
+      Our seminar series brings together researchers working on graphs, machine learning, network science, and related areas.
+      It aims to foster interactions across complementary research directions, from geometry and mathematical modeling to data-driven and statistical approaches, encouraging the emergence of shared research perspectives.
+      <br>
+      Browse past and upcoming talks, discover the speakers, and access slides and event snapshots when available.
+    </p>
+  </header>
+
+  {% if sorted_seminars and sorted_seminars.size > 0 %}
+    <section class="seminars-list" aria-label="Seminar archive">
+      {% for seminar in sorted_seminars %}
+        <article class="seminar-card">
+          <div class="seminar-card__content">
+            <div class="seminar-card__header">
+              <p class="seminar-card__date">
+                {{ seminar.date | date: "%B %-d, %Y" }}
+                {% if seminar.time %} · {{ seminar.time }}{% endif %}
+              </p>
+              <h2>{{ seminar.title }}</h2>
+            </div>
+
+            <div class="seminar-meta" aria-label="Seminar details">
+              <p>
+                <strong>Speaker:</strong>
+                {% if seminar.speaker_page %}
+                  <a href="{{ seminar.speaker_page }}" target="_blank" rel="noopener noreferrer">{{ seminar.speaker }}</a>
+                {% else %}
+                  {{ seminar.speaker }}
+                {% endif %}
+              </p>
+              {% if seminar.affiliation %}
+                <p><strong>Affiliation:</strong> {{ seminar.affiliation }}</p>
+              {% endif %}
+              {% if seminar.location %}
+                <p><strong>Location:</strong> {{ seminar.location }}</p>
+              {% endif %}
+              {% if seminar.host %}
+                <p><strong>Host:</strong> {{ seminar.host }}</p>
+              {% endif %}
+            </div>
+
+            <p class="seminar-description">{{ seminar.description }}</p>
+
+            <div class="seminar-links">
+              {% if seminar.slides %}
+                <a href="{{ seminar.slides }}" class="btn" target="_blank" rel="noopener noreferrer">
+                  <i class="fas fa-file-powerpoint" aria-hidden="true"></i> Slides
+                </a>
+              {% endif %}
+              {% if seminar.recording %}
+                <a href="{{ seminar.recording }}" class="btn" target="_blank" rel="noopener noreferrer">
+                  <i class="fas fa-video" aria-hidden="true"></i> Recording
+                </a>
+              {% endif %}
+            </div>
+          </div>
+
+          {% if seminar.photo %}
+            <figure class="seminar-photo">
+              <img
+                src="{{ seminar.photo | relative_url }}"
+                alt="{% if seminar.photo_alt %}{{ seminar.photo_alt }}{% else %}Photo from the seminar {{ seminar.title }}{% endif %}">
+            </figure>
+          {% endif %}
+        </article>
+      {% endfor %}
+    </section>
+  {% else %}
+    <section class="seminars-empty">
+      <h2>Seminars will appear here soon</h2>
+      <p>
+        Add entries to <code>_data/seminars.yml</code> to publish new seminars, slides, and photos on this page.
+      </p>
+    </section>
+  {% endif %}
+</div>

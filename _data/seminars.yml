@@ -1,0 +1,26 @@
+- title: "Sheaf Neural Networks"
+  speaker: "Dionisia Naddeo"
+  speaker_page: "https://fismed.uniroma2.it/staff/dionisia-naddeo/"
+  affiliation: " University of Rome Tor Vergata, Italy"
+  date: 2027-03-2025
+  time: "10:00"
+  description: "This seminar provides an accessible introduction to the mathematical concept of sheaves. We will focus in particular on sheaves defined on graphs, explaining their intuition and basic properties in a simple and approachable way. Building on this foundation, we will introduce Sheaf Neural Networks, a recent extension of Graph Neural Networks that uses sheaf structures."
+  slides: "slides/sem1_Sheaf Neural Networks.pdf"
+  recording:
+  photo: "figs/seminars/dionisia_fig2.jpg"
+  photo_alt: "Dionisia Naddeo giving a seminar on Sheaf Neural Networks"
+
+# Add one item per seminar using the same fields:
+# - title
+# - speaker
+# - speaker_page
+# - affiliation
+# - date
+# - time
+# - location
+# - host
+# - description
+# - slides
+# - recording
+# - photo
+# - photo_alt

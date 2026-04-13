@@ -1,9 +1,23 @@
+- title: "Toward a Dynamical Theory of Deep Learning: Coupled State-Parameter Dynamics and Time-Scale Interaction"
+  speaker: "Lorenzo Livi"
+  speaker_page: "https://sites.google.com/site/lorenzlivi/"
+  affiliation: "OPIT - Open Institute of Technology"
+  date: 08-05-2026
+  time: "10:00"
+  done: false
+  description: "Modern deep learning systems exhibit complex dynamical behavior, including interacting time scales, evolving internal representations, and non-Gaussian optimization dynamics. Yet a principled theoretical framework explaining how these dynamics shape learning, memory, and adaptation is still largely missing. This talk presents a research program toward a dynamical theory of deep learning based on the interaction between state dynamics and parameter dynamics in recurrent neural networks. I first show how gating mechanisms induce lag-dependent effective learning rates, which couple temporal state dynamics with parameter updates during training. These quantities determine how gradient information propagates across time and therefore control the limits of temporal credit assignment. Building on this perspective, I introduce a learnability theory that characterizes the maximum temporal horizon at which gradient signals remain statistically detectable under heavy-tailed stochastic gradients. This defines a learnability window whose scaling depends on the decay of the aggregate effective learning-rate envelope. Finally, I discuss recent results linking envelope decay to the distribution of neuron-wise time scales that emerges during training. In large networks, the envelope can be expressed as a Laplace transform of this time-scale spectrum, implying that the tail geometry of the spectrum determines the temporal reach of learning. Preliminary results suggest that optimization noise and architectural flexibility jointly shape these spectra through an anti-collapse mechanism that generates heterogeneous time scales and leads training dynamics to self-organize toward distinct operating regimes of temporal learning."
+  slides: "slides/sem4_dynamical_theory_of_deep_learning.pdf"
+  recording:
+  photo: "figs/seminars/lorenzo_livi1.jpeg"
+  photo_alt: "Lorenzo Livi giving a seminar on Dynamical Theory of Deep Learning"
+
 - title: "From Neural Networks to Graph Neural Networks"
   speaker: "Antonio Longa"
   speaker_page: "https://antoniolonga.github.io/"
   affiliation: "UiT The Arctic University of Norway"
-  date: 2027-10-2025
+  date: 10-04-2026
   time: "10:00"
+  done: true
   description: "This seminar introduces the transition from traditional neural networks to Graph Neural Networks (GNNs), highlighting the limitations of MLPs in modeling relational data. It presents graphs as a natural representation for such data and describes GNNs through the message passing paradigm. Key architectures, challenges, and current research directions, including spatio-temporal graph learning, are briefly discussed."
   slides: "slides/sem2_fromNNtoGNN.pdf"
   recording: "https://youtu.be/zpExNl2xInU"
@@ -14,8 +28,9 @@
   speaker: "Dionisia Naddeo"
   speaker_page: "https://fismed.uniroma2.it/staff/dionisia-naddeo/"
   affiliation: " University of Rome Tor Vergata, Italy"
-  date: 2027-03-2025
+  date: 27-03-2026
   time: "10:00"
+  done: true
   description: "This seminar provides an accessible introduction to the mathematical concept of sheaves. We will focus in particular on sheaves defined on graphs, explaining their intuition and basic properties in a simple and approachable way. Building on this foundation, we will introduce Sheaf Neural Networks, a recent extension of Graph Neural Networks that uses sheaf structures."
   slides: "slides/sem1_SheafNeuralNetworks.pdf"
   recording:
@@ -29,6 +44,7 @@
 # - affiliation
 # - date
 # - time
+# - done
 # - location
 # - host
 # - description
@@ -36,3 +52,4 @@
 # - recording
 # - photo
 # - photo_alt
+# Use `done: true` for completed talks and `done: false` for upcoming talks.

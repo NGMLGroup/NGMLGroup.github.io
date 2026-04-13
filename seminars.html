@@ -3,7 +3,7 @@ layout: base
 title: "Seminars"
 ---
 
-{% assign sorted_seminars = site.data.seminars | sort: "date" | reverse %}
+{% assign sorted_seminars = site.data.seminars | sort: "date" %}
 
 <div class="seminars-page">
   <header class="seminars-hero">
@@ -37,15 +37,23 @@ title: "Seminars"
     <section class="seminars-list" aria-label="Seminar archive">
       {% for seminar in sorted_seminars %}
         <article class="seminar-card">
-          <div class="seminar-card__content">
-            <div class="seminar-card__header">
+          <div class="seminar-card__header">
+            {% assign seminar_done = seminar.done | default: false | append: "" | downcase %}
+            <div class="seminar-card__meta-row">
               <p class="seminar-card__date">
                 {{ seminar.date | date: "%B %-d, %Y" }}
                 {% if seminar.time %} · {{ seminar.time }}{% endif %}
               </p>
-              <h2>{{ seminar.title }}</h2>
+              {% if seminar_done == "true" %}
+                <span class="seminar-status seminar-status--done">Completed</span>
+              {% else %}
+                <span class="seminar-status seminar-status--upcoming">Upcoming</span>
+              {% endif %}
             </div>
+            <h2>{{ seminar.title }}</h2>
+          </div>
 
+          <div class="seminar-card__content">
             <div class="seminar-meta" aria-label="Seminar details">
               <p>
                 <strong>Speaker:</strong>

@@ -1,3 +1,15 @@
+- title: "From Neural Networks to Graph Neural Networks"
+  speaker: "Antonio Longa"
+  speaker_page: "https://antoniolonga.github.io/"
+  affiliation: "UiT The Arctic University of Norway"
+  date: 2027-10-2025
+  time: "10:00"
+  description: "This seminar introduces the transition from traditional neural networks to Graph Neural Networks (GNNs), highlighting the limitations of MLPs in modeling relational data. It presents graphs as a natural representation for such data and describes GNNs through the message passing paradigm. Key architectures, challenges, and current research directions, including spatio-temporal graph learning, are briefly discussed."
+  slides: "slides/sem2_fromNNtoGNN.pdf"
+  recording: "https://youtu.be/zpExNl2xInU"
+  photo: "figs/seminars/Antonio_1.jpg"
+  photo_alt: "Antonio Longa giving a seminar on GNN"
+
 - title: "Sheaf Neural Networks"
   speaker: "Dionisia Naddeo"
   speaker_page: "https://fismed.uniroma2.it/staff/dionisia-naddeo/"
@@ -5,7 +17,7 @@
   date: 2027-03-2025
   time: "10:00"
   description: "This seminar provides an accessible introduction to the mathematical concept of sheaves. We will focus in particular on sheaves defined on graphs, explaining their intuition and basic properties in a simple and approachable way. Building on this foundation, we will introduce Sheaf Neural Networks, a recent extension of Graph Neural Networks that uses sheaf structures."
-  slides: "slides/sem1_Sheaf Neural Networks.pdf"
+  slides: "slides/sem1_SheafNeuralNetworks.pdf"
   recording:
   photo: "figs/seminars/dionisia_fig2.jpg"
   photo_alt: "Dionisia Naddeo giving a seminar on Sheaf Neural Networks"

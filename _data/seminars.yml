@@ -11,6 +11,21 @@
   photo: "figs/seminars/lorenzo_livi1.jpeg"
   photo_alt: "Lorenzo Livi giving a seminar on Dynamical Theory of Deep Learning"
 
+
+- title: "Geometry of neural networks"
+  speaker: "Marta Panizzut"
+  speaker_page: "https://martapanizzut.github.io/"
+  affiliation: "UiT The Arctic University of Norway"
+  date: 24-04-2026
+  time: "10:00"
+  done: false
+  description: "This seminar offers an overview of recent advancements in the geometric aspects of neural networks. Specifically, we will explore how concepts from discrete and tropical geometry can be utilized to describe the geometric complexity of neural networks. No particular prior knowledge of geometry is required."
+  slides: 
+  recording:
+  photo: "figs/seminars/marta_1.jpeg"
+  photo_alt: "Marta Panizzut giving a seminar on Geometry of Neural Networks"
+
+
 - title: "From Neural Networks to Graph Neural Networks"
   speaker: "Antonio Longa"
   speaker_page: "https://antoniolonga.github.io/"

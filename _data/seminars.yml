@@ -18,11 +18,11 @@
   affiliation: "UiT The Arctic University of Norway"
   date: 24-04-2026
   time: "10:00"
-  done: false
+  done: true
   description: "This seminar offers an overview of recent advancements in the geometric aspects of neural networks. Specifically, we will explore how concepts from discrete and tropical geometry can be utilized to describe the geometric complexity of neural networks. No particular prior knowledge of geometry is required."
   slides: 
-  recording:
-  photo: "figs/seminars/marta_1.jpeg"
+  recording: https://youtu.be/TE6QxYSC94E
+  photo: "figs/seminars/marta4.jpg"
   photo_alt: "Marta Panizzut giving a seminar on Geometry of Neural Networks"
 
 

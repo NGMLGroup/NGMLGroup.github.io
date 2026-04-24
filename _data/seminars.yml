@@ -20,7 +20,7 @@
   time: "10:00"
   done: true
   description: "This seminar offers an overview of recent advancements in the geometric aspects of neural networks. Specifically, we will explore how concepts from discrete and tropical geometry can be utilized to describe the geometric complexity of neural networks. No particular prior knowledge of geometry is required."
-  slides: 
+  slides: "slides/sem3_Geometry_and_neural_networks.pdf"
   recording: https://youtu.be/TE6QxYSC94E
   photo: "figs/seminars/marta4.jpg"
   photo_alt: "Marta Panizzut giving a seminar on Geometry of Neural Networks"

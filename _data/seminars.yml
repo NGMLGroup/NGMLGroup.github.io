@@ -4,11 +4,11 @@
   affiliation: "OPIT - Open Institute of Technology"
   date: 08-05-2026
   time: "10:00"
-  done: false
-  description: "Modern deep learning systems exhibit complex dynamical behavior, including interacting time scales, evolving internal representations, and non-Gaussian optimization dynamics. Yet a principled theoretical framework explaining how these dynamics shape learning, memory, and adaptation is still largely missing. This talk presents a research program toward a dynamical theory of deep learning based on the interaction between state dynamics and parameter dynamics in recurrent neural networks. I first show how gating mechanisms induce lag-dependent effective learning rates, which couple temporal state dynamics with parameter updates during training. These quantities determine how gradient information propagates across time and therefore control the limits of temporal credit assignment. Building on this perspective, I introduce a learnability theory that characterizes the maximum temporal horizon at which gradient signals remain statistically detectable under heavy-tailed stochastic gradients. This defines a learnability window whose scaling depends on the decay of the aggregate effective learning-rate envelope. Finally, I discuss recent results linking envelope decay to the distribution of neuron-wise time scales that emerges during training. In large networks, the envelope can be expressed as a Laplace transform of this time-scale spectrum, implying that the tail geometry of the spectrum determines the temporal reach of learning. Preliminary results suggest that optimization noise and architectural flexibility jointly shape these spectra through an anti-collapse mechanism that generates heterogeneous time scales and leads training dynamics to self-organize toward distinct operating regimes of temporal learning."
+  done: True
+  description: "Modern deep learning systems exhibit complex dynamical behavior, yet a principled theory explaining how these dynamics shape learning and memory is still missing. This talk presents a research program toward a dynamical theory of deep learning based on the interaction between state and parameter dynamics in recurrent neural networks. I show how gating mechanisms induce lag-dependent effective learning rates that constrain temporal credit assignment, and introduce a learnability theory characterizing the maximum temporal horizon at which gradient signals remain detectable under heavy-tailed stochastic gradients. Finally, I discuss recent results linking these learning limits to the distribution of neuron-wise time scales emerging during training, whose geometry determines the temporal reach of learning."
   slides: "slides/sem4_dynamical_theory_of_deep_learning.pdf"
-  recording:
-  photo: "figs/seminars/lorenzo_livi1.jpeg"
+  recording: "https://youtu.be/vML_M8NkICE?list=PLGMXrbDNfqTxlTyk44tQCQEqxqgcIGXtV"
+  photo: "figs/seminars/lorenzo_livi_2.png"
   photo_alt: "Lorenzo Livi giving a seminar on Dynamical Theory of Deep Learning"
 
 
@@ -21,7 +21,7 @@
   done: true
   description: "This seminar offers an overview of recent advancements in the geometric aspects of neural networks. Specifically, we will explore how concepts from discrete and tropical geometry can be utilized to describe the geometric complexity of neural networks. No particular prior knowledge of geometry is required."
   slides: "slides/sem3_Geometry_and_neural_networks.pdf"
-  recording: https://youtu.be/TE6QxYSC94E
+  recording: "https://youtu.be/TE6QxYSC94E"
   photo: "figs/seminars/marta4.jpg"
   photo_alt: "Marta Panizzut giving a seminar on Geometry of Neural Networks"
 

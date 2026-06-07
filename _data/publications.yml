@@ -1,3 +1,19 @@
+- title: "A Generalized Tikhonov Layer for Interpretable-by-design Graph Neural Networks"
+  authors: "Nicolas Tremblay, Benjamin Ricaud, Filippo Maria Bianchi"
+  figure: "figs/publications/kirchoff.png"
+  abstract: "We propose the Tikhonov layer, a graph neural network layer that is interpretable by design: once trained, its learned parameters directly reveal which node features and which aspects of the graph topology were leveraged for prediction. Additionally, the Tikhonov layer provides, in a single layer, a global receptive field, mitigating both oversmoothing and oversquashing."
+  arxiv: "https://arxiv.org/abs/2605.28578"
+  bibtex: |
+    @misc{tremblay2026generalizedtikhonovlayerinterpretablebydesign,
+      title={A Generalized Tikhonov Layer for Interpretable-by-design Graph Neural Networks}, 
+      author={Nicolas Tremblay and Benjamin Ricaud and Filippo Maria Bianchi},
+      year={2026},
+      eprint={2605.28578},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2605.28578}, 
+    }
+
 - title: "ResCP: Residual Conformal Prediction for Time Series Forecasting"
   authors: "Roberto Neglia, Andrea Cini, Michael M. Bronstein, Filippo Maria Bianchi"
   venue: "ICLR 2026"
@@ -71,7 +87,7 @@
 
 - title: "On Time Series Clustering with Graph Neural Networks"
   authors: "Jonas Berg Hansen, Andrea Cini, Filippo Maria Bianchi"
-  venue: "TMLR 2025"
+  venue: "TMLR"
   figure: "figs/publications/hansen2025clustering.png"
   abstract: "We study the effectiveness of Spatio-temporal Graph Neural Networks to perform clustering of time series, whose dependencies are represented by a graph."
   github: "https://github.com/NGMLGroup/Time-Series-Clustering-with-GNNs"
@@ -105,19 +121,19 @@
 
 - title: "BN-Pool: a Bayesian Nonparametric Approach to Graph Pooling"
   authors: "Daniele Castellana, Filippo Maria Bianchi"
+  venue: "TMLR"
   figure: "figs/publications/bnpool.gif"
   abstract: "We introduce BN-Pool, the first clustering-based pooling method for GNNs that adaptively determines the number of supernodes in the pooled graph. This is done by partitioning the graph nodes into an unbounded number of clusters using a generative model based on a Bayesian non-parametric framework."
   github: "https://github.com/NGMLGroup/Bayesian-Nonparametric-Graph-Pooling"
   arxiv: "https://arxiv.org/abs/2501.09821"
   bibtex: |
-    @misc{castellana2025bnpool,
-      title         = {BN-Pool: a Bayesian Nonparametric Approach to Graph Pooling}, 
-      author        = {Daniele Castellana and Filippo Maria Bianchi},
-      year          = {2025},
-      eprint        = {2501.09821},
-      archivePrefix = {arXiv},
-      primaryClass  = {cs.LG},
-      url           = {https://arxiv.org/abs/2501.09821}, 
+    @article{castellana2026bnpool,
+      title   = {{BN}-Pool: Bayesian Nonparametric Pooling for Graphs},
+      author  = {Castellana, Daniele and Bianchi, Filippo Maria},
+      journal = {Transactions on Machine Learning Research},
+      issn    = {2835-8856},
+      year    = {2026},
+      url     = {https://openreview.net/forum?id=3B3Zr2xfkf},
     }
 
 - title: "Interpreting Temporal Graph Neural Networks with Koopman Theory"

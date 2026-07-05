@@ -4,8 +4,10 @@
   affiliation: "Université Paris-Saclay, France"
   date: 05-06-2026
   time: "10:00"
-  done: False
+  done: True
   description: "Linear approximation methods often struggle to efficiently capture complex, high-dimensional functions, as they require a rigid, uniform increase in degrees of freedom to improve accuracy. To overcome this, nonlinear approximation has emerged as a powerful paradigm. By dynamically selecting only the most significant basis functions, it achieves optimal compression rates and dramatically reduces computational costs. Among these tools, sparse polynomials offer a highly effective framework, leveraging adaptive selection strategies to accurately represent intricate systems using only a small subset of non-zero coefficients. While sparse polynomials have found massive success in classical applications like uncertainty quantification and parametric differential equations, their extension to network-structured data is a rapidly evolving frontier. In this seminar, we will review the core mechanics of sparse polynomials as a nonlinear approximation tool and explore their recent deployment in modeling diffusion processes on graphs. Finally, we will present a variety of numerical test cases demonstrating how sparse polynomials perform across different network models and topologies. Through these diverse examples, we will discuss the practical utility, scalability, and unique challenges of using sparse polynomials to capture complex dynamics on graphs."
+  recording: "https://www.youtube.com/watch?v=oyZn8_yRvFM"
+  slides: "slides/sem5_sparse_polynomial_approximation.pdf"
   photo: "figs/seminars/giuseppe_alessio_dinverno.jpg"
   photo_alt: "Giuseppe Alessio D'Inverno giving a seminar on Sparse Polynomial Approximation"
 

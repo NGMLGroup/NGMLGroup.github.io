@@ -182,8 +182,16 @@ collaborator:
     scholar: "https://scholar.google.com/citations?user=sQpIYzQAAAAJ"
     github: "https://github.com/Lorenzo-Epifani"
     webpage: "https://lorenzo-epifani.github.io/"
-    
 
+  - name: "Jonas Linkerhägner"
+    image: "/figs/people/jl.jpeg"
+    position: "PhD student"
+    affiliation: "University of Basel"
+    github: "https://github.com/jlinki"
+    linkedin: "https://de.linkedin.com/in/jonas-linkerhaegner"
+    scholar: "https://scholar.google.com/citations?user=hHXQ2fEAAAAJ&hl=de"
+    webpage: "https://sada.dmi.unibas.ch/en/people/phd/jonas-linkerhaegner"
+    
 
 alumni:
   - name: "Jonas Berg Hansen"

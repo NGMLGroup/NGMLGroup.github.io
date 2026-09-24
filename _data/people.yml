@@ -69,7 +69,7 @@ phd:
 
   - name: "Andrea Federici"
     image: "/figs/people/af-square.png"
-    bio: "Andrea is a PhD student at UiT working within TRACE. He is interested in foundation models for Earth data and how to make them reliable across different regions and conditions."
+    bio: "Andrea is a PhD student studying foundation models for Earth data. He is interested in how to make them reliable across different regions and conditions."
     scholar: "https://scholar.google.com/citations?user=QtbZpBcAAAAJ&hl=en"
     linkedin: "https://www.linkedin.com/in/andrea-federici-11536a282/"
     github: "https://github.com/andrea-federici"

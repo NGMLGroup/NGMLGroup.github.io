@@ -35,13 +35,6 @@ faculty:
     github: "https://github.com/veronicalachi"
 
 phd:
-  - name: "Andrea Federici"
-    image: "/figs/people/af.jpg"
-    bio: "Andrea is a PhD student at UiT working within TRACE. He is interested in foundation models for Earth data and how to make them reliable across different regions and conditions."
-    scholar: "https://scholar.google.com/citations?user=QtbZpBcAAAAJ&hl=en"
-    linkedin: "https://www.linkedin.com/in/andrea-federici-11536a282/"
-    github: "https://github.com/andrea-federici"
-
   - name: "Michele Guerra"
     image: "/figs/people/mg.png"
     bio: "Michele is a PhD student researching randomized and trainable models for time series and graphs. The focus of his research is on uncertainty quantification and interpretability."
@@ -73,6 +66,13 @@ phd:
     scholar: "https://scholar.google.com/citations?user=VcrmWWYAAAAJ&hl=it&oi=ao"
     linkedin: "https://www.linkedin.com/in/riccardo-gelato-780925186/"
     github: "https://github.com/RiccardoGelato"
+
+  - name: "Andrea Federici"
+    image: "/figs/people/af-portrait.jpg"
+    bio: "Andrea is a PhD student at UiT working within TRACE. He is interested in foundation models for Earth data and how to make them reliable across different regions and conditions."
+    scholar: "https://scholar.google.com/citations?user=QtbZpBcAAAAJ&hl=en"
+    linkedin: "https://www.linkedin.com/in/andrea-federici-11536a282/"
+    github: "https://github.com/andrea-federici"
 
 postdoc:
   - name: "Carlo Abate"

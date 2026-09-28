@@ -1,3 +1,53 @@
+- title: "GNNs Meet Sequence Models Along the Shortest-Path: an Expressive Method for Link Prediction"
+  authors: "Francesco Ferrini, Veronica Lachi, Antonio Longa, Bruno Lepri, Andrea Passerini"
+  figure: "figs/publications/sp4lp.gif"
+  venue: "NeurIPS 2026"
+  abstract: "We propose SP4LP, a novel framework for link prediction that combines GNN-based node representations with sequence modeling over the shortest path between two candidate nodes. By encoding the nodes along this path, SP4LP captures multi-hop structural patterns overlooked by standard GNNs while remaining computationally efficient. Moreover, we prove that SP4LP is strictly more expressive than several existing approaches and demonstrate strong performance across multiple benchmarks."
+  arxiv: "https://arxiv.org/abs/2507.07138"
+  bibtex: |
+   @misc{ferrini2025gnnsmeetsequencemodels,
+      title={GNNs Meet Sequence Models Along the Shortest-Path: an Expressive Method for Link Prediction}, 
+      author={Francesco Ferrini and Veronica Lachi and Antonio Longa and Bruno Lepri and Andrea Passerini},
+      year={2025},
+      eprint={2507.07138},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2507.07138}, 
+    }
+
+- title: "From Multimodal Observation to Interpretable Suggestions: Counterfactual Time-Expanded Relational Modeling of Surgical Teams"
+  authors: "Vincenzo Marco De Luca, Antonio Longa, Giovanna Varni, Andrea Passerini"
+  figure: "figs/publications/acmmm.gif"
+  venue: "ACM Multimedia 2026"
+  abstract: "We propose TE-ReNN, a Time-Expanded Relational Neural Network for modeling surgical team dynamics from multimodal observations. TE-ReNN captures interpersonal interactions and their temporal evolution within a unified graph, enabling robust teamwork prediction in low-data settings. Moreover, we introduce an exemplar-based counterfactual method that identifies interpretable and actionable changes in communication and behavior associated with improved team performance."
+  arxiv: "https://arxiv.org/abs/2608.23254"
+  bibtex: |
+   @article{de2026multimodal,
+      title={From Multimodal Observation to Interpretable Suggestions: Counterfactual Time-Expanded Relational Modeling of Surgical Teams},
+      author={De Luca, Vincenzo Marco and Longa, Antonio and Varni, Giovanna and Passerini, Andrea},
+      journal={arXiv preprint arXiv:2608.23254},
+      year={2026}
+    }
+
+- title: "Hyperbolic Graph Neural Networks Under the Microscope: The Role of Geometry–Task Alignment"
+  authors: "Dionisia Naddeo, Jonas Linkerhägner, Nicola Toschi, Geri Skenderi, Veronica Lachi"
+  figure: "figs/publications/hyperbolic.png"
+  venue: "NeurIPS 2026"
+  abstract: "We introduce geometry–task alignment, a principle for understanding when Hyperbolic Graph Neural Networks are preferable to Euclidean models. Through theoretical analysis and controlled experiments, we show that graph hyperbolicity alone is insufficient: HGNNs provide an advantage only when the downstream task requires preserving the graph’s metric structure. This explains their strong performance on link prediction and geometry-aligned regression, while their advantage largely disappears on standard node classification benchmarks."
+  arxiv: "https://arxiv.org/abs/2602.01828"
+  bibtex: |
+    @misc{naddeo2026hyperbolicgraphneuralnetworks,
+          title={Hyperbolic Graph Neural Networks Under the Microscope: The Role of Geometry-Task Alignment}, 
+          author={Dionisia Naddeo and Jonas Linkerhägner and Nicola Toschi and Geri Skenderi and Veronica Lachi},
+          year={2026},
+          eprint={2602.01828},
+          archivePrefix={arXiv},
+          primaryClass={cs.LG},
+          url={https://arxiv.org/abs/2602.01828}, 
+    }
+
+
+
 - title: "A Generalized Tikhonov Layer for Interpretable-by-design Graph Neural Networks"
   authors: "Nicolas Tremblay, Benjamin Ricaud, Filippo Maria Bianchi"
   figure: "figs/publications/kirchoff.png"

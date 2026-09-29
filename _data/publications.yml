@@ -46,10 +46,9 @@
           url={https://arxiv.org/abs/2602.01828}, 
     }
 
-
-
 - title: "A Generalized Tikhonov Layer for Interpretable-by-design Graph Neural Networks"
   authors: "Nicolas Tremblay, Benjamin Ricaud, Filippo Maria Bianchi"
+  venue: "NeurIPS 2026"
   figure: "figs/publications/kirchoff.png"
   abstract: "We propose the Tikhonov layer, a graph neural network layer that is interpretable by design: once trained, its learned parameters directly reveal which node features and which aspects of the graph topology were leveraged for prediction. Additionally, the Tikhonov layer provides, in a single layer, a global receptive field, mitigating both oversmoothing and oversquashing."
   arxiv: "https://arxiv.org/abs/2605.28578"
@@ -62,6 +61,22 @@
       archivePrefix={arXiv},
       primaryClass={cs.LG},
       url={https://arxiv.org/abs/2605.28578}, 
+    }
+
+- title: "Reachability is not enough: Diagnosing long-range behavior in GNNs"
+  authors: "Filippo Maria Bianchi"
+  figure: "figs/publications/reachability.png"
+  abstract: "A GNN may be able to connect distant parts of a network without actually using the information there effectively. We introduce a framework that measures how much information from different distances influences a model's predictions and helps identify where it gets lost: in the model's design, its training, or the way its calculations are carried out. Our experiments show that models with similar reach can use distant information very differently, and that good overall accuracy can hide failures on tasks that depend on faraway connections."
+  arxiv: "https://arxiv.org/abs/2609.33674"
+  bibtex: |
+    @misc{bianchi2026reachability,
+      title={Reachability is not enough: Diagnosing long-range behavior in {GNNs}},
+      author={Filippo Maria Bianchi},
+      year={2026},
+      eprint={2609.33674},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2609.33674},
     }
 
 - title: "ResCP: Residual Conformal Prediction for Time Series Forecasting"

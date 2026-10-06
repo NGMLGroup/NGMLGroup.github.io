@@ -198,6 +198,14 @@ collaborator:
     linkedin: "https://de.linkedin.com/in/jonas-linkerhaegner"
     scholar: "https://scholar.google.com/citations?user=hHXQ2fEAAAAJ&hl=de"
     webpage: "https://sada.dmi.unibas.ch/en/people/phd/jonas-linkerhaegner"
+
+  - name: "Sara Bacconi"
+    image: "/figs/people/sb.jpg"
+    position: "PhD student"
+    affiliation: "University of Siena"
+    linkedin: "https://www.linkedin.com/in/sara-bacconi-368787205/"
+    scholar: "https://scholar.google.com/citations?user=d-NZKX4AAAAJ&hl=en"
+    github: "https://github.com/sarabacconi/"
     
 
 alumni:

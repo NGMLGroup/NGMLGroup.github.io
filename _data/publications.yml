@@ -1,3 +1,37 @@
+- title: "Graph Additive Models disentangling feature, topology, and interactions"
+  authors: "Clara Alvarez-Rodriguez, Steve Azzolin, Vincenzo Marco De Luca, Filippo Maria Bianchi, Andrea Passerini, Antonio Longa"
+  figure: "figs/publications/amiga.png"
+  abstract: "This paper introduces AMIGA, an interpretable-by-design graph additive model that separates predictions into node-feature, structural-motif, and feature–structure interaction effects. Unlike existing graph additive networks, AMIGA mines informative motifs instead of relying only on shortest-path distances and uses graph-balanced centering to obtain a unique, exact decomposition. Across ten classification and regression benchmarks, it outperforms interpretable baselines on most datasets, narrows the gap to black-box GNNs, and accurately recovers ground-truth explanations."
+  arxiv: "https://arxiv.org/abs/2610.20662"
+  venue: "Arxiv"
+  bibtex: |
+    @misc{alvarezrodriguez2026graphadditivemodelsdisentangling,
+          title={Graph Additive Models disentangling feature, topology, and interactions}, 
+          author={Clara Alvarez-Rodriguez and Steve Azzolin and Vincenzo Marco De Luca and Filippo Maria Bianchi and Andrea Passerini and Antonio Longa},
+          year={2026},
+          eprint={2610.20662},
+          archivePrefix={arXiv},
+          primaryClass={stat.ML},
+          url={https://arxiv.org/abs/2610.20662}, 
+    }
+
+- title: "When Missingness Follows the Graph: Beyond Feature Propagation for Missing Features"
+  authors: "Enrico Chialà, Francesco Ferrini, Antonio Longa, Bruno Lepri, Filippo Maria Bianchi, Manfred Jaeger, Veronica Lachi"
+  figure: "figs/publications/chiala_missing.gif"
+  abstract: "This paper studies GNNs when missing node features are spatially correlated rather than independently removed. The authors formalize graph-structured missingness, introduce a Recursive Transmission mechanism, and show theoretically that feature-propagation methods face a boundary bottleneck in clustered missing regions. They propose PEMix, which conditions probabilistic feature imputation on global Laplacian positional encodings before message passing. Across controlled and naturally occurring missingness settings, PEMix is consistently robust, with its largest gains under severe missingness"
+  arxiv: "https://arxiv.org/abs/2610.18113"
+  venue: "Arxiv"
+  bibtex: |
+   @misc{chialà2026missingnessfollowsgraphfeature,
+      title={When Missingness Follows the Graph: Beyond Feature Propagation for Missing Features}, 
+      author={Enrico Chialà and Francesco Ferrini and Antonio Longa and Bruno Lepri and Filippo Maria Bianchi and Manfred Jaeger and Veronica Lachi},
+      year={2026},
+      eprint={2610.18113},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2610.18113}, 
+    }
+
 - title: "GNNs Meet Sequence Models Along the Shortest-Path: an Expressive Method for Link Prediction"
   authors: "Francesco Ferrini, Veronica Lachi, Antonio Longa, Bruno Lepri, Andrea Passerini"
   figure: "figs/publications/sp4lp.gif"
